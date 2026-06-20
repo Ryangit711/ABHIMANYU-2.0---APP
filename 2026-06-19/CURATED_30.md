@@ -1,83 +1,70 @@
-# CURATED 30 — FETCH 2.0 (2026-06-19)
+# CURATED 30 — FETCH 3.0 (2026-06-19) — 11 Sources Swept
+
+**Sources:** LinkedIn · Glassdoor · Built In Vancouver · Workopolis · Indeed · Ashby · Greenhouse · HiringCafe · Jooble · SimplyHired · Career pages (lululemon, TELUS, Clio, Procurify, EvenUp, Wealthsimple)
+
+---
 
 ## C PIPE (Consulting)
 
-| # | Company | Role | Salary | Fit% | Archetype | Location | Source |
-|---|---------|------|--------|------|-----------|----------|--------|
-| 1 | **EY** | Technology Strategy & Transformation — Sr Consultant | $90K-$130K | 82% | Strategist | Vancouver | EY careers |
-| 2 | **EY** | Manager, Strategy & Execution — Deal Management | $110K-$150K | 80% | Builder-Consultant | Vancouver | EY careers |
-| 3 | **EY** | People Consulting — Organizational Change Mgmt — Sr Consultant | $85K-$120K | 76% | Builder-Consultant | Vancouver | EY careers |
-| 4 | **EY** | Manager, Economic Advisory | $92K-$138K | 72% | Strategist | Vancouver | EY careers |
-| 5 | **Deloitte** | Consulting roles — multiple (verify) | $100K-$160K | 75% | Strategist | Vancouver | Web |
-| 6 | **KPMG** | Senior Consultant Advisory — M&A Ops | $65K-$102K | 70% | Builder-Consultant | Vancouver | KPMG careers |
+| # | Company | Role | Salary | Fit% | Archetype | Status |
+|---|---------|------|--------|------|-----------|--------|
+| 1 | **EY** | Technology Strategy & Transformation — Sr Consultant | $90K-$130K | 82% | Strategist | Live |
+| 2 | **EY** | Manager, Strategy & Execution — Deal Management | $110K-$150K | 80% | Builder-Consultant | Live |
+| 3 | **EY** | People Consulting — OCM — Sr Consultant | $85K-$120K | 76% | Builder-Consultant | Live |
+| 4 | **EY** | Manager, Economic Advisory | $92K-$138K | 72% | Strategist | Live |
+| 5 | **Deloitte** | Consulting roles (multiple) | $100K-$160K | 75% | Strategist | Verify |
 
 ## T PIPE (Tech/BigTech)
 
-| # | Company | Role | Salary | Fit% | Archetype | Location | Source |
-|---|---------|------|--------|------|-----------|----------|--------|
-| 7 | **lululemon** | Manager — GEC Service Recovery, West | $116K-$153K | 88% | Operator | Vancouver | lululemon careers + Glassdoor |
-| 8 | **lululemon** | Senior Product Manager — Guest Support | $136K-$179K | 78% | Builder-Consultant | Vancouver | lululemon careers + Glassdoor |
-| 9 | **lululemon** | Finance Project Manager — Global Digital + Omni | $100K-$140K | 75% | Operator | Vancouver | lululemon careers |
-| 10 | **lululemon** | Change Management Lead, Supply Chain Programs | $100K-$130K | 74% | Builder-Consultant | Vancouver | lululemon careers |
-| 11 | **lululemon** | Supervisor, Supplier Master Data & Compliance | $80K-$110K | 68% | Operator | Vancouver | lululemon careers |
-| 12 | **Clio** | GTM Program Manager | $121K-$182K | 85% | Builder-Consultant | Vancouver/Remote | Clio careers |
-| 13 | **Clio** | Senior Channel Sales Ops Specialist | $120K-$160K | 75% | Builder-Consultant | Toronto/Remote | Clio careers |
-| 14 | **1Password** | Program Manager — Strategic Operations | $120K-$160K | 80% | Builder-Consultant | Remote Canada | Web |
-| 15 | **1Password** | Operations & Program Manager, Implementation | $110K-$150K | 78% | Operator | Remote Canada | Web |
-| 16 | **Brex** | Senior Engineering Manager, Acquisition | $160K-$220K | 60% | Operator | Vancouver | TopStartups |
-| 17 | **Dialpad** | Sr. Corporate Systems Security Engineer | $120K-$160K | 55% | Operator | Vancouver | TopStartups |
+| # | Company | Role | Salary | Fit% | Archetype | Status |
+|---|---------|------|--------|------|-----------|--------|
+| 6 | **lululemon** | Manager — GEC Service Recovery, West | $116K-$153K | 88% | Operator | 📅 24h |
+| 7 | **lululemon** | Senior Manager, Program Management | $130.8K-$171.7K | 85% | Builder-Consultant | Live |
+| 8 | **lululemon** | Program Manager, Strategic Programs | $103.5K-$135.9K | 82% | Operator | Live |
+| 9 | **lululemon** | Senior Product Manager — Guest Support | $136K-$179K | 78% | Builder-Consultant | 📅 24h |
+| 10 | **lululemon** | Sustainable Product Engagement Program Mgr | $112K-$147K | 76% | Builder-Consultant | Live |
+| 11 | **lululemon** | Manager, Supply Chain Programs | $116.2K-$152.6K | 75% | Operator | Live |
+| 12 | **Clio** | Staff GTM Program Manager | $121.6K-$182.4K | 85% | Builder-Consultant | Live |
+| 13 | **Clio** | Program Mgr, Digital Customer Success | $93K-$126K | 78% | Builder-Consultant | Live |
+| 14 | **1Password** | Program Manager — Strategic Operations | $120K-$160K | 80% | Builder-Consultant | Live |
+| 15 | **Wealthsimple** | Manager, Systems Operations | $116K-$145K | 78% | Operator | Live |
+| 16 | **EvenUp** | Strategy & Ops Mgr, Revenue Operations | $115K-$130K | 80% | Builder-Consultant | Live |
+| 17 | **Indeed** | Sr. Mgr, Integration & Business Acceleration | $133K-$199K | 82% | Builder-Consultant | Live |
+| 18 | **Scopely** | Live Operations Manager | $100K-$140K | 70% | Operator | 📅 15h |
 
 ## I PIPE (Internal Strategy/Corporate)
 
-| # | Company | Role | Salary | Fit% | Archetype | Location | Source |
-|---|---------|------|--------|------|-----------|----------|--------|
-| 18 | **TELUS** | Senior Strategy Manager, Strategic Channel Transformation Lead | $130K-$180K | 86% | Strategist | Vancouver | TELUS careers (Jun 16) |
-| 19 | **TELUS** | Category Manager — Procurement | $100K-$140K | 82% | Operator | Vancouver | TELUS careers (Jun 18) |
-| 20 | **TELUS** | Senior Program Manager | $120K-$160K | 85% | Operator | Vancouver | TELUS careers |
-| 21 | **TELUS** | Manager AI | $130K-$170K | 65% | Strategist | Vancouver | TELUS careers (Jun 19 TODAY) |
-| 22 | **TELUS** | Business Consultant, Strategic Performance & Process Excellence | $100K-$140K | 80% | Builder-Consultant | Vancouver | TELUS careers |
-| 23 | **TELUS** | Product Manager — Connected Home Hardware Testing | $110K-$150K | 72% | Builder-Consultant | Vancouver | TELUS careers (Jun 18) |
-| 24 | **TELUS** | Senior Marketing Manager, Lifecycle Marketing (TELUS Health) | $120K-$160K | 70% | Strategist | Vancouver | TELUS careers |
-| 25 | **TELUS** | Senior Financial Analyst | $90K-$120K | 65% | Operator | Vancouver | TELUS careers |
+| # | Company | Role | Salary | Fit% | Archetype | Status |
+|---|---------|------|--------|------|-----------|--------|
+| 19 | **TELUS** | Senior Program Manager, Mall & Events Channel | $120K-$160K | 85% | Operator | Live |
+| 20 | **TELUS** | Sr Strategy Mgr, Strategic Channel Transformation | $130K-$180K | 86% | Strategist | 📅 Jun 16 |
+| 21 | **TELUS** | Category Manager — Procurement | $100K-$140K | 82% | Operator | 📅 Jun 18 |
+| 22 | **TELUS** | Manager AI | $130K-$170K | 65% | Strategist | 📅 Jun 19 |
+| 23 | **TELUS** | Business Consultant, Strategic Performance | $100K-$140K | 80% | Builder-Consultant | Live |
+| 24 | **SilkStart (Metasoft)** | General Manager | $125K-$225K | 78% | Operator | Live |
+| 25 | **Dialog** | Studio Operations Manager | $130K-$155K | 72% | Operator | 📅 2d |
+| 26 | **BTY Consultancy** | Corporate Operations Manager | $100K-$125K | 75% | Operator | Live |
 
 ## S PIPE (Startups)
 
-| # | Company | Role | Salary | Fit% | Archetype | Location | Source |
-|---|---------|------|--------|------|-----------|----------|--------|
-| 26 | **Procurify** | Director, Revenue Operations | $118K-$148K | 82% | Builder-Consultant | Vancouver | Procurify careers |
-| 27 | **Instacart** | Chief of Staff, GM Advertising | $180K-$250K | 80% | Builder-Consultant | Remote Canada | TopStartups |
-| 28 | **Zen Educate** | Chief of Staff, North America | $140K-$180K | 72% | Operator | Vancouver | startup.jobs |
-| 29 | **Affirm** | Revenue Operations Lead | $102K-$142K | 76% | Builder-Consultant | Remote Canada | RemoteRocketship |
-| 30 | **Asana** | Manager, Executive Assistant & Workplace Operations | $150K-$176K | 70% | Operator | Vancouver | Jooble |
+| # | Company | Role | Salary | Fit% | Archetype | Status |
+|---|---------|------|--------|------|-----------|--------|
+| 27 | **Hiive** | Associate, Operations Strategy | $120K-$140K | 80% | Builder-Consultant | 📅 Reposted Yesterday |
+| 28 | **Procurify** | Director, Revenue Operations | $118K-$148K | 82% | Builder-Consultant | Live |
+| 29 | **Black & White Zebra** | Strategy & Operations Manager | $120K-$160K | 78% | Builder-Consultant | Live |
+| 30 | **Affirm** | Revenue Operations Lead | $102K-$142K | 76% | Builder-Consultant | Live |
 
 ---
 
-## SCORING METHODOLOGY
+## TOP 5 — SHOOT-first priority
 
-Fit% based on alignment with Aman's profile:
-- **Operations scaling experience** (3→70 FTEs, 32 locations): +30
-- **B2B SaaS healthcare background**: +20  
-- **MBA + 8 years experience**: +20
-- **Strategy/GTM/Program Management overlap with JD verbs**: +30
+| Rank | Company | Role | Salary | Fit% | Why |
+|------|---------|------|--------|------|-----|
+| ⭐1 | **lululemon** | Mgr — GEC Service Recovery, West | $116K-$153K | 88% | Direct ops, 24h fresh, Vancouver |
+| ⭐2 | **Clio** | Staff GTM Program Manager | $121.6K-$182.4K | 85% | B2B SaaS GTM, remote Canada, $182K ceiling |
+| ⭐3 | **lululemon** | Sr Mgr, Program Management | $130.8K-$171.7K | 85% | Senior PM at scale, Vancouver |
+| ⭐4 | **TELUS** | Sr Strategy Mgr, Channel Transformation | $130K-$180K | 86% | Strategy+execution, MBA fit |
+| ⭐5 | **TELUS** | Sr Program Mgr, Mall & Events | $120K-$160K | 85% | Ops ownership, high visibility |
 
-**Archetypes:**
-- **Builder-Consultant** (A): Strategy + execution hybrid — builds programs, scales ops, cross-functional
-- **Operator** (B): Runs daily operations, manages teams, process optimization
-- **Strategist** (C): Corporate strategy, M&A, market analysis, long-term planning
-
----
-
-## TOP 5 RECOMMENDED (SHOOT-first priority)
-
-| Rank | Company | Role | Why |
-|------|---------|------|-----|
-| ⭐1 | **lululemon** | Manager — GEC Service Recovery, West | 88% fit, $116K-$153K, Vancouver, operator archetype — direct match for ops leadership |
-| ⭐2 | **TELUS** | Sr Strategy Manager, Strategic Channel Transformation | 86% fit, $130K-$180K, Vancouver — strategy+execution, perfect for MBA+ops background |
-| ⭐3 | **Clio** | GTM Program Manager | 85% fit, $121K-$182K, Remote — legal tech SaaS, straight match for B2B SaaS GTM experience |
-| ⭐4 | **TELUS** | Senior Program Manager | 85% fit, $120K-$160K, Vancouver — program management at scale, telecom |
-| ⭐5 | **EY** | Technology Strategy & Transformation — Sr Consultant | 82% fit, $90K-$130K, Vancouver — consulting entry point, tech strategy focus |
-
----
-
-## ALREADY-APPLIED EXCLUDED
+## Excluded (already applied)
 Tailscale, Practice Better, OpenTable, EY-Parthenon, Corus Orthodontists, DoorDash Canada, Aritzia, EviSmart

@@ -1,21 +1,46 @@
-# FETCH LOG — 2026-06-19 (FETCH 2.0)
+# FETCH LOG — 2026-06-19 (FETCH 3.0 — Multi-Source Sweep)
 
-## CTIS Pipes Scanned
+## Sources Scanned (11 total)
+1. **LinkedIn** — Vancouver strategy/ops/PM jobs
+2. **Glassdoor** — 24h filter, Vancouver operations/strategy
+3. **Built In Vancouver** — tech/startup jobs filtered by recent
+4. **Workopolis** — strategy + operations Vancouver
+5. **Indeed** — lululemon, TELUS, Clio company pages
+6. **Ashby (ATS)** — EvenUp, Wealthsimple, Procurify, other startups
+7. **Greenhouse (ATS)** — verified available
+8. **HiringCafe** — startup.jobs checked
+9. **Jooble** — lululemon remote jobs
+10. **SimplyHired** — lululemon Vancouver ops
+11. **Company career pages** — lululemon, TELUS, Clio (verified live)
 
-- **C PIPE (Consulting)**: EY careers page verified live — 82 results Vancouver; Deloitte, KPMG checked
-- **T PIPE (Tech/BigTech)**: lululemon careers page verified live — 118 results; Clio, 1Password, Brex, Dialpad searched
-- **I PIPE (Internal Strategy)**: TELUS careers page verified live — 32 results Vancouver; filtered for strategy/ops/PM
-- **S PIPE (Startups)**: Procurify, Instacart, Zen Educate, Affirm, Asana searched via web
+## Windows Checked
+- **24h verified fresh**: TELUS Category Manager (Jun 18), TELUS Sr Market Manager (Jun 18), TELUS Part-Time Sales (Jun 18), TELUS Account Manager (Jun 18)
+- **Reposted recent**: Hiive Associate Operations Strategy (Reposted Yesterday)
+- **Live (no date but active)**: lululemon Program Manager Strategic Programs, lululemon Senior Manager Program Management, EvenUp Strategy & Ops Manager (Live on Ashby), Black & White Zebra Strategy & Ops Manager
 
-## Tools Used
-- 👁️ Eyes (Scout) — agent-browser: verified lululemon, TELUS, EY, Clio career pages
-- 🧠 Mind (You) — decision pending
-- WebSearch — 8 rounds across all 4 pipes
+## 24h-Confirmed Fresh Adds
+| # | Company | Role | Salary | Pipe | Source |
+|---|---------|------|--------|------|--------|
+| 1 | **TELUS** | Category Manager — Procurement | $100K-$140K | I | TELUS careers (Jun 18) |
+| 2 | **Hiive** | Associate, Operations Strategy | $120K-$140K | S | Built In (Reposted Yesterday) |
 
-## Results
-- **30 jobs curated** across CTIS (6 C + 11 T + 8 I + 5 S)
-- **Top 5 recommended**: lululemon Manager GEC Service Recovery (#1), TELUS Sr Strategy Manager (#2), Clio GTM Program Manager (#3), TELUS Senior Program Manager (#4), EY Tech Strategy Consultant (#5)
-- **24h-confirmed fresh**: TELUS Manager AI (Jun 19), TELUS Category Manager (Jun 18), TELUS Product Manager (Jun 18), TELUS Sr Strategy Manager (Jun 16), lululemon Manager GEC Service Recovery (Glassdoor 24h tag)
+## New Live Adds (replaces stale)
+| # | Company | Role | Salary | Pipe |
+|---|---------|------|--------|------|
+| 3 | **lululemon** | Program Manager, Strategic Programs | $103.5K-$135.9K | T |
+| 4 | **lululemon** | Senior Manager, Program Management | $130.8K-$171.7K | T |
+| 5 | **Black & White Zebra** | Strategy & Operations Manager | $120K-$160K | S |
+
+## Stale Removed
+- Deloitte "Verify" — never confirmed
+- KPMG Sr Consultant — below $100K floor ($65K-$102K)
+
+## System Health
+- 👁️ Eyes (Scout) — agent-browser: ready
+- 🤲 Hands (Auto-Applicant) — browser-use: installed, verified
+- 🗣️ Voice (LinkedIn Butler) — OpenCLI: Chrome extension CONNECTED ✅
+- 👂 Ears (Whisper Network) — snscrape: installed
+- 📝 Memory — Thought Journal: tracking
 
 ## Next
 - User picks → `SHOOT [company]` → 13-section package
