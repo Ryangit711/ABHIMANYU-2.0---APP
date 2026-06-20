@@ -109,6 +109,8 @@ Step 10: git add -A && git commit -m "[action] — [description] — YYYY-MM-DD 
 | **No immigration language** | Never mention PR, work permit, visa, or immigration status in any resume, cover letter, or application. Frame as Local Canadian professional in BC. |
 | **Quality bar** | Full depth on every output. 13-section for every SHOOT. No shortcuts. |
 | **Self-learning** | Every outcome feeds back. APPLY → RESULT → LEARN → UPDATE SYSTEM → APPLY AGAIN. |
+| **24h Fresh Window** | FETCH and REFRESH return ONLY jobs posted in the last 24 hours from the moment of command. No exceptions. Stale jobs are dead weight. |
+| **Continuous throughput** | FETCH runs as a continuous loop: check pipe → find 24h jobs → verify live → present → next pipe. If a checked job is already applied or expired, skip instantly and replace from the same source. Move like light. |
 
 ---
 
@@ -275,8 +277,9 @@ This is all you need to remember:
 
 | You Say | What Happens |
 |---------|-------------|
-| `FETCH` | 👁️ Eyes scan for fresh targets → show you the best ones |
+| `FETCH` | 👁️ Eyes scan 4 pipes for **last 24h jobs only** → skip stale → auto-replace → show you the live ones |
 | `SHOOT [company]` | 🧠 Mind decides → I write the full application package → show you |
+| `REFRESH` | 👁️ Eyes re-scan all pipes — replace any stale jobs from 24h window |
 | You review → say `YES` | 📝 Package approved → 🤲 Hands stand by |
 | `AUTO-APPLY [company]` | 🤲 Hands fill forms, upload, submit. 🗣️ Voice connects on LinkedIn. |
 | `LINKEDIN CONNECT [name]` | 🗣️ Voice sends connection request |

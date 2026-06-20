@@ -1,6 +1,6 @@
 ---
 name: fetch-engine
-description: "Triggered when user says FETCH, WIDENET, or FETCH --pipe / --urls / --score. Executes the complete 8-phase job discovery and curation pipeline across all 4 pipes (Consulting, Tech/Ops Core, Internal Strategy, Startups). Always runs FULL FRESH — zero cache, zero assumptions, Constitutional Amendment #10."
+description: "Triggered when user says FETCH, WIDENET, or FETCH --pipe / --urls / --score. Executes continuous 24h-fresh job discovery across all 4 pipes. Every job MUST be posted within last 24 hours of command time. Stale jobs are skipped instantly and replaced from same source. Move like light."
 ---
 
 # FETCH ENGINE — 8-Phase Job Discovery Pipeline
