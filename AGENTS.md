@@ -106,6 +106,7 @@ Step 10: git add -A && git commit -m "[action] — [description] — YYYY-MM-DD 
 | **Push after EVERY prompt** | `git add -A && git commit -m "[action] — [description] — YYYY-MM-DD HH:MM" && git push` runs after EVERY response. No exceptions. Every thought, every action, every output — preserved in git history forever. |
 | **Thought journal** | Every single prompt is logged to `data/thought_log/YYYY-MM-DD.md` with precise timestamp BEFORE any response is generated. Immutable, append-only. This is how Aman remembers what he thought, what led to what, and why decisions were made. See THOUGHT JOURNAL PROTOCOL below. |
 | **DOCX everywhere** | Generate DOCX for every application. PDF is for job guides/cheat sheets only. |
+| **DOCX direct to OneDrive** | On this laptop (S25U not connected), DOCX files are generated DIRECTLY to OneDrive at `/mnt/c/Users/owner/OneDrive/ABHIMANYU-2.0/` — NOT to the Linux work dir first. The Linux work dir gets the `.md` package only. DOCX lives in OneDrive as the primary + only location. Dual-write for DOCX is OneDrive-only, no Linux copy needed. |
 | **No immigration language** | Never mention PR, work permit, visa, or immigration status in any resume, cover letter, or application. Frame as Local Canadian professional in BC. |
 | **Quality bar** | Full depth on every output. 16-section for every SHOOT. No shortcuts. |
 | **Self-learning** | Every outcome feeds back. APPLY → RESULT → LEARN → UPDATE SYSTEM → APPLY AGAIN. |
