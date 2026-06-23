@@ -43,6 +43,14 @@ CONFIG = {
         "margins": Inches(0.75),
         "pages": 2,
         "ats_notes": "Deloitte Workday ATS — DOCX, Calibri 10pt"
+    },
+    "Hiive": {
+        "font": "Calibri",
+        "size": Pt(11),
+        "header_size": Pt(13),
+        "margins": Inches(0.75),
+        "pages": 2,
+        "ats_notes": "Hiive Ashby ATS — DOCX, Calibri 11pt"
     }
 }
 
@@ -113,10 +121,20 @@ def add_bullet(doc, text, config, bold_prefix=None):
         run.font.name = config["font"]
         run.font.size = config["size"]
 
+def get_date(company):
+    DATES = {
+        "Indeed": "2026-06-20",
+        "Methanex": "2026-06-21",
+        "Deloitte": "2026-06-19",
+        "Hiive": "2026-06-22"
+    }
+    return DATES.get(company, "2026-06-22")
+
 def generate(company):
     config = CONFIG.get(company, CONFIG["Methanex"])
-    folder = f"{ONEDRIVE}/2026-06-21/{company}"
-    lfolder = f"{LINUX}/2026-06-21/{company}"
+    date_str = get_date(company)
+    folder = f"{ONEDRIVE}/{date_str}/{company}"
+    lfolder = f"{LINUX}/{date_str}/{company}"
     os.makedirs(folder, exist_ok=True)
     os.makedirs(lfolder, exist_ok=True)
 
@@ -133,6 +151,12 @@ def generate(company):
             "a $17M acquisition. Combines board-level strategic thinking with hands-on financial modelling, "
             "M&A execution, and cross-functional leadership. Equally comfortable leading an ELT strategy "
             "session, building a valuation model, or aligning diverse teams around a shared plan.", config)
+    elif company == "Hiive":
+        add_body(doc,
+            "Operations strategist and systems builder who designed and implemented the complete operational "
+            "infrastructure for a startup that grew 23x — from 3 to 70 employees across 32 locations — "
+            "and directed its $17M exit. Combines a builder's instinct for scalable systems with an operator's "
+            "discipline for data integrity, revenue lifecycle optimization, and cross-functional execution.", config)
     else:
         add_body(doc,
             "Operations executive who built multi-site operational infrastructure from scratch, "
@@ -145,6 +169,11 @@ def generate(company):
             "Corporate Strategy & Planning  |  Financial Modelling & Valuation  |  M&A Execution & Integration  |  "
             "Board & Executive Communication  |  Cross-Functional Leadership  |  OKR & Performance Systems  |  "
             "Capital Allocation  |  Strategic Growth Initiatives", config, size=Pt(9.5))
+    elif company == "Hiive":
+        add_body(doc,
+            "Revenue Operations  |  Operational Infrastructure Design  |  Systems Architecture & Automation  |  "
+            "Bottleneck Analysis  |  Workflow Optimization  |  Data Integrity & Reporting  |  "
+            "Cross-Functional Execution  |  M&A & Strategic Projects", config, size=Pt(9.5))
     else:
         add_body(doc,
             "M&A Integration  |  Cross-Functional Program Management  |  Operational Infrastructure  |  "
@@ -184,6 +213,27 @@ def generate(company):
             " — organizational infrastructure for 70 employees across 5 clinic groups, 32 locations — "
             "hiring frameworks, training, quality standards, cross-border coordination",
             config, bold_prefix="Organizational Leadership")
+    elif company == "Hiive":
+        add_body(doc,
+            "Built the complete operational infrastructure for a multi-site healthcare startup from zero. "
+            "Served as the primary systems architect, process designer, and cross-functional integrator "
+            "across all revenue-generating and operational functions.", config, italic=True, size=Pt(9.5))
+        add_bullet(doc,
+            " — from zero: designed and implemented the entire operational tech stack (EHR, billing, scheduling, "
+            "RCM, analytics) that scaled from 3 to 70 employees across 32 locations without adding complexity",
+            config, bold_prefix="Systems Architecture & Automation")
+        add_bullet(doc,
+            " — identified and eliminated bottlenecks in the revenue lifecycle — automated billing workflows, "
+            "replaced manual reconciliation with real-time RCM, reduced admin overhead by 40%+",
+            config, bold_prefix="Revenue Operations & Optimization")
+        add_bullet(doc,
+            " — built KPI dashboards, board-level reporting, and data integrity systems from scratch — "
+            "replaced manual spreadsheets with real-time analytics across all 32 locations",
+            config, bold_prefix="Data Infrastructure & Reporting")
+        add_bullet(doc,
+            " — directed full-cycle $17M acquisition: 8 diligence workstreams, integration playbook, "
+            "consolidated 8 systems within 90 days, retained 100% of key talent",
+            config, bold_prefix="M&A & Strategic Projects")
     else:
         add_body(doc,
             "Directed end-to-end operations for a multi-site healthcare group. Served as the primary "
@@ -217,13 +267,26 @@ def generate(company):
             "Financial Modelling & Analysis  |  Microsoft Excel (Advanced)  |  Google Workspace  |  "
             "OKR Frameworks  |  ERP Systems  |  CRM Platforms  |  Jira / Confluence  |  Data Visualization",
             config, size=Pt(9))
+    elif company == "Hiive":
+        add_body(doc,
+            "Systems Architecture & Automation  |  EHR / Practice Management Platforms  |  "
+            "Google Workspace  |  Data Visualization & KPI Dashboards  |  Financial Modeling  |  "
+            "OKR Frameworks  |  CRM Platforms  |  Jira / Confluence  |  AI-Augmented Workflows",
+            config, size=Pt(9))
     else:
         add_body(doc,
             "Athenahealth  |  eClinicalWorks  |  CRM Platforms  |  Google Workspace  |  "
             "Financial Modeling  |  OKR Frameworks  |  Jira / Confluence",
             config, size=Pt(9))
 
-    respath = os.path.join(folder, f"Aman_Kumar_{company}_Director_Strategy.docx" if company == "Methanex" else f"Aman_Kumar_{company}_SrMgr_Integration.docx")
+    if company == "Methanex":
+        role_str = "Director_Strategy"
+    elif company == "Hiive":
+        role_str = "Associate_Operations_Strategy"
+    else:
+        role_str = "SrMgr_Integration"
+
+    respath = os.path.join(folder, f"Aman_Kumar_{company}_{role_str}.docx")
     try:
         doc.save(respath)
     except PermissionError:
@@ -239,7 +302,8 @@ def generate(company):
     add_body(doc, NAME, config, bold=True, space_after=0)
     add_body(doc, f"{PHONE} | {EMAIL} | {LINKEDIN}", config, size=Pt(9), space_after=0)
     add_body(doc, LOCATION, config, size=Pt(9), space_after=4)
-    add_body(doc, "June 21, 2026", config, space_after=8)
+    DATE_LABELS = {"Indeed": "June 20, 2026", "Methanex": "June 21, 2026", "Deloitte": "June 19, 2026", "Hiive": "June 22, 2026"}
+    add_body(doc, DATE_LABELS.get(company, "June 22, 2026"), config, space_after=8)
 
     if company == "Methanex":
         add_body(doc, "Methanex Corporation", config, space_after=0)
@@ -268,6 +332,31 @@ def generate(company):
             "organization around a shared plan? I have solved these problems in my domain, and I am ready to solve them in yours.\n\n"
             "I would welcome the opportunity to discuss how my experience building strategic and financial infrastructure "
             "can support Methanex's next phase of global leadership.\n\n"
+            "Best regards,\n"
+            f"{NAME}\n{PHONE}\n{EMAIL}"
+        )
+    elif company == "Hiive":
+        add_body(doc, "Hiive", config, space_after=0)
+        add_body(doc, "Vancouver, BC (HQ)", config, space_after=8)
+        add_body(doc, "Re: Associate, Operations Strategy", config, bold=True, space_after=8)
+
+        body = (
+            "Dear Hiring Manager,\n\n"
+            "I spent eight years doing exactly what this role describes: embedding with a revenue-generating team, "
+            "identifying bottlenecks in the operational lifecycle, and deploying automated solutions to clear them.\n\n"
+            "When I joined SkyflyMD, there was no operational infrastructure — just a team operating on willpower. "
+            "By the time I directed the $17M exit, we had:\n\n"
+            "- A complete tech stack (EHR, billing, scheduling, analytics) that I designed and implemented from scratch\n"
+            "- Real-time KPI dashboards replacing manual spreadsheets\n"
+            "- Automated workflows that reduced administrative overhead by 40%\n"
+            "- A scalable operating system that supported 70 people across 32 locations — without adding operational complexity\n\n"
+            "I did not inherit these systems. I built them. That is what systems builder means to me.\n\n"
+            "Hiive is doing the same thing for the private market that I did for healthcare operations: replacing opacity "
+            "with transparency, manual processes with automation, fragmentation with integration. The private secondary "
+            "market has been running on brokers and spreadsheets for too long. You are building the infrastructure "
+            "that changes that.\n\n"
+            "I want to help you clear the bottlenecks.\n\n"
+            "I am based in Vancouver and ready to be in your HQ five days a week.\n\n"
             "Best regards,\n"
             f"{NAME}\n{PHONE}\n{EMAIL}"
         )
@@ -302,7 +391,7 @@ def generate(company):
 
     add_body(doc, body, config, space_after=0)
 
-    clpath = os.path.join(folder, f"Cover_Letter_{company}_Director_Strategy.docx" if company == "Methanex" else f"Cover_Letter_{company}_SrMgr_Integration.docx")
+    clpath = os.path.join(folder, f"Cover_Letter_{company}_{role_str}.docx")
     try:
         doc.save(clpath)
     except PermissionError:
@@ -315,100 +404,173 @@ def generate(company):
     doc = Document()
     set_margins(doc, config["margins"])
 
-    if company == "Methanex":
+    if company == "Methanex" or company == "Hiive":
         # Title
         p = doc.add_paragraph()
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        run = p.add_run("CASE — Aman Kumar × Methanex")
+        title_text = "CASE — Aman Kumar × Hiive" if company == "Hiive" else "CASE — Aman Kumar × Methanex"
+        subtitle_text = "The Systems Builder" if company == "Hiive" else "The Strategist Who Built From Zero"
+        run = p.add_run(title_text)
         run.font.name = config["font"]
         run.font.size = Pt(18)
         run.bold = True
 
         p = doc.add_paragraph()
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        run = p.add_run("The Strategist Who Built From Zero")
+        run = p.add_run(subtitle_text)
         run.font.name = config["font"]
         run.font.size = Pt(13)
         run.font.color.rgb = RGBColor(100, 100, 100)
 
         add_body(doc, "", config, space_after=4)
 
-        # Section: The Situation
-        add_section_header(doc, "The Situation", config)
-        add_body(doc, (
-            "Methanex is the world's largest methanol producer — 10.4M tonnes annually, approximately 20% of the "
-            "internationally traded market — operating at the intersection of global commodity volatility, post-merger "
-            "integration, and a generational energy transition. The $2.05B acquisition of OCI Global's international "
-            "methanol business closed in June 2025, fundamentally reshaping Methanex's geographic and operational "
-            "footprint. Low-carbon methanol — M100 as marine fuel, renewable methanol from circular sources, the "
-            "Atlas joint venture on the US Gulf Coast — is no longer a long-dated possibility. It is a present-tense "
-            "strategic imperative.\n\n"
-            "This is the context in which the Director, Strategy operates. Not as a planner. As a navigator."
-        ), config, size=Pt(10.5))
+        if company == "Hiive":
+            # Section: The Situation
+            add_section_header(doc, "The Situation", config)
+            add_body(doc, (
+                "Hiive is building the infrastructure for the private secondary market — a market that has operated "
+                "on opaque, manual, relationship-driven processes for decades. $250M+ in monthly transaction volume, "
+                "$2B+ in live orders, 3,000+ companies on the platform, 95% of US decacorns and tier-1 VCs already "
+                "engaged. The platform is winning. But every marketplace hits the same inflection point: the moment "
+                "when operational infrastructure becomes the constraint on growth.\n\n"
+                "Hiive is at that inflection point now. The question is not whether the market opportunity exists. "
+                "It is whether the operational systems can scale to match it — without breaking."
+            ), config, size=Pt(10.5))
 
-        # Section: The Candidate
-        add_section_header(doc, "The Candidate", config)
-        add_body(doc, (
-            "Aman Kumar spent eight years doing exactly what Methanex needs now: building the strategic infrastructure "
-            "of a complex, multi-site organization from zero — and then navigating it through a transformative acquisition.\n\n"
-            "He did not inherit a strategic planning process. He designed one. He did not take over an existing financial "
-            "model. He built it. He did not merely participate in an M&A transaction. He directed it — from first-day "
-            "diligence through Day 1 readiness through 100-day integration, retaining 100% of key talent across five "
-            "clinic groups and 32 locations."
-        ), config, size=Pt(10.5))
+            # Section: The Candidate
+            add_section_header(doc, "The Candidate", config)
+            add_body(doc, (
+                "Aman Kumar spent eight years doing exactly what Hiive needs now: building the operational infrastructure "
+                "that scaled a startup from 3 to 70 people and $4M ARR — and then directed its $17M exit.\n\n"
+                "He did not inherit operational systems. He designed and built them from scratch. He did not just use tools — "
+                "he selected, implemented, and owned every platform that the business ran on. He did not merely participate "
+                "in the company's growth. He was the operational architecture that made growth possible without collapse."
+            ), config, size=Pt(10.5))
 
-        # Section: The Alignment
-        add_section_header(doc, "The Alignment", config)
-        add_bullet(doc,
-            " — built the strategy cycle from scratch: annual ELT sessions, quarterly OKR cascades, board-ready reporting across 32 locations, 5 consecutive cycles", config,
-            bold_prefix="Global Strategy Process")
-        add_bullet(doc,
-            " — multi-scenario P&L models across 12 departments, capital allocation frameworks, DCF and valuation analysis, board-level financial reporting", config,
-            bold_prefix="Valuation & Financial Analysis")
-        add_bullet(doc,
-            " — directed full-cycle $17M acquisition: 8 diligence workstreams, Day 1/100 milestones, 8-system consolidation in 90 days, 100% talent retention", config,
-            bold_prefix="M&A Execution")
-        add_bullet(doc,
-            " — coordinated 12 departments, 5 clinic groups, 32 locations — building governance rhythms, escalation protocols, decision-making frameworks", config,
-            bold_prefix="Cross-Functional Leadership")
-        add_bullet(doc,
-            " — created board-level reporting, investor materials, executive presentations from zero — presented with the rigor Methanex's Board expects", config,
-            bold_prefix="Board-Level Communication")
+            # Section: The Alignment
+            add_section_header(doc, "The Alignment", config)
+            add_bullet(doc,
+                " — designed and implemented complete operational tech stack from zero: EHR, billing, scheduling, RCM, analytics. Every system architected to scale without adding complexity.", config,
+                bold_prefix="Systems Architecture")
+            add_bullet(doc,
+                " — identified and eliminated bottlenecks in the revenue lifecycle — automated billing, real-time reconciliation, 40%+ reduction in admin overhead, $0 to $4M ARR without proportional headcount growth", config,
+                bold_prefix="Revenue Operations")
+            add_bullet(doc,
+                " — built KPI dashboards and real-time reporting infrastructure from scratch, replacing manual spreadsheets across 32 locations with automated data feeds and board-ready analytics", config,
+                bold_prefix="Data Infrastructure")
+            add_bullet(doc,
+                " — directed full-cycle $17M acquisition: 8 diligence workstreams, Day 1 readiness, 90-day systems consolidation, 100% key talent retention across 5 clinic groups", config,
+                bold_prefix="M&A & Execution")
+            add_bullet(doc,
+                " — coordinated 12 departments, 5 clinic groups, 32 locations — built governance rhythms, escalation paths, and decision-making frameworks that operated without his direct involvement", config,
+                bold_prefix="Cross-Functional Leadership")
 
-        # Section: The Semantic Fit
-        add_section_header(doc, "The Semantic Fit", config)
-        add_body(doc, (
-            "Methanex operates on a strategic framework: Leadership, Low Cost, Operational Excellence. "
-            "The culture is defined by The Power of Agility. The value system is Integrity, Trust, Respect, "
-            "Professionalism — underwritten by Responsible Care.\n\n"
-            "Aman's career is a case study in this exact operating model:"
-        ), config, size=Pt(10.5))
-        add_bullet(doc,
-            "Built the strategic system that governed 70 people across 32 locations. Did not inherit leadership — created it.", config, bold_prefix="Leadership")
-        add_bullet(doc,
-            "Managed P&L across 12 departments. Built the financial models that optimized resource allocation. Every dollar had a decision behind it.", config, bold_prefix="Low Cost")
-        add_bullet(doc,
-            "Designed governance rhythms, hiring frameworks, training programs, quality standards. Built the machine that ran without him.", config, bold_prefix="Operational Excellence")
-        add_bullet(doc,
-            "Navigated a 3-person startup through growth to a $17M exit. When the acquisition hit, structured 8 workstreams in days.", config, bold_prefix="Power of Agility")
-        add_bullet(doc,
-            "Coordinated 5 clinic groups, 12 departments, 32 locations — many operating independently before his systems brought them together.", config, bold_prefix="One Team")
+            # Section: The Semantic Fit
+            add_section_header(doc, "The Semantic Fit", config)
+            add_body(doc, (
+                "Hiive's operating principles: exceptionalism, high-performance, collaborative ambition, mission-driven, "
+                "builder mentality. The culture is not for spectators — it is for people who build.\n\n"
+                "Aman's career is a case study in this exact ethos:"
+            ), config, size=Pt(10.5))
+            add_bullet(doc,
+                "Held himself and the entire organization to operational standards that exceeded what anyone asked for — systems designed for the scale that was coming, not the scale that was.", config, bold_prefix="Exceptionalism")
+            add_bullet(doc,
+                "Did not wait for permission to build. When a process was broken, he designed the replacement, sold it to the team, and deployed it. Builder, not committee member.", config, bold_prefix="Builder Mentality")
+            add_bullet(doc,
+                "Brought together 12 departments, 5 clinic groups, 32 locations into a unified operating system — replacing fragmentation with integration, opacity with transparency.", config, bold_prefix="Collaborative Ambition")
+            add_bullet(doc,
+                "Built the systems that allowed the company to grow from startup to acquisition-ready without breaking. Not just the infrastructure — the playbook for using it.", config, bold_prefix="Mission-Driven")
 
-        # Section: The Opportunity
-        add_section_header(doc, "The Opportunity", config)
-        add_body(doc, (
-            "Methanex is 1,700 people globally, approximately 150 in Vancouver. The Director, Strategy sits in "
-            "that Vancouver HQ, serving as the connective tissue between the Board of Directors, the Executive "
-            "Leadership Team, and the operational reality of a global methanol business navigating integration, "
-            "volatility, and transition.\n\n"
-            "Aman has done exactly this — at smaller scale, in a different industry — with a clarity and rigor "
-            "that suggest something deeper than domain experience. He is not a strategist who needs to learn "
-            "execution. He is an executive who happens to call himself a strategist because that is where the "
-            "intellectual challenge lives.\n\n"
-            "Strategy is fractal. The questions are the same at every scale: Where do we allocate capital? How "
-            "do we grow? What risks do we need to manage? How do we align a global organization around a shared "
-            "plan? Aman has answered these questions in the arena. He is ready to answer them at Methanex's scale."
-        ), config, size=Pt(10.5))
+            # Section: The Opportunity
+            add_section_header(doc, "The Opportunity", config)
+            add_body(doc, (
+                "Hiive has 204 people, $250M+ monthly volume, and a market that is about to explode with the 2026 IPO wave. "
+                "The operations team is building the infrastructure that will enable Hiive to handle $1B+ monthly volume "
+                "without operational friction.\n\n"
+                "Aman has done exactly this — at smaller scale, in a different industry — with the same architecture of "
+                "thinking: identify the bottleneck, design the solution, build it, automate it, move to the next one. Repeat "
+                "until the company's operational infrastructure is no longer the constraint on its growth.\n\n"
+                "The industry is the setting, not the skill. The skill is building operational infrastructure that scales. "
+                "That is what Aman built at SkyflyMD. That is what Hiive needs now."
+            ), config, size=Pt(10.5))
+
+        else:
+            # Section: The Situation
+            add_section_header(doc, "The Situation", config)
+            add_body(doc, (
+                "Methanex is the world's largest methanol producer — 10.4M tonnes annually, approximately 20% of the "
+                "internationally traded market — operating at the intersection of global commodity volatility, post-merger "
+                "integration, and a generational energy transition. The $2.05B acquisition of OCI Global's international "
+                "methanol business closed in June 2025, fundamentally reshaping Methanex's geographic and operational "
+                "footprint. Low-carbon methanol — M100 as marine fuel, renewable methanol from circular sources, the "
+                "Atlas joint venture on the US Gulf Coast — is no longer a long-dated possibility. It is a present-tense "
+                "strategic imperative.\n\n"
+                "This is the context in which the Director, Strategy operates. Not as a planner. As a navigator."
+            ), config, size=Pt(10.5))
+
+            # Section: The Candidate
+            add_section_header(doc, "The Candidate", config)
+            add_body(doc, (
+                "Aman Kumar spent eight years doing exactly what Methanex needs now: building the strategic infrastructure "
+                "of a complex, multi-site organization from zero — and then navigating it through a transformative acquisition.\n\n"
+                "He did not inherit a strategic planning process. He designed one. He did not take over an existing financial "
+                "model. He built it. He did not merely participate in an M&A transaction. He directed it — from first-day "
+                "diligence through Day 1 readiness through 100-day integration, retaining 100% of key talent across five "
+                "clinic groups and 32 locations."
+            ), config, size=Pt(10.5))
+
+            # Section: The Alignment
+            add_section_header(doc, "The Alignment", config)
+            add_bullet(doc,
+                " — built the strategy cycle from scratch: annual ELT sessions, quarterly OKR cascades, board-ready reporting across 32 locations, 5 consecutive cycles", config,
+                bold_prefix="Global Strategy Process")
+            add_bullet(doc,
+                " — multi-scenario P&L models across 12 departments, capital allocation frameworks, DCF and valuation analysis, board-level financial reporting", config,
+                bold_prefix="Valuation & Financial Analysis")
+            add_bullet(doc,
+                " — directed full-cycle $17M acquisition: 8 diligence workstreams, Day 1/100 milestones, 8-system consolidation in 90 days, 100% talent retention", config,
+                bold_prefix="M&A Execution")
+            add_bullet(doc,
+                " — coordinated 12 departments, 5 clinic groups, 32 locations — building governance rhythms, escalation protocols, decision-making frameworks", config,
+                bold_prefix="Cross-Functional Leadership")
+            add_bullet(doc,
+                " — created board-level reporting, investor materials, executive presentations from zero — presented with the rigor Methanex's Board expects", config,
+                bold_prefix="Board-Level Communication")
+
+            # Section: The Semantic Fit
+            add_section_header(doc, "The Semantic Fit", config)
+            add_body(doc, (
+                "Methanex operates on a strategic framework: Leadership, Low Cost, Operational Excellence. "
+                "The culture is defined by The Power of Agility. The value system is Integrity, Trust, Respect, "
+                "Professionalism — underwritten by Responsible Care.\n\n"
+                "Aman's career is a case study in this exact operating model:"
+            ), config, size=Pt(10.5))
+            add_bullet(doc,
+                "Built the strategic system that governed 70 people across 32 locations. Did not inherit leadership — created it.", config, bold_prefix="Leadership")
+            add_bullet(doc,
+                "Managed P&L across 12 departments. Built the financial models that optimized resource allocation. Every dollar had a decision behind it.", config, bold_prefix="Low Cost")
+            add_bullet(doc,
+                "Designed governance rhythms, hiring frameworks, training programs, quality standards. Built the machine that ran without him.", config, bold_prefix="Operational Excellence")
+            add_bullet(doc,
+                "Navigated a 3-person startup through growth to a $17M exit. When the acquisition hit, structured 8 workstreams in days.", config, bold_prefix="Power of Agility")
+            add_bullet(doc,
+                "Coordinated 5 clinic groups, 12 departments, 32 locations — many operating independently before his systems brought them together.", config, bold_prefix="One Team")
+
+            # Section: The Opportunity
+            add_section_header(doc, "The Opportunity", config)
+            add_body(doc, (
+                "Methanex is 1,700 people globally, approximately 150 in Vancouver. The Director, Strategy sits in "
+                "that Vancouver HQ, serving as the connective tissue between the Board of Directors, the Executive "
+                "Leadership Team, and the operational reality of a global methanol business navigating integration, "
+                "volatility, and transition.\n\n"
+                "Aman has done exactly this — at smaller scale, in a different industry — with a clarity and rigor "
+                "that suggest something deeper than domain experience. He is not a strategist who needs to learn "
+                "execution. He is an executive who happens to call himself a strategist because that is where the "
+                "intellectual challenge lives.\n\n"
+                "Strategy is fractal. The questions are the same at every scale: Where do we allocate capital? How "
+                "do we grow? What risks do we need to manage? How do we align a global organization around a shared "
+                "plan? Aman has answered these questions in the arena. He is ready to answer them at Methanex's scale."
+            ), config, size=Pt(10.5))
 
         # Footer
         add_body(doc, "", config, space_after=4)
@@ -423,7 +585,7 @@ def generate(company):
             "This is a case for who you are, and why that identity was built for this moment at this company."
         ), config, italic=True, size=Pt(9), space_after=0)
 
-    casepath = os.path.join(folder, f"Case_{company}_Director_Strategy.docx" if company == "Methanex" else f"Case_{company}_SrMgr_Integration.docx")
+    casepath = os.path.join(folder, f"Case_{company}_{role_str}.docx")
     try:
         doc.save(casepath)
     except PermissionError:

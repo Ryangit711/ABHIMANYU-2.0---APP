@@ -1,38 +1,24 @@
-# PIPELINE — Live Application Tracker
+# PIPELINE TRACKER — Live Kanban
 
-Auto-maintained. Every SHOT → SUBMITTED → CALLBACK → OFFER/REJECT is tracked here.
+Updated: 2026-06-22 21:44
 
-## Legend
-- 🟢 Live (fetched, not processed yet)
-- 🔵 SHOT (package written, awaiting approval)
-- ✅ SUBMITTED (application sent)
-- 📞 CALLBACK (interview invitation)
-- 💰 OFFER (offer received)
-- ❌ REJECTED (rejection received)
-- ⏸ HOLD (paused for strategy reason)
+| Status | Company | Role | Pipe | Salary | Stage | T+ Days | Next Action |
+|:------:|---------|------|:----:|:------:|:-----:|:-------:|-------------|
+| ✅ | Indeed | Sr Mgr Integration | T | $133K-$199K | SUBMITTED | D2 | Waiting callback |
+| 🔵 | Hiive | Assoc Operations Strategy | S | $120K-$140K + equity | SHOT (approved) | D0 | **SUBMIT from phone** |
+| 🔵 | Providence Healthcare | Dir Clinical & Operations | I | $130K-$188K | SHOT (pending) | D0 | Next SHOOT after Hiive submit |
+| 🔵 | Vancity | VP Strategy | I | $204K-$240K | SHOT (pending) | D0 | After Providence |
+| 🔵 | Methanex | Director Strategy | I | $195K-$252K | SHOT (ready) | D0 | Manual submit needed |
+| 🔵 | BC Cancer | Dir Clinical Operations | I | $130K-$188K | SHOT (pending) | D0 | After Vancity |
+| 🔵 | EA | Operations & Process Lead | T | $92.9K-$129.2K | SHOT (pending) | D0 | Low priority |
+| 🔵 | Jobber | Mgr Customer Analytics | I | $151.2K-$204.5K | SHOT (pending) | D0 | After healthcare pipeline |
 
----
+**Legend:** 🔵 SHOT = Package ready, awaiting approval/submit | ✅ SUBMITTED | 📞 CALLBACK | 💰 OFFER | ❌ REJECTED
 
-## Active Pipeline
-
-| # | Company | Role | Salary | Pipe | Stage | Applied | T+ | Next Action |
-|---|---------|------|--------|------|-------|---------|----|-------------|
-| 1 | Indeed | Sr. Manager, Integration & Business Acceleration | $133K-$199K | T | ✅ SUBMITTED | Jun 21 | D0 | T+0: LinkedIn connect to Hiring Manager / Corp Dev Lead |
-| 2 | Methanex | Director, Strategy | $195K-$252K | I | 🟢 LIVE | — | D0 | Awaiting SHOOT (next priority) |
-| 3 | lululemon | Sr. Manager, Store Experience | $145K-$190.3K | T | 🟢 LIVE | — | D0 | Awaiting SHOOT |
-| 4 | EvenUp | Strategy & Ops Manager, RevOps | $125K-$170K | T | 🟢 LIVE | — | D0 | Awaiting SHOOT |
-| 5 | Hiive | Chief of Staff to COO | $140K-$180K | S | 🟢 LIVE | — | D0 | Awaiting SHOOT |
-| 6 | Deloitte | Sr. Manager, M&A Transaction Diligence | $112K-$208K | C | 🟢 LIVE | — | D0 | Awaiting SHOOT (after case prep) |
-
----
-
-## Archives
-
-### Offers
-(company | role | salary | date)
-
-### Rejections
-(company | role | date | lesson learned)
-
----
-*Updated: 2026-06-21 20:50*
+## Pipeline Stats
+- Submitted: 1 (Indeed)
+- Approved + Ready to Submit: 1 (Hiive)
+- SHOOT Packages Ready: 2 (Methanex, Hiive)
+- SHOOT Packages Pending: 6
+- Offers: 0
+- Callbacks: 0
