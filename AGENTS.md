@@ -188,6 +188,7 @@ The machines do the typing. You do the thinking. **Never deviate from this frame
 
 | Rule | Detail |
 |------|--------|
+| **LIVE INTELLIGENCE ALCHEMY ENGINE™ (Supreme Kernel Rule — All Other Rules Serve This)** | The permanent, immutable operating equation: **LIVE INTEL × COMPANY DNA × AMAN'S PROFILE → ALCHEMIZED OUTPUT per touchpoint**. For EVERY company and EVERY external-facing touchpoint — cover letter, resume, LinkedIn message, cold email, coffee chat intro, phone screen, Zoom interview, in-person interview, case study document, offer negotiation, thank-you note — run the full cadence: (1) GATHER live raw intelligence from ALL sources (Glassdoor, Crunchbase, PitchBook, LinkedIn, company site, recent news, product launches, leadership posts, G2 reviews, Reddit, X.com, employee reviews, funding rounds, competitors, ongoing strategic initiatives, lawsuits, partnerships, everything). (2) CROSS-REFERENCE against existing company DNA (fit_maps, learned/, past outcomes). (3) CROSS-REFERENCE against Aman's profile (skills, achievements, narrative, pipe positioning). (4) ALCHEMIZE — weave all three into a seamless response that makes the recipient think "this person already works here, knows our mechanics, our culture, our ongoing work, our challenges." The goal is not to impress with research — it's to make Aman PERCEPTUALIZED as one of them, already inside their world. Every syllable carries intelligence. This same cadence applies from first touch through offer letter through salary negotiation. The system is alive with raw feeding intelligence — we leverage it and weaponize it for payroll. This is not a tactic. It is THE operating equation. Immutable. Permanent. |
 | **Philosopher's View** | True north star. Everything moves from here. You Decide → You Review → You say YES or NO. The machines do mechanical work. You stay in the thinker's seat. Less is more. Beauty in simplicity. |
 | **Eternal NOW** | The job is already here. Every action is alignment, not creation. No anxiety, no urgency — only execution. Day/night, weekday/weekend are illusions. The system runs in the eternal NOW. |
 | **Always build on top** | Never leave anything behind. Never delete a rule, skill, or protocol. Only add. If something is superseded, archive it with a reference. The system only grows. |
@@ -218,12 +219,21 @@ The machines do the typing. You do the thinking. **Never deviate from this frame
 | **Networking Auto-Cadence** | No more need to say `SUBMITTED`. After YES (approval), the system auto-starts a T+0→T+28 networking timer. Proactive prompts at T+0, T+3, T+7, T+14 without user command. The system tracks. The user acts. |
 | **Provenance Auto-Verify** | Before every SHOOT output, every claim cross-referenced against Master Corpus. No manual check needed. Any claim without a source line number is flagged before output. Zero fabrication enforced by system, not by discipline. |
 | **Negotiation Pre-Load** | Salary benchmarks, BATNA, anchoring strategy, walk-away floor, and comp deconstruction pre-loaded at SHOOT time — before any offer arrives. When the offer comes, the system is ready instantly. See NEGOTIATION PLAYBOOK skill. |
+| **Insider Intelligence Spine (NEW — Core Differentiator)** | Before EVERY external-facing communication — cover letter, email, interview answer (even 1 line), LinkedIn message, follow-up, thank-you note — run exhaustive live intelligence sweep across ALL sources: Glassdoor, LinkedIn, company site, Crunchbase/PitchBook, recent news, product launches, leadership changes, G2 reviews, Reddit, X.com, employee reviews, competitors, funding rounds, product updates, recent hires, ongoing strategic initiatives. Then WEAVE that intelligence into every response so the recipient feels "how does this person know THAT about us?" The goal is not to show off research. The goal is to make every response feel like it came from an insider who already lives in their world. One line or one hour interview — same rule. Every syllable carries intelligence. This is THE differentiator that makes Aman THE ONE for the job. It turns a generic candidate into someone who feels inevitable. |
 
 ---
 
 ## Semantic Intelligence Layer (Before Every Output)
 
-Ask the 5 questions from the ETERNAL NOW — not from fear or urgency:
+Ask the questions — every time, every output, every touchpoint:
+
+### ⚡ PRIMARY QUESTION (Run First — Supersedes All Others)
+
+**LIVE INTELLIGENCE ALCHEMY: What raw intelligence can I gather RIGHT NOW, cross-reference with company DNA + Aman's profile, and alchemize into THIS specific touchpoint so the recipient perceives Aman as already inside their world?**
+
+This is THE equation. Every other question below serves it. Run live sweep first. Then alchemize.
+
+### Secondary Questions (In Service of the Primary)
 
 1. **Who is the company?** — Read DNA. Big4 vs startup vs internal strategy.
 2. **What does this specific JD need?** — Not the title. The verbs.
