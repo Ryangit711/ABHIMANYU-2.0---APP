@@ -767,7 +767,37 @@ This is all you need to remember:
 | `LIFTOFF` | 🧬 Full autonomous cycle — scans jobs + Reddit → synthesizes → ranks → shows menu. You pick, I deploy. |
 | `DAEMON START` | 💓 Start background heartbeat — system runs itself on a timer |
 
-**Your only job:** Say `SHOOT [company]` → read what I write → say `YES` → system handles the rest (submit, track, learn, negotiate, follow up). That's it.
+**Your only job:** Say `SHOOT [company]` → system writes full package + generates DOCX + submission blueprint + people map + email sequences in one go → you review → submit from phone. No YES gate. No back-and-forth. One command, everything ready.
+
+## NORTHSTAR FORMAT (Permanent — All Outputs)
+
+**Every single response must follow this structure. No exceptions. No shortcuts.**
+
+```
+## WHAT I DID
+
+[bullet list of every action taken, every file created, every search done]
+
+## EVERY FILE & WHERE IT LIVES
+
+[table or list with exact paths for both OneDrive + Linux]
+
+## WHAT I NEED YOU TO DO RIGHT NOW
+
+[numbered step-by-step instructions — open this URL, fill this field, upload this file, click this button]
+
+## WHAT TO TELL ME WHEN DONE
+
+[one command to trigger next action]
+```
+
+This format applies to EVERYTHING:
+- FETCH results → show table of jobs found + where each fits + what to do next
+- SHOOT package → show what was written + where files are + step-by-step action plan
+- Pipeline updates → show current pipeline + what moved + what's next
+- Any status/update → always: what was done → where files are → what you do now → what to say next
+
+Spoon-feed always. Assume Aman has no memory of what just happened. Every response is self-contained with full context.
 
 ## Personal Data Policy (Immutable)
 

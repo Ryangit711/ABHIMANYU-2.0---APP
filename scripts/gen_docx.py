@@ -51,6 +51,14 @@ CONFIG = {
         "margins": Inches(0.75),
         "pages": 2,
         "ats_notes": "Hiive Ashby ATS — DOCX, Calibri 11pt"
+    },
+    "Providence_Healthcare": {
+        "font": "Calibri",
+        "size": Pt(11),
+        "header_size": Pt(13),
+        "margins": Inches(0.75),
+        "pages": 2,
+        "ats_notes": "Providence Oracle Cloud ATS — DOCX, Calibri 11pt"
     }
 }
 
@@ -126,7 +134,8 @@ def get_date(company):
         "Indeed": "2026-06-20",
         "Methanex": "2026-06-21",
         "Deloitte": "2026-06-19",
-        "Hiive": "2026-06-22"
+        "Hiive": "2026-06-22",
+        "Providence_Healthcare": "2026-06-22"
     }
     return DATES.get(company, "2026-06-22")
 
@@ -157,6 +166,13 @@ def generate(company):
             "infrastructure for a startup that grew 23x — from 3 to 70 employees across 32 locations — "
             "and directed its $17M exit. Combines a builder's instinct for scalable systems with an operator's "
             "discipline for data integrity, revenue lifecycle optimization, and cross-functional execution.", config)
+    elif company == "Providence_Healthcare":
+        add_body(doc,
+            "Healthcare operations leader with 8 years of progressive experience directing multi-site clinical "
+            "and operational infrastructure across 32 locations and 12 departments. Scaled a healthcare startup "
+            "from 3 to 70 employees and $4M ARR, managed full P&L ownership, led quality improvement initiatives, "
+            "and directed a $17M acquisition end-to-end. Combines strategic thinking with hands-on operational "
+            "execution in complex, multi-stakeholder healthcare environments.", config)
     else:
         add_body(doc,
             "Operations executive who built multi-site operational infrastructure from scratch, "
@@ -174,6 +190,11 @@ def generate(company):
             "Revenue Operations  |  Operational Infrastructure Design  |  Systems Architecture & Automation  |  "
             "Bottleneck Analysis  |  Workflow Optimization  |  Data Integrity & Reporting  |  "
             "Cross-Functional Execution  |  M&A & Strategic Projects", config, size=Pt(9.5))
+    elif company == "Providence_Healthcare":
+        add_body(doc,
+            "Multi-Site Healthcare Operations  |  Clinical Operations Leadership  |  Quality Improvement  |  "
+            "Financial Management & Budgeting  |  Interdisciplinary Team Leadership  |  "
+            "Change Management & Transformation  |  Regulatory Compliance  |  Strategic Planning & OKRs", config, size=Pt(9.5))
     else:
         add_body(doc,
             "M&A Integration  |  Cross-Functional Program Management  |  Operational Infrastructure  |  "
@@ -234,6 +255,32 @@ def generate(company):
             " — directed full-cycle $17M acquisition: 8 diligence workstreams, integration playbook, "
             "consolidated 8 systems within 90 days, retained 100% of key talent",
             config, bold_prefix="M&A & Strategic Projects")
+    elif company == "Providence_Healthcare":
+        add_body(doc,
+            "Directed clinical and operational leadership for a multi-site healthcare organization across 32 locations. "
+            "Served as the primary operational leader coordinating interdisciplinary teams, managing resources, "
+            "and driving quality improvement across 12 departments and 5 clinic groups.", config, italic=True, size=Pt(9.5))
+        add_bullet(doc,
+            " — led clinical and operational leadership across 32 multi-site locations, coordinating interdisciplinary "
+            "teams to deliver integrated, patient-centered care across 5 clinic groups and 12 departments",
+            config, bold_prefix="Multi-Site Healthcare Operations")
+        add_bullet(doc,
+            " — managed full P&L ownership for $4M revenue healthcare organization — budget planning, variance analysis, "
+            "resource allocation, capital expenditure planning across 32 locations",
+            config, bold_prefix="Financial Management & Resource Allocation")
+        add_bullet(doc,
+            " — drove quality improvement initiatives reducing administrative overhead by 40%+ through workflow "
+            "automation, standardized processes, and data-driven performance management",
+            config, bold_prefix="Quality Improvement & Process Optimization")
+        add_bullet(doc,
+            " — directed end-to-end $17M acquisition: 8 diligence workstreams, Day 1 readiness, 90-day systems "
+            "consolidation across 32 locations, 100% key talent retention",
+            config, bold_prefix="Change Management & Transformation")
+        add_bullet(doc,
+            " — managed full operational infrastructure for a geriatrics-specialized multi-site practice — scheduling, "
+            "billing (ICD coding, insurance claims), multi-facility coordination across 5+ clinic locations and "
+            "multiple senior care homes serving aging populations",
+            config, bold_prefix="Geriatric Practice & Senior Care Operations")
     else:
         add_body(doc,
             "Directed end-to-end operations for a multi-site healthcare group. Served as the primary "
@@ -273,6 +320,12 @@ def generate(company):
             "Google Workspace  |  Data Visualization & KPI Dashboards  |  Financial Modeling  |  "
             "OKR Frameworks  |  CRM Platforms  |  Jira / Confluence  |  AI-Augmented Workflows",
             config, size=Pt(9))
+    elif company == "Providence_Healthcare":
+        add_body(doc,
+            "EHR / Practice Management Platforms  |  Financial Modeling & Budgeting  |  "
+            "Data Visualization & KPI Dashboards  |  Google Workspace  |  OKR Frameworks  |  "
+            "Project Management Tools  |  Regulatory Compliance Systems  |  Quality Improvement Frameworks",
+            config, size=Pt(9))
     else:
         add_body(doc,
             "Athenahealth  |  eClinicalWorks  |  CRM Platforms  |  Google Workspace  |  "
@@ -283,6 +336,8 @@ def generate(company):
         role_str = "Director_Strategy"
     elif company == "Hiive":
         role_str = "Associate_Operations_Strategy"
+    elif company == "Providence_Healthcare":
+        role_str = "Director_Clinical_Operations"
     else:
         role_str = "SrMgr_Integration"
 
@@ -302,7 +357,7 @@ def generate(company):
     add_body(doc, NAME, config, bold=True, space_after=0)
     add_body(doc, f"{PHONE} | {EMAIL} | {LINKEDIN}", config, size=Pt(9), space_after=0)
     add_body(doc, LOCATION, config, size=Pt(9), space_after=4)
-    DATE_LABELS = {"Indeed": "June 20, 2026", "Methanex": "June 21, 2026", "Deloitte": "June 19, 2026", "Hiive": "June 22, 2026"}
+    DATE_LABELS = {"Indeed": "June 20, 2026", "Methanex": "June 21, 2026", "Deloitte": "June 19, 2026", "Hiive": "June 22, 2026", "Providence_Healthcare": "June 22, 2026"}
     add_body(doc, DATE_LABELS.get(company, "June 22, 2026"), config, space_after=8)
 
     if company == "Methanex":
@@ -332,6 +387,40 @@ def generate(company):
             "organization around a shared plan? I have solved these problems in my domain, and I am ready to solve them in yours.\n\n"
             "I would welcome the opportunity to discuss how my experience building strategic and financial infrastructure "
             "can support Methanex's next phase of global leadership.\n\n"
+            "Best regards,\n"
+            f"{NAME}\n{PHONE}\n{EMAIL}"
+        )
+    elif company == "Hiive":
+        add_body(doc, "Hiive", config, space_after=0)
+        add_body(doc, "Vancouver, BC (HQ)", config, space_after=8)
+        add_body(doc, "Re: Associate, Operations Strategy", config, bold=True, space_after=8)
+
+    elif company == "Providence_Healthcare":
+        add_body(doc, "Providence Health Care", config, space_after=0)
+        add_body(doc, "Burnaby, BC", config, space_after=8)
+        add_body(doc, "Re: Director, Clinical and Operations (LTC PHC & FHA)", config, bold=True, space_after=8)
+
+        body = (
+            "Dear Hiring Committee,\n\n"
+            "I spent 8 years leading multi-site healthcare operations — and the patient population I served? "
+            "Seniors. I have done exactly what this role requires.\n\n"
+            "At SkyflyMD, I served as the de facto Director of Operations for a multi-site healthcare organization "
+            "that grew from 3 to 70 people across 32 locations. The practice was geriatrics-focused — I managed operations "
+            "alongside a geriatrician, coordinating care across clinic locations and senior care homes, managing "
+            "billing and compliance for aging populations, and building the systems that supported quality care "
+            "for older adults. I managed the full P&L ($4M ARR). I built the operational infrastructure from "
+            "scratch — scheduling, billing, compliance, quality assurance, reporting systems. I led interdisciplinary "
+            "teams across 12 departments. I directed the $17M acquisition that integrated 8 separate operational "
+            "systems into one without losing a single key team member.\n\n"
+            "What drew me to Providence is the alignment between my experience and your mission. Multi-site seniors care "
+            "at Chenchenstway and your PHC/FHA long-term care sites faces exactly the operational challenges I have been "
+            "solving for the past 8 years: how to scale quality care across multiple locations serving aging populations "
+            "without losing the personalized, compassionate approach that defines your organization.\n\n"
+            "I hold an MBA with 8 years of progressive healthcare operations leadership — including direct experience "
+            "serving geriatric populations in multi-facility settings. My combination of formal business education and "
+            "hands-on seniors care operations experience provides the equivalent foundation this role requires.\n\n"
+            "I would welcome the opportunity to discuss how my experience building and leading multi-site healthcare "
+            "operations for aging populations can support Providence and Fraser Health's vision for seniors care.\n\n"
             "Best regards,\n"
             f"{NAME}\n{PHONE}\n{EMAIL}"
         )
@@ -404,12 +493,19 @@ def generate(company):
     doc = Document()
     set_margins(doc, config["margins"])
 
-    if company == "Methanex" or company == "Hiive":
+    if company == "Methanex" or company == "Hiive" or company == "Providence_Healthcare":
         # Title
         p = doc.add_paragraph()
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        title_text = "CASE — Aman Kumar × Hiive" if company == "Hiive" else "CASE — Aman Kumar × Methanex"
-        subtitle_text = "The Systems Builder" if company == "Hiive" else "The Strategist Who Built From Zero"
+        if company == "Hiive":
+            title_text = "CASE — Aman Kumar × Hiive"
+            subtitle_text = "The Systems Builder"
+        elif company == "Providence_Healthcare":
+            title_text = "CASE — Aman Kumar × Providence Health Care"
+            subtitle_text = "The Healthcare Operations Leader"
+        else:
+            title_text = "CASE — Aman Kumar × Methanex"
+            subtitle_text = "The Strategist Who Built From Zero"
         run = p.add_run(title_text)
         run.font.name = config["font"]
         run.font.size = Pt(18)
@@ -492,6 +588,95 @@ def generate(company):
                 "until the company's operational infrastructure is no longer the constraint on its growth.\n\n"
                 "The industry is the setting, not the skill. The skill is building operational infrastructure that scales. "
                 "That is what Aman built at SkyflyMD. That is what Hiive needs now."
+            ), config, size=Pt(10.5))
+
+        elif company == "Providence_Healthcare":
+            # Section: The Situation
+            add_section_header(doc, "The Situation", config)
+            add_body(doc, (
+                "Providence Health Care is one of Canada's largest faith-based healthcare organizations — 17 sites, "
+                "5,000+ employees, 120+ years of serving British Columbians. It operates at the intersection of "
+                "compassionate care and operational complexity: acute care at St. Paul's Hospital, seniors care across "
+                "multiple long-term care sites, mental health services, research, and a $2.18B new hospital build.\n\n"
+                "Within this ecosystem, seniors care faces the most acute operational challenges: growing waitlists, "
+                "aging population, workforce shortages, and the transition toward smaller, more personalized care home "
+                "models. The Chenchenstway site and the broader PHC/FHA long-term care network need operational "
+                "leadership that can coordinate across two partner organizations, manage resources strategically, "
+                "and maintain quality across multiple locations."
+            ), config, size=Pt(10.5))
+
+            # Section: The Candidate
+            add_section_header(doc, "The Candidate", config)
+            add_body(doc, (
+                "Aman Kumar spent eight years doing exactly what Providence needs now: directing multi-site healthcare "
+                "operations that scaled from 3 to 70 people across 32 locations, building the operational infrastructure "
+                "from scratch, managing full P&L ownership, and navigating a transformative acquisition — all in "
+                "service of a geriatric patient population.\n\n"
+                "He did not inherit operational systems. He designed them. He did not manage a single site. He coordinated "
+                "12 departments and 5 clinic groups. He did not merely participate in a transaction. He directed the "
+                "$17M acquisition end-to-end — from first-day diligence through Day 1 readiness through 90-day integration "
+                "across all 32 locations, retaining 100% of key talent.\n\n"
+                "And the patient population he served for those eight years? Seniors. Working alongside a geriatrician "
+                "who trained at Baylor College of Medicine, managing operations and billing for senior care homes, "
+                "coordinating care across clinic locations and skilled nursing facilities. The setting was Arizona. "
+                "The operational challenges — coordinating care for aging populations across multiple sites, managing "
+                "complex billing, ensuring quality across a distributed network — were the same problems Providence "
+                "solves every day."
+            ), config, size=Pt(10.5))
+
+            # Section: The Alignment
+            add_section_header(doc, "The Alignment", config)
+            add_bullet(doc,
+                " — led operations across 32 multi-site healthcare locations, coordinating interdisciplinary teams, managing budgets, and driving quality standards across 12 departments and 5 clinic groups", config,
+                bold_prefix="Multi-Site Healthcare Operations")
+            add_bullet(doc,
+                " — managed full P&L ownership for $4M revenue organization — budget planning, variance analysis, resource allocation, capital expenditure across 32 locations", config,
+                bold_prefix="Financial Management")
+            add_bullet(doc,
+                " — drove quality improvement initiatives reducing administrative overhead by 40%+ — automated workflows, standardized processes, data-driven performance management across all sites", config,
+                bold_prefix="Quality Improvement")
+            add_bullet(doc,
+                " — directed end-to-end $17M acquisition: 8 diligence workstreams, Day 1 readiness, 90-day systems consolidation, 100% key talent retention", config,
+                bold_prefix="Change Management & Transformation")
+            add_bullet(doc,
+                " — built governance rhythms, escalation protocols, and communication frameworks that aligned diverse stakeholders across 5 clinic groups, 12 departments, and multiple regulatory contexts", config,
+                bold_prefix="Stakeholder Engagement & Partnership")
+            add_bullet(doc,
+                " — managed full operational infrastructure for a geriatrics-specialized multi-site practice — scheduling, billing (ICD coding), multi-facility coordination across 5+ clinic locations and multiple senior care homes serving aging populations", config,
+                bold_prefix="Geriatric Practice & Senior Care Operations")
+
+            # Section: The Semantic Fit
+            add_section_header(doc, "The Semantic Fit", config)
+            add_body(doc, (
+                "Providence Health Care operates on a mission of compassionate care and social justice. "
+                "The values are: compassion, social justice, respect, collaboration, excellence. "
+                "The guiding principle is \"How you want to be treated.\"\n\n"
+                "Aman's career is a case study in this exact value system:"
+            ), config, size=Pt(10.5))
+            add_bullet(doc,
+                "Built operational systems centered on the patient/resident experience — every process designed around the question 'does this improve care?' For eight years, serving an aging population, the answer was always yes.", config, bold_prefix="Compassion")
+            add_bullet(doc,
+                "Served a vulnerable population (healthcare access) and built the infrastructure that made care accessible across 32 locations — not because it was profitable, because it was needed.", config, bold_prefix="Social Justice")
+            add_bullet(doc,
+                "Coordinated 12 departments, 5 clinic groups, 32 locations — each with its own culture and history — respecting their autonomy while aligning them around shared standards.", config, bold_prefix="Respect & Collaboration")
+            add_bullet(doc,
+                "Did not settle for 'good enough.' Built KPI dashboards, automated systems, quality frameworks — the infrastructure of excellence that ran without him.", config, bold_prefix="Excellence")
+
+            # Section: The Opportunity
+            add_section_header(doc, "The Opportunity", config)
+            add_body(doc, (
+                "Providence Health Care and Fraser Health Authority operate seniors care across multiple long-term care "
+                "sites in the Lower Mainland. The Director, Clinical and Operations role at Chenchenstway and the PHC/FHA "
+                "network sits at the center of this system — leading interdisciplinary teams, managing resources, driving "
+                "quality, and coordinating across two major health organizations.\n\n"
+                "Aman has done exactly this — in a different healthcare setting, with the SAME patient population — "
+                "with a track record that suggests something deeper than domain experience. He is not a healthcare "
+                "operator who needs to learn seniors care. He is a seniors care operator who has spent his entire "
+                "career serving aging populations.\n\n"
+                "The industry is not new to him. It is his identity. The patient population is not new to him. "
+                "He has served them for eight years. He has been solving these exact problems — quality, "
+                "scale, resources, coordination, serving aging populations with dignity — and he is ready to "
+                "solve them for Providence."
             ), config, size=Pt(10.5))
 
         else:
