@@ -102,13 +102,18 @@ Step 10: git add -A && git commit -m "[action] — [description] — YYYY-MM-DD 
 ### The 8 Quantum Bits (Immutable Sequence)
 
 ```
-QBIT 1 — EYES SCAN
+QBIT 1 — EYES SCAN (13 primary sources + career pages + Greenhouse)
 ├── WebSearch + Browser scan ALL sources in parallel
-├── Indeed · LinkedIn · Glassdoor · Workopolis · Jooble · Company career pages · Google Jobs · Hiring Cafe
-├── Full source registry: data/pipeline/SYSTEM_SOURCES.md
+├── Indeed · LinkedIn · Glassdoor · Workopolis · Jooble · Google Jobs · Hiring Cafe
+├── Eluta.ca · SimplyHired · Monster Canada · ZipRecruiter · Otta · BCjobs.ca
+├── Plus company career pages + Greenhouse boards per pipe
+├── Full source registry & ATS cross-ref: data/pipeline/SYSTEM_SOURCES.md
 ├── Each source returns: job_title × salary × freshness × fit
+├── Dedup: same job on multiple sources → collapsed to one entry (best source retained)
+├── ATS check: per-job feasibility (✅/⚠️) based on company's ATS platform
+├── Route guidance: "Apply via" column — company site > ATS portal > board
 ├── Raw wavefunction of ALL live jobs
-└── OUTPUT: unfiltered job stream
+└── OUTPUT: unfiltered, dedup'd, ATS-feasibility-flagged job stream
 
 QBIT 2 — COLLAPSE WAVEFUNCTION
 ├── 24h fresh? → collapses stale

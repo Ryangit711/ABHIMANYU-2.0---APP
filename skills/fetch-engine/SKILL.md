@@ -37,10 +37,10 @@ Show SYSTEM READY banner. If any check fails → warn user and stop.
 - DELETE and recreate if exists (fresh start every time)
 - NEVER delete `data/jobs.json` — that is permanent system memory
 
-## Phase 2 — Websearch TICS 4 Pipes + All Sources (24h fresh window)
+## Phase 2a — Sweep All 13 Sources + Career Pages + Greenhouse (24h fresh window)
 - Full source registry: `data/pipeline/SYSTEM_SOURCES.md`
-- READ SYSTEM_SOURCES.md first — sweep ALL primary job boards + pipe-specific company pages
-- **Primary boards (always)**: Indeed · LinkedIn · Glassdoor · Workopolis · Jooble · Google Jobs · Hiring Cafe
+- READ SYSTEM_SOURCES.md first — sweep ALL sources in parallel
+- **Primary boards (all 13)**: Indeed · LinkedIn · Glassdoor · Workopolis · Jooble · Google Jobs · Hiring Cafe · Eluta.ca · SimplyHired · Monster Canada · ZipRecruiter · Otta · BCjobs.ca
 - **T PIPE (Tech/Ops Core)**: Clio, Shopify, Amazon, 1Password, Tailscale, DoorDash, SaaS ops — plus SYSTEM_SOURCES.md T pipe list
 - **I PIPE (Internal Strategy)**: lululemon, TELUS, corporate strategy, BizOps, RevOps — plus SYSTEM_SOURCES.md I pipe list
 - **C PIPE (Consulting)**: EY-Parthenon, Deloitte, EY, KPMG, PwC, Accenture, MBB — plus SYSTEM_SOURCES.md C pipe list
@@ -49,6 +49,40 @@ Show SYSTEM READY banner. If any check fails → warn user and stop.
 - Cross-check Greenhouse boards: Brex, Hootsuite, EviSmart, Thinkific, Practice Better
 - Test NEW Greenhouse slugs each run: GitLab, Zapier, Notion, Canva, Stripe, HubSpot, etc.
 - Apify fallback when webfetch returns blank/truncated
+
+## Phase 2b — Deduplicate Across ALL Sources
+- For every raw job found across all 13 sources + career pages + Greenhouse:
+  - Group by: company name + role title + location (fuzzy match — same company + same level = same job)
+  - Collapse each group into ONE entry
+  - Retain the best source URL (priority: company career page → ATS portal → LinkedIn → primary board → third-party board)
+- Track provenances: note which sources found each job (e.g., "Indeed + Google Jobs + Eluta.ca")
+- OUTPUT: clean dedup'd list — no job appears more than once
+
+## Phase 2c — ATS Feasibility Check (Per Dedup'd Job)
+- For each job, identify company's ATS platform:
+  - Known companies: look up `data/pipeline/SYSTEM_SOURCES.md` ATS cross-reference table
+  - Unknown companies: check JD URL for ATS signature (greenhouse.io, workday, oraclecloud, lever.co, icims, etc.)
+- Cross-reference against ATS Tech Spec rules:
+  - **Greenhouse** → ✅ Pass (Liberation Sans 10pt, DOCX, 0.75in margins)
+  - **Workday** → ⚠️ Verify (contact info MUST be in body, not header; Arial/Calibri)
+  - **Oracle Cloud** → ✅ Pass (Calibri 11pt, DOCX, 0.75in margins)
+  - **Lever** → ✅ Pass (Liberation Sans 10pt, DOCX)
+  - **ICIMS** → ✅ Pass (DOCX, standard fonts)
+  - **SAP SuccessFactors** → ✅ Pass (Calibri 10-11pt, DOCX)
+  - **Taleo** → ⚠️ Caution (legacy, test before submit)
+  - **BambooHR** → ✅ Pass (standard DOCX)
+  - **Unknown** → ⚠️ Flag for manual check (use Calibri 11pt, 0.75in, generic format)
+- Flag per job: ✅ ATS PASS / ⚠️ VERIFY / ❌ BLOCKED (with fix)
+
+## Phase 2d — Route Guidance (Best Door for Each Job)
+- For each dedup'd job, determine best application route:
+  1. **Company career page** (direct feed, no middleman) — best
+  2. **ATS direct portal** (Workday/Greenhouse/Oracle direct URL) — second best
+  3. **LinkedIn Easy Apply** — only if career page broken/missing
+  4. **Primary board** (Indeed/Google Jobs/SimplyHired) — acceptable fallback
+  5. **Third-party board** (Workopolis/ZipRecruiter) — lowest priority
+- Rule: job found on career page + board → recommend career page. Job only on board → recommend that board.
+- Store in: `Apply Via` column per job — one of "Company site" / "ATS portal" / "LinkedIn" / "Indeed" / "Otta" / "Hiring Cafe" / "[Board name]"
 
 ## Phase 3 — Auto-Verify All URLs
 - HTTP-check every listing (200=active, 404=dead, 403=caution)
@@ -64,7 +98,7 @@ Show SYSTEM READY banner. If any check fails → warn user and stop.
 
 ## Phase 5 — Write CURATED_30.md + FETCH_LOG.md
 - 30 jobs, pipe-divided (C | T | I | S), sorted by fit% desc
-- Each row: #, Pipe, Wave, Company, Role, Salary, Fit%, Archetype, Status
+- Each row: #, Pipe, Wave, Company, Role, Salary, Fit%, ATS Feasibility, Apply Via, Sources, Archetype, Status
 
 ## Phase 6 — Generate CALLBACK_READY/ DNA Sheets
 - One-pager per company: DNA, 60-sec pitch, 5 Q&A, 3 STAR, keywords, outreach
@@ -78,9 +112,9 @@ WRITE to data/pipeline/PIPELINE.md:
 ```
 
 ## Phase 8 — Display
-1. Full proofread table (pipe, wave, company, role, salary, fit%, ATS format, why, contact method)
+1. Full proofread table with columns: pipe, wave, company, role, salary, fit%, ATS feasibility (✅/⚠️), apply via, sources found on, why
 2. Pipeline integration readout: "N new jobs added to pipeline. M jobs already tracked."
-3. Simplest Summary — 3-4 sentence plain-language recap
+3. Simplest Summary — 3-4 sentence plain-language recap (include total # of raw jobs found across 13 sources before dedup)
 4. Command footer — full command reference
 
 ## Phase 9 — SHOOT All Jobs (Auto-Trigger)
