@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24 18:07",
+  "last_updated": "2026-06-24 18:30",
   "companies": [
     {
       "company": "DoorDash Canada",
@@ -62,13 +62,16 @@
       }
     },
     {
-    {
       "company": "Indeed",
       "role": "Sr Mgr, Integration & Business Acceleration",
-      "status": "submitted",
+      "status": "rejected",
+      "archived": true,
       "submit_date": "2026-06-21",
+      "rejection_date": "2026-06-24",
       "t_plus_days": 3,
-      "current_leg": 2,
+      "rejection_reason": "screening_ats_keyword_mismatch",
+      "lessons_learned": "data/learned/Indeed.md",
+      "current_leg": null,
       "contacts": [
         {
           "name": null,
@@ -87,32 +90,32 @@
         "1": {
           "due": "2026-06-21",
           "action": "connect",
-          "status": "pending",
-          "response": null
+          "status": "cancelled",
+          "response": "rejected"
         },
         "2": {
           "due": "2026-06-24",
           "action": "engage",
-          "status": "overdue",
-          "response": null
+          "status": "cancelled",
+          "response": "rejected"
         },
         "3": {
           "due": "2026-06-28",
           "action": "value_add",
-          "status": "future",
-          "response": null
+          "status": "cancelled",
+          "response": "rejected"
         },
         "4": {
           "due": "2026-07-05",
           "action": "nudge",
-          "status": "future",
-          "response": null
+          "status": "cancelled",
+          "response": "rejected"
         },
         "5": {
           "due": "2026-07-19",
           "action": "close",
-          "status": "future",
-          "response": null
+          "status": "cancelled",
+          "response": "rejected"
         }
       }
     },

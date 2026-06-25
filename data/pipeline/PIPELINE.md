@@ -1,6 +1,6 @@
 # PIPELINE TRACKER — Live Kanban
 
-Updated: 2026-06-24 16:00 — DoorDash SHOT added
+Updated: 2026-06-24 18:30 — Indeed ❌ REJECTED — learning captured
 
 ## Verified Status
 
@@ -8,7 +8,7 @@ Updated: 2026-06-24 16:00 — DoorDash SHOT added
 |:------:|---------|------|:------:|:-------:|:-----:|---------|
 | 🔵 | **DoorDash Canada** | Mgr, S&O – Dasher & Logistics | $148K-$185K | $7.9K-$9.5K | **SHOT — SUBMIT NOW** | ✅ Live on Greenhouse |
 | 🔵 | **Providence Healthcare** | Dir, Clinical & Operations | $130.9K-$188.1K | $7.2K-$9.7K | **SHOT — SUBMIT NOW** | ✅ Still live (Jun 18) |
-| ✅ | **Indeed** | Sr Mgr, Integration | $133K-$199K | $7.2K-$9.9K | SUBMITTED D3 | ✅ Awaiting callback |
+| ❌ | **Indeed** | Sr Mgr, Integration | $133K-$199K | $7.2K-$9.9K | REJECTED D3 | 💡 Screening rejection — ATS/keyword mismatch likely |
 | 🟢 | FMD Services | Dir, Strategy & Execution | $150K-$195K | $8.0K-$9.7K | LIVE | ❓ Need 24h freshness check |
 | 🟢 | Jobber | Sr Mgr, Product Marketing | $155.2K-$204.5K | $8.2K-$10.1K | LIVE | ❓ Need 24h freshness check |
 | 🟡 | Coast Mountain Bus | Sr Dir, Bus Transformation | $146K-$219K | $7.9K-$10.6K | LIVE | ⚠️ Credit check unverified |
@@ -29,11 +29,12 @@ Updated: 2026-06-24 16:00 — DoorDash SHOT added
 ## Top Priority — RIGHT NOW
 1. **SUBMIT Providence** → Open browser → career.providencehealthcare.ca → upload 3 DOCX files → submit
 2. **REFRESH FETCH** → Sweep all sources for NEW 24h jobs posted today (Jun 24 has fresh roles)
-3. **Indeed follow-up** → D3 callback window — check LinkedIn/email
+3. ~~**Indeed follow-up** → D3 callback window — REJECTED~~ ✅ Learnings captured
 
 ## Pipeline Stats
 - Ready to Submit: **2** (Providence Dir, DoorDash Canada)
-- Submitted: **1** (Indeed — awaiting callback)
+- Submitted: **0** 
+- Rejected: **1** (Indeed — screening, keyword/ATS)
 - Needs SHOOT Package: **4** (FMD, Jobber, BC 1 Call, CGI)
 - Needs Freshness Check: **6**
 - Expired/Dead: **2**
