@@ -915,17 +915,18 @@ The goal at every stage is the same: **they see you and think "this is one of us
 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
-║  📖 MASTER USER MANUAL: MASTER_USER_MANUAL.md                       ║
-║  ⚡ COMMANDS:      COMMANDS.md                                      ║
+║  📖 MANUAL: MASTER_USER_MANUAL.md  |  ⚡ COMMANDS: COMMANDS.md      ║
 ╠══════════════════════════════════════════════════════════════════════╣
-║  CORE LOOP:  FETCH → SHOOT [co] → YES → AUTO-APPLY → TRACK         ║
-║  CADENCE:    CADENCE | CADENCE SUBMIT | CADENCE UPDATE | --footer   ║
-║  LINKEDIN:   LINKEDIN CONNECT | INBOX | SEARCH                      ║
-║  PIPELINE:   TRACK | TRACK --active | TRACK --offers | TRACK --stats║
-║  LEARN:      LEARN [co] [outcome] | LEARN [co] --deep               ║
-║  OFFER:      NEGOTIATE [co] [offer]                                 ║
-║  AUTONOMOUS: LIFTOFF | DAEMON START/STOP/STATUS | INGEST [url]      ║
-║  SYSTEM:     STATUS | DIAGNOSE | REFRESH | AUDIT | SYNC             ║
+║  FETCH · WIDENET · SHOOT [co] · YES · AUTO-APPLY · STATUS          ║
+║  ATOMIZE [JD] · SCORE [text] · DISTILL · REFRESH · DIAGNOSE        ║
+║  TRACK · TRACK --active/--offers/--stats · AUDIT                    ║
+║  CADENCE · CADENCE SUBMIT · CADENCE UPDATE · CADENCE --footer       ║
+║  LINKEDIN CONNECT · LINKEDIN INBOX · LINKEDIN SEARCH                ║
+║  LEARN [co] [outcome] · NEGOTIATE [co] [offer]                      ║
+║  BATCH [cos] · BATCH --all · MANUAL-SUBMIT [co]                     ║
+║  LIFTOFF · DAEMON START/STOP/STATUS · INGEST [url]                  ║
+║  THOUGHT · THOUGHT --today/--last/--range/--journal                 ║
+║  SYNC · OPTIMIZE LINKEDIN [co] · LINKEDIN APPLY-AUDIT               ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ╔══════════════════════════════════════════════════════════════════════╗
 ║  📡 NETWORKING CADENCE FOOTER → data/networking/CADENCE_FOOTER.md   ║
