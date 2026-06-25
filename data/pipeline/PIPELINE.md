@@ -1,11 +1,12 @@
 # PIPELINE TRACKER — Live Kanban
 
-Updated: 2026-06-24 15:30 — HARD TRUTH recalibration
+Updated: 2026-06-24 16:00 — DoorDash SHOT added
 
 ## Verified Status
 
 | Status | Company | Role | Salary | ~Net/Mo | Stage | Reality |
 |:------:|---------|------|:------:|:-------:|:-----:|---------|
+| 🔵 | **DoorDash Canada** | Mgr, S&O – Dasher & Logistics | $148K-$185K | $7.9K-$9.5K | **SHOT — SUBMIT NOW** | ✅ Live on Greenhouse |
 | 🔵 | **Providence Healthcare** | Dir, Clinical & Operations | $130.9K-$188.1K | $7.2K-$9.7K | **SHOT — SUBMIT NOW** | ✅ Still live (Jun 18) |
 | ✅ | **Indeed** | Sr Mgr, Integration | $133K-$199K | $7.2K-$9.9K | SUBMITTED D3 | ✅ Awaiting callback |
 | 🟢 | FMD Services | Dir, Strategy & Execution | $150K-$195K | $8.0K-$9.7K | LIVE | ❓ Need 24h freshness check |
@@ -31,7 +32,7 @@ Updated: 2026-06-24 15:30 — HARD TRUTH recalibration
 3. **Indeed follow-up** → D3 callback window — check LinkedIn/email
 
 ## Pipeline Stats
-- Ready to Submit: **1** (Providence Dir — files ready)
+- Ready to Submit: **2** (Providence Dir, DoorDash Canada)
 - Submitted: **1** (Indeed — awaiting callback)
 - Needs SHOOT Package: **4** (FMD, Jobber, BC 1 Call, CGI)
 - Needs Freshness Check: **6**

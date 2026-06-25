@@ -1,0 +1,11 @@
+{
+  "total": 1,
+  "by_category": {
+    "salary": 1,
+    "interview": 1,
+    "process": 1,
+    "culture": 1,
+    "market": 1
+  },
+  "by_company": {}
+}

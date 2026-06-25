@@ -9,6 +9,16 @@
       "pipe": "T"
     }
   },
+  "pending": {
+    "DoorDash Canada": {
+      "company": "DoorDash Canada",
+      "role": "Manager, Strategy & Operations – Dasher & Logistics Canada",
+      "shoot_date": "2026-06-24",
+      "stage": "SHOT",
+      "pipe": "T",
+      "salary": "$148K-$185K"
+    }
+  },
   "excluded": [],
-  "last_updated": "2026-06-21"
+  "last_updated": "2026-06-24"
 }

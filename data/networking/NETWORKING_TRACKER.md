@@ -71,12 +71,46 @@ Leg reference: T+0 = Connect | T+3 = Engage | T+7 = Value-add | T+14 = Nudge | T
 
 ---
 
+## DOORDASH CANADA — Mgr, S&O Dasher & Logistics
+
+| Field | Value |
+|-------|-------|
+| **Status** | 🔵 SHOT — NOT SUBMITTED |
+| **Submit Date** | — (not yet applied) |
+| **T+ Days** | — |
+| **Current Leg** | ⏸️ WAITING — Submit first |
+| **Due By** | — |
+
+### Leg History
+| Leg | Date | Action | Target | Status | Response |
+|:---:|:----:|--------|--------|:------:|:--------:|
+| 0 | 🛑 | **SUBMIT APPLICATION FIRST** | greenhouse.io/doordashcanada | 🔴 **OVERDUE** | — |
+| 1 | T+0 | LinkedIn connect | Hiring Manager (Dasher & Logistics) | ⏳ PENDING SUBMIT | — |
+| 2 | T+3 | Follow-up message | Dasher & Logistics team | ⏳ PENDING SUBMIT | — |
+| 3 | T+7 | Value-add note | Sr. Manager/Director | ⏳ PENDING SUBMIT | — |
+| 4 | T+14 | Close loop | Cody Aughney (VP) | ⏳ PENDING SUBMIT | — |
+| 5 | T+28 | Re-evaluate | — | ⏳ PENDING SUBMIT | — |
+
+### Contacts
+| Name | Title | LinkedIn | Status |
+|------|-------|----------|:------:|
+| — | Hiring Manager (Dasher & Logistics) | Not identified | 🔍 NEEDED |
+| Cody Aughney | VP, Dasher & Logistics | Not identified | 🔍 NEEDED |
+
+### Notes
+- Leg 0 is submit application — this blocks all networking
+- Target: Managers and ICs on the Dasher & Logistics team for T+0
+- Cody Aughney is the VP — final nudge target at T+14
+
+---
+
 ## TIMELINE — All Active Companies
 
 | Company | Role | Status | Submit Date | Cur Leg | Due | Action Needed |
 |---------|------|:-----:|:-----------:|:-------:|:---:|---------------|
 | Indeed | Sr Mgr, Integration | ✅ SUBMITTED | Jun 21 | 🟡 T+3 | **TODAY** | Leg 2: Follow-up message |
 | Providence | Dir, Clinical & Ops | 🔵 SHOT | — | ⏸️ WAITING | **TODAY** | Submit application first |
+| DoorDash Canada | Mgr, S&O Dasher & Logistics | 🔵 SHOT | — | ⏸️ WAITING | **TODAY** | Submit application first |
 
 ---
 

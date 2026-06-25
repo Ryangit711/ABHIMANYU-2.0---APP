@@ -2,6 +2,67 @@
   "last_updated": "2026-06-24 18:07",
   "companies": [
     {
+      "company": "DoorDash Canada",
+      "role": "Manager, S&O \u2013 Dasher & Logistics",
+      "status": "shot",
+      "submit_date": null,
+      "t_plus_days": null,
+      "current_leg": 0,
+      "contacts": [
+        {
+          "name": null,
+          "title": "Hiring Manager (Dasher & Logistics)",
+          "linkedin": null,
+          "leg_assigned": 1
+        },
+        {
+          "name": "Cody Aughney",
+          "title": "VP Dasher & Logistics",
+          "linkedin": null,
+          "leg_assigned": 4
+        }
+      ],
+      "legs": {
+        "0": {
+          "due": "2026-06-24",
+          "action": "submit_application",
+          "status": "overdue",
+          "response": null
+        },
+        "1": {
+          "due": null,
+          "action": "connect",
+          "status": "waiting",
+          "response": null
+        },
+        "2": {
+          "due": null,
+          "action": "engage",
+          "status": "waiting",
+          "response": null
+        },
+        "3": {
+          "due": null,
+          "action": "value_add",
+          "status": "waiting",
+          "response": null
+        },
+        "4": {
+          "due": null,
+          "action": "nudge",
+          "status": "waiting",
+          "response": null
+        },
+        "5": {
+          "due": null,
+          "action": "close",
+          "status": "waiting",
+          "response": null
+        }
+      }
+    },
+    {
+    {
       "company": "Indeed",
       "role": "Sr Mgr, Integration & Business Acceleration",
       "status": "submitted",
