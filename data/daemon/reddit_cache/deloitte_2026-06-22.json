@@ -1,0 +1,18 @@
+{
+  "company": "Deloitte",
+  "industry": "consulting",
+  "scraped_at": 1782122879.6837785,
+  "cached_at": 1782122879.6837826,
+  "total_posts_analyzed": 10,
+  "signals": {
+    "salary_signals": [],
+    "culture_signals": [],
+    "interview_signals": [],
+    "hiring_trends": [],
+    "red_flags": [],
+    "green_flags": []
+  },
+  "summary": "Limited community data - relying on DNA analysis",
+  "actionable_insights": [],
+  "source_urls": []
+}
