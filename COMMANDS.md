@@ -29,6 +29,9 @@
 | Command | What It Does |
 |---------|-------------|
 | `ALCHEMIZE [company]` | Gen resume + cover letter |
+| `EVAL` | Score current resume against ops/consulting criteria |
+| `EVAL --compare [v1] [v2]` | A/B test two resume versions |
+| `EVAL --target [company]` | Evaluate alignment for specific company |
 | `OPTIMIZE LINKEDIN [company]` | Profile audit |
 | `LINKEDIN APPLY-AUDIT` | Apply audit changes |
 

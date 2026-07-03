@@ -390,12 +390,12 @@ Step 6: Write the one-sentence pitch
 
 ABHIMANYU is a living organism. Every part has a name, a purpose, a pulse. You are the Philosopher-Mind. The rest is body, senses, memory, voice.
 
-**NEW — DAEMON (Autonomic Nervous System):** The DAEMON is the heartbeat. It orchestrates all 21 skills autonomously — scanning, synthesizing, deploying, tracking, learning — on a continuous loop. Activated by `LIFTOFF`. The thinker decides. The DAEMON breathes on its own.
+**NEW — DAEMON (Autonomic Nervous System):** The DAEMON is the heartbeat. It orchestrates all 23 skills autonomously — scanning, synthesizing, deploying, tracking, learning — on a continuous loop. Activated by `LIFTOFF`. The thinker decides. The DAEMON breathes on its own.
 
 ```
 🧠  YOU → Mind (Decide · Review · YES/NO)
 ❤️  ETERNAL NOW → Heart (pulse, drive, conviction)
-🌬️  DAEMON → Autonomic Nervous System (orchestrates all 21 skills)
+🌬️  DAEMON → Autonomic Nervous System (orchestrates all 23 skills)
 👁️  Eyes → The Scout (agent-browser)
 🤲  Hands → The Auto-Applicant (browser-use)
 🗣️  Voice → The LinkedIn Butler (OpenCLI)
@@ -415,7 +415,7 @@ ABHIMANYU is a living organism. Every part has a name, a purpose, a pulse. You a
 ### How The Body Moves
 
 ```
-LIFTOFF         → DAEMON fires all 21 skills in sequence
+LIFTOFF         → DAEMON fires all 23 skills in sequence
                     ├── Eyes scan + Reddit intel + synthesize
                     ├── Present menu → Mind picks
                     ├── Shoot package → Hands prepare
@@ -441,6 +441,9 @@ All organs are installed and alive. When you command, the right part moves. You 
 | `FETCH` | `skills/fetch-engine/SKILL.md` |
 | `SHOOT [company/paste JD]` | `skills/shoot-deployer/SKILL.md` |
 | `ALCHEMIZE [company]` | `skills/resume-writer/SKILL.md` + `skills/cover-letter-writer/SKILL.md` |
+| `EVAL` | `skills/resume-evaluator/SKILL.md` — Score generated resume against ops/consulting criteria before shipping |
+| `EVAL --compare [v1] [v2]` | A/B test two resume versions |
+| `EVAL --target [company]` | Score alignment to specific company |
 | `ATOMIZE [paste JD]` | `skills/dna-extraction/SKILL.md` |
 | `STATUS` | `skills/system-health/SKILL.md` |
 | `SCORE [jd_text]` | `skills/dna-extraction/SKILL.md` |
@@ -799,6 +802,7 @@ This is all you need to remember:
 | `CADENCE CONTACT [company] [name] [title] [linkedin]` | Add a contact to networking tracker |
 | `CADENCE SUBMIT [company]` | Record submission date, start networking T+0 timer |
 | `CADENCE --footer` | Show live footer only |
+| `EVAL` | 📊 Score current resume against ops/consulting criteria — catches weak narrative before shipping |
 | `LEARN [company] [outcome]` | ❓ Outcome captured → system learns → future SHOOTs get smarter |
 | `NEGOTIATE [company] [offer]` | 💰 Load negotiation playbook for this offer |
 | `BATCH [companies]` | 🚀 Batch-approve multiple Tier 1 SHOOTs at once |
@@ -938,7 +942,7 @@ The goal at every stage is the same: **they see you and think "this is one of us
 ║  📖 MANUAL: MASTER_USER_MANUAL.md  |  ⚡ COMMANDS: COMMANDS.md      ║
 ╠══════════════════════════════════════════════════════════════════════╣
 ║  FETCH · WIDENET · SHOOT [co] · YES · AUTO-APPLY · STATUS          ║
-║  ATOMIZE [JD] · SCORE [text] · DISTILL · REFRESH · DIAGNOSE        ║
+║  ATOMIZE [JD] · SCORE [text] · EVAL · DISTILL · REFRESH            ║
 ║  TRACK · TRACK --active/--offers/--stats · AUDIT                    ║
 ║  CADENCE · CADENCE SUBMIT · CADENCE UPDATE · CADENCE --footer       ║
 ║  LINKEDIN CONNECT · LINKEDIN INBOX · LINKEDIN SEARCH                ║
