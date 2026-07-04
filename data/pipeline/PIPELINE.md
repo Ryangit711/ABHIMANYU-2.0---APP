@@ -4,7 +4,7 @@
 
 | Stage | Company | Role | Pipe | Salary | T+Days | Next Action | Notes |
 |------|---------|------|------|--------|--------|-------------|-------|
-| ✅ SUBMITTED | Indeed | Sr Mgr, Integration & Business | T | $133K-$199K | T+3 | Follow up | Networking leg 2 |
+| ❌ REJECTED | Indeed | Sr Mgr, Integration & Business | T | $133K-$199K | T+12 | Learn | Auto-rejected — likely ATS screen or headcount freeze |
 | ✅ SUBMITTED | BWZ | Strategy & Ops Manager | I | $120K-$160K | T+0 | LinkedIn connect | Lever, video pending |
 | ✅ SUBMITTED | KPMG | Dir, Delivery Services | C | $172.5K-$179.5K | T+0 | LinkedIn connect | ICIMS |
 | ✅ SUBMITTED | DoorDash Canada | Mgr, S&O Dasher & Logistics | T | $148K-$185K | T+0 | LinkedIn connect | Terry Lee |
@@ -14,23 +14,24 @@
 | 🔵 SHOT | Deloitte | Sr Mgr, Strategic & Technology Change, Consumer | C | $126K-$234K | T+0 | ✅ YES — Submit via SAP SF | SAP SuccessFactors |
 | 🔵 SHOT | EY-Parthenon | Sr Mgr, Strategy & Execution — Deal Mgmt | C | $144K-$216K | T+0 | ✅ YES — Submit via EY Workday | Workday |
 
-## Archived / Cancelled
+## Archived / Cancelled / Rejected
 
 | Company | Role | Reason | Stage |
 |---------|------|--------|-------|
-| Microsoft | Sr TPM, Security | ❌ NO DOMAIN PIVOT — TPM requires deep security/AI/cloud expertise Aman doesn't have | CANCELLED |
+| Microsoft | Sr TPM, Security | ❌ NO DOMAIN PIVOT | CANCELLED |
+| Indeed | Sr Mgr, Integration & Business | ❌ Auto-rejected — likely ATS or headcount freeze | REJECTED |
 
 ## Pipeline Summary
 
-- **Total Active:** 8
+- **Total Active:** 7
 - **SHOT (pending review):** 3 (Deloitte, EY-Parthenon, Clio)
-- **Submitted:** 5 (BWZ, KPMG, Indeed, DoorDash, PointClickCare)
+- **Submitted:** 4 (BWZ, KPMG, DoorDash, PointClickCare)
 - **Networking (connect sent):** 1 (Providence HC)
 - **Callbacks:** 0
 - **Offers:** 0
-- **Rejected:** 0
+- **Rejected:** 1 (Indeed)
 - **Cancelled (domain pivot):** 1 (Microsoft)
 
 ---
 
-*Last updated: 2026-06-30 by ABHIMANYU 2.0 — Clio Senior Strategy & Operations Associate added (SHOT)*
+*Last updated: 2026-07-03 by ABHIMANYU 2.0 — Indeed moved to ❌ REJECTED*

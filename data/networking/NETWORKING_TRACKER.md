@@ -72,30 +72,14 @@ Leg reference: T+0 = Connect | T+3 = Engage | T+7 = Value-add | T+14 = Nudge | T
 
 | Field | Value |
 |-------|-------|
-| **Status** | ✅ SUBMITTED |
+| **Status** | ❌ REJECTED |
 | **Submit Date** | 2026-06-21 |
-| **T+ Days** | 8 |
-| **Current Leg** | 🟡 LEG 2 (T+3) — Engage |
-| **Due By** | 2026-06-24 |
-
-### Leg History
-| Leg | Date | Action | Target | Status | Response |
-|:---:|:----:|--------|--------|:------:|:--------:|
-| 1 | T+0 (Jun 21) | LinkedIn connect | Hiring Manager / Recruiter | 🔴 **OVERDUE** | — |
-| 2 | T+3 (Jun 24) | Engage — reference Indeed initiative | Recruiter | 🔴 **OVERDUE** | — |
-| 3 | T+7 (Jun 28) | Value-add touchpoint | Hiring Manager | 🔴 **OVERDUE** | — |
-| 4 | T+14 (Jul 5) | Progress check-in | Recruiter | ⏳ FUTURE | — |
-| 5 | T+28 (Jul 19) | Final outreach | Both | ⏳ FUTURE | — |
-
-### Contacts
-| Name | Title | LinkedIn | Status |
-|------|-------|----------|:------:|
-| — | Recruiter (Indeed) | Not identified | 🔍 NEEDED |
-| — | Hiring Manager | Not identified | 🔍 NEEDED |
+| **T+ Days** | 12 |
+| **Final Leg** | ARCHIVED |
 
 ### Notes
-- All legs overdue. Needs catch-up outreach sequence.
-- Identify recruiter + hiring manager on LinkedIn first.
+- Auto-rejected 2026-07-03. Likely ATS screen or headcount freeze.
+- LEARN triggered — record outcome for system improvement.
 
 ---
 
@@ -202,10 +186,13 @@ Leg reference: T+0 = Connect | T+3 = Engage | T+7 = Value-add | T+14 = Nudge | T
 |---------|------|:-----:|:-----------:|:-------:|:---:|---------------|
 | BWZ | Strategy & Ops Mgr | ✅ SUBMITTED | Jun 25 | 🟡 T+0 | **TODAY** | Leg 1: Connect on LinkedIn |
 | KPMG | Dir, Delivery Services | ✅ SUBMITTED | Jun 25 | 🟡 T+0 | **TODAY** | Leg 1: Connect on LinkedIn |
-| Indeed | Sr Mgr, Integration | ✅ SUBMITTED | Jun 21 | 🔴 T+3 | **OVERDUE** | Leg 2: Engage message |
 | DoorDash Canada | Mgr, S&O Dasher & Logistics | ✅ SUBMITTED | Jun 25 | 🟡 T+0 | **TODAY** | Leg 1: Connect — Terry Lee |
+| PointClickCare | Software Impl Consultant | ✅ SUBMITTED | Jul 2 | 🟡 T+0 | **TODAY** | Connect on LinkedIn |
 | Providence HC | Dir, Clinical & Ops | 🟡 CONNECT_REQ_SENT | — | ⏸️ WAITING | **TODAY** | Submit application first |
 | Deloitte | Sr Mgr STC Consumer | 🔵 SHOT | — | ⏸️ WAITING | **TODAY** | Submit via SAP SuccessFactors |
+| EY-Parthenon | Sr Mgr Strategy & Execution | 🔵 SHOT | — | ⏸️ WAITING | **TODAY** | Submit via EY Workday |
+| Clio | Sr Strategy & Ops Associate | 🔵 SHOT | — | ⏸️ WAITING | **TODAY** | Submit via Workday |
+| Indeed | Sr Mgr, Integration | ❌ REJECTED | Jun 21 | ARCHIVED | — | LEARN — record outcome |
 
 ---
 
