@@ -20,6 +20,53 @@ EMAIL = "amankumar7111@outlook.com"
 LINKEDIN = "linkedin.com/in/aman1776"
 LOCATION = "Vancouver, BC"
 
+# HARD RULE: Companies with specific resume/cover letter content in generate().
+# Adding a company to CONFIG without adding its content branch is FORBIDDEN.
+# The script will FAIL if a company is in CONFIG but has no content branch AND no SHOOT package found.
+_COMPANIES_WITH_CONTENT = {
+    "Methanex", "Hiive", "Providence_Healthcare",
+    "DoorDash_Canada", "UBC", "Practice_Better",
+    "BWZ", "KPMG", "Microsoft", "Indeed"
+}
+
+
+def find_shoot_package(company):
+    """Search date folders for SHOOT package for this company."""
+    base_dirs = [
+        LINUX,
+        "/home/aryan/opencode_test",
+    ]
+    for base in base_dirs:
+        for root, dirs, files in os.walk(base):
+            for f in files:
+                if f.endswith(".md") and company.lower() in f.lower() and ("shoot" in f.lower() or "01_" in f.lower() or f.startswith("01_")):
+                    fp = os.path.join(root, f)
+                    # Verify it's actually a SHOOT package for this company
+                    try:
+                        with open(fp) as fh:
+                            content = fh.read(500)
+                            if f"# SHOOT PACKAGE" in content or company in content:
+                                return fp
+                    except:
+                        pass
+    # Also check 01_CompanyName.md pattern in date folders
+    import glob as gb
+    for pat in [f"20*/WAVE_*/01_{company}.md", f"20*/WAVE_*/{company}.md"]:
+        matches = gb.glob(os.path.join("/home/aryan/opencode_test/", pat))
+        if matches:
+            return matches[-1]  # most recent
+    return None
+
+
+def count_docx_content(doc):
+    """Count meaningful content paragraphs in docx."""
+    count = 0
+    for p in doc.paragraphs:
+        text = p.text.strip()
+        if text and len(text) > 20:  # meaningful line
+            count += 1
+    return count
+
 # Company-specific configs
 CONFIG = {
     "Indeed": {
@@ -268,6 +315,19 @@ def generate(company):
     lfolder = f"{LINUX}/{date_str}/{company}"
     os.makedirs(folder, exist_ok=True)
     os.makedirs(lfolder, exist_ok=True)
+
+    # --- SAFETY CHECK: Ensure company has content or SHOOT package ---
+    shoot_pkg = find_shoot_package(company)
+    has_branch = company in _COMPANIES_WITH_CONTENT
+    if not has_branch and not shoot_pkg:
+        print(f"ERROR: '{company}' has no content branch in generate() and no SHOOT package found.")
+        print(f"  → Add to _COMPANIES_WITH_CONTENT and add an 'elif company == \"{company}\":' block in generate()")
+        print(f"  → Or create a SHOOT package (01_{company}.md) in a date folder first.")
+        sys.exit(1)
+    if not has_branch and shoot_pkg:
+        print(f"WARNING: '{company}' has no content branch but SHOOT package found at {shoot_pkg}")
+        print(f"  → Using generic content. Add a content branch in generate() for full tailoring.")
+        # Continue anyway — SHOOT package exists so we have real resume text available
 
     # --- RESUME ---
     doc = Document()
@@ -1150,3 +1210,19 @@ def generate(company):
 if __name__ == "__main__":
     company = sys.argv[1] if len(sys.argv) > 1 else "Methanex"
     generate(company)
+    # Final content validation — fail hard if output is too thin
+    # (Re-run generate to check — simpler: check one of the saved files)
+    respath = os.path.join(
+        f"/mnt/c/Users/owner/OneDrive/ABHIMANYU-2.0/{get_date(company)}/{company}",
+        f"Aman_Kumar_{company}_SrMgr_Integration.docx"
+    )
+    if os.path.exists(respath):
+        from docx import Document as DocCheck
+        check = DocCheck(respath)
+        c = count_docx_content(check)
+        if c < 20:
+            print(f"FATAL: Resume only has {c} meaningful lines (< 20 minimum). Content is too thin.")
+            print(f"  → {'Company has content branch' if company in _COMPANIES_WITH_CONTENT else 'Company MISSING from _COMPANIES_WITH_CONTENT'}")
+            print(f"  → {'SHOOT package found' if find_shoot_package(company) else 'No SHOOT package found'}")
+            sys.exit(1)
+        print(f"Content validated: {c} meaningful lines in resume.")
