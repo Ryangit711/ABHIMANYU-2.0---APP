@@ -10,6 +10,7 @@
 | ✅ SUBMITTED | DoorDash Canada | Mgr, S&O Dasher & Logistics | T | $148K-$185K | T+12 | Follow-up | Old cycle. |
 | ✅ SUBMITTED | PointClickCare | Software Impl Consultant - Clinical | Healthtech | $80K-$89K | D3 | Confirm status | Below floor. Old cycle. |
 | 🟡 CONNECT | Providence HC | Dir, Clinical & Ops (LTC) | I | $139K-$200K | — | Submit application | Old cycle — verify still open. |
+| 🔵 SHOT | Accenture (PiP) | Performance Strategy Mgr | C | $119.7K-$247.8K | T+0 | User review needed | Full 16-section + EVAL passed ✅ |
 | 🔵 SHOT | Clio | Sr Strategy & Operations Associate | T | $106K-$144K | Old | Re-submit? | Workday. Previously approved — need fresh YES. |
 | 🔵 SHOT | EY-Parthenon | Sr Mgr, Strategy & Execution — Deal Mgmt | C | $144K-$216K | Old | Re-submit? | Workday. Previously approved. Still LIVE — CURATED #3. |
 
@@ -21,7 +22,7 @@
 |:-:|---------|------|:----:|:------:|:---:|:---:|--------|
 | 1 | **Human Agency** | Chief of Staff to MD of AI | S | $120K-$160K | 8/10 | ✅ GH | 🟢 FRESH — SHOOT |
 | 2 | **Indeed** | Sr Mgr, Integration & Business Acceleration | T | $133K-$199K | 9/10 | ✅ ICIMS | 📄 DOCX READY — Fix ATS + resubmit |
-| 3 | **Accenture** | Performance Strategy Mgr | C | $119.7K-$247.8K | 8/10 | ✅ WD | 🟢 FRESH — SHOOT |
+| 3 | **Accenture** | Performance Strategy Mgr (PiP) | C | $119.7K-$247.8K | 8/10 | ✅ WD | 🔵 SHOT — Pending review |
 | 4 | **Brex** | Revenue Operations Manager | T | TBD | 8/10 | ✅ GH | 🟢 FRESH — SHOOT |
 | 5 | **BC Rapid Transit** | Sr Mgr, Asset Integration Office | I | $121K-$181K | 8/10 | ✅ Custom | 🟢 FRESH — SHOOT |
 | 6 | **EvenUp** | Strategy & Ops Mgr, Rev Ops | S | $125K-$150K | 8/10 | ✅ GH | 🟢 FRESH — SHOOT |
