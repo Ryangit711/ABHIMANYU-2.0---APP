@@ -1,144 +1,444 @@
-# BIRDS EYE — ABHIMANYU 2.0 System Overview
+# ABHIMANYU 2.0 — 360° System View (Post-Upgrade)
 
-Created: 2026-06-24 15:00
-Purpose: See the whole battlefield before firing a single shot.
-
----
-
-## 1. WHAT THIS SYSTEM IS
-
-A job-search operating system built for one person (Aman). Not a generic tool. Not an AI wrapper. A personalized war machine that:
-
-- **FETCHES** jobs from 20+ sources daily
-- **FILTERS** by Aman's specific constraints (no credit check, no heavy quant)
-- **RANKS** by what matters to Aman (net monthly pay, PR qualification, ease of entry)
-- **SHOOTS** by generating complete application packages (resume, cover letter, case narrative, people map, email sequence)
-- **SUBMITS** via manual blueprints (phone) or auto-fill (laptop)
-- **TRACKS** every application through callback → offer → negotiate
-- **LEARNS** from every outcome
-
-### The Philosophy (Why It Works)
-- Titles are costumes. Pay is real.
-- Foot in the door > waiting for the perfect role.
-- Machines handle typing. You handle deciding.
-- The job already exists in the timeline. Every action aligns with that reality.
-
----
-
-## 2. WHAT THIS SYSTEM IS NOT
-
-| Not This | Why |
-|----------|-----|
-| 🚫 A generic job board scraper | Every filter is personalized to Aman's credit check situation, quant comfort, industry background |
-| 🚫 A resume mill | Every resume is company-specific, ATS-optimized, semantically woven with company language |
-| 🚫 A ChatGPT wrapper | Custom scoring, fit maps, ontological fingerprinting, multi-role strategy |
-| 🚫 A one-size-fits-all tool | If you don't fit the pipe, the system won't waste your time on it |
-| 🚫 A bank/credit union/insurance job finder | Those are hard-filtered out (credit check constraint) |
-| 🚫 A quant-heavy role finder | FP&A, data analytics, pricing, modeling roles are hard-filtered out |
+```
+                          ╔═══════════════════╗
+                          ║   🧠 YOU         ║
+                          ║  (The Thinker)   ║
+                          ║  Decide · Review  ║
+                          ║  YES or NO only   ║
+                          ╚═════════╤═════════╝
+                                    │
+                    ┌───────────────┼───────────────┐
+                    │               │               │
+              ┌─────▼─────┐  ┌──────▼──────┐  ┌─────▼─────┐
+              │  FETCH    │  │  SHOOT      │  │  TRACK    │
+              │ "scan"    │  │ "package"   │  │ "status"  │
+              └─────┬─────┘  └──────┬──────┘  └─────┬─────┘
+                    │               │               │
+              ┌─────▼───────────────▼───────────────▼─────┐
+              │            DAEMON (Autonomic)              │
+              │    Orchestrates all 23 skills on loop      │
+              └─────────────────┬─────────────────────────┘
+                                │
+```
 
 ---
 
-## 3. THE 14 TARGETS — Ranked by Easiest Entry + Highest Pay + Easiest Interview
+## WATERFALL 1 — FETCH ENGINE (QBIT 1 & 2)
 
-**Formula:** `Score = (EntryEase × 0.35) + (Pay × 0.35) + (InterviewEase × 0.30)`
-
-- **EntryEase (1-10):** Direct industry match, resume gap risk, competition level
-- **Pay (1-10):** Gross salary relative to pipeline max ($267K = 10)
-- **InterviewEase (1-10):** Few rounds, no case interviews, conversational style
-
-| Rank | Score | Company | Role | Salary | ~Net/Mo | Entry | Pay | Interview | Best Feature |
-|:----:|:-----:|---------|------|:------:|:-------:|:----:|:---:|:---------:|-------------|
-| 1 | **8.6** 🥇 | **Providence Healthcare** | Dir, Clinical & Operations | $130.9K-$188.1K | $7.2K-$9.7K | 10 | 7 | 9 | **Direct industry match — almost same job you did. Already SHOT, just submit.** |
-| 2 | **8.0** 🥈 | **BC Cancer** | Dir, Clinical Operations | $130K-$188K | $7.2K-$9.5K | 9 | 7 | 8 | Healthcare ops = your native zone. No cases. Behavioral only. |
-| 3 | **7.8** 🥉 | **Providence Healthcare** | Sr Mgr, Strategic Projects | $106K-$153K | $6.1K-$7.9K | 10 | 5 | 9 | Foot in door at Providence. Same industry. Easy interview. |
-| 4 | **7.4** | **EA SPORTS** | Sr Dir, FC Franchise Strategy | $190.5K-$267.3K | $9.5K-$12.5K | 6 | 10 | 6 | **Highest pay in pipeline.** Strong brand. Strategy role, transferable. |
-| 5 | **7.3** | **FMD Services** | Dir, Strategy & Execution | $150K-$195K | $8.0K-$9.7K | 7 | 8 | 7 | Niche firm, less competition. Strategy + execution blend. |
-| 6 | **7.1** | **BC 1 Call** | Dir, Strategic Ops & Innovation | $130K-$140K | $7.1K-$7.5K | 6 | 6 | 8 | Small org, fast process, likely conversational interview. |
-| 7 | **7.0** | **Indeed** | Sr Mgr, Integration | $133K-$199K | $7.2K-$9.9K | 7 | 8 | 6 | **Already submitted D3.** Waiting callback. Free lottery ticket. |
-| 8 | **6.5** | **Jobber** | Sr Mgr, Product Marketing | $155.2K-$204.5K | $8.2K-$10.1K | 5 | 8 | 6 | Good pay, SAAS company, Greenhouse ATS (easy). |
-| 9 | **6.5** | **Coast Mountain Bus** | Sr Dir, Bus Transformation | $146K-$219K | $7.9K-$10.6K | 5 | 9 | 6 | High pay, public sector. Verify credit check. |
-| 10 | **6.3** | **BC Rapid Transit** | Sr Mgr, Asset Integration | $120.6K-$180.8K | $6.8K-$9.2K | 5 | 7 | 7 | Public transit ops — transferable. |
-| 11 | **6.0** | **CGI** | Director Consulting Svcs | $110K-$210K | $6.3K-$10.3K | 5 | 7 | 6 | Consulting but no heavy cases. Wide salary band. |
-| 12 | **5.8** | **FMD Services** | (secondary roles) | — | — | 6 | 6 | 5 | If primary doesn't work. |
-| 13 | **5.5** | **EA** | Ops & Process Lead | $92.9K-$129.2K | $5.5K-$7.0K | 6 | 4 | 7 | Foot in door at EA. Low pay but EA brand on resume. |
-| 14 | **5.3** | **Accenture** | Performance Strategy Mgr | $119.7K-$247.8K | $6.7K-$11.7K | 4 | 9 | 4 | **Case interviews.** Pedigree gap. High potential but uphill. |
-
----
-
-## 4. THE EASIEST PATH (3 Shots to Start)
-
-### 🥇 SHOT 1: Providence Healthcare — Dir, Clinical & Operations ($130.9K-$188.1K)
-**Why:** You already worked this industry for 8 years. Geriatric patient population. Multi-site operations. The SHOOT package is written. The DOCX files exist. Just submit from your phone through Oracle Cloud.
-
-**Interviews:** 1-2 rounds. Behavioral + scenario. No case studies. You know healthcare language in your sleep.
-
-**Net monthly:** $7.2K-$9.7K
-
-**Start:** Say `SUBMIT Providence`
-
-### 🥈 SHOT 2: BC Cancer — Dir, Clinical Operations ($130K-$188K)
-**Why:** Same healthcare industry. Multi-site clinical ops. No credit check (criminal check only). Your story maps directly — "ran multi-site healthcare operations, scaled from 3 to 70, managed $4M ARR, directed acquisition integration."
-
-**Interviews:** 1-2 rounds. Behavioral. Focus on healthcare operations, quality, compliance.
-
-**Net monthly:** $7.2K-$9.5K
-
-**Start:** Say `SHOOT BC Cancer`
-
-### 🥉 SHOT 3: EA SPORTS — Sr Dir, FC Franchise Strategy ($190.5K-$267.3K)
-**Why:** Highest pay in the pipeline. EA is a gaming giant. The role is franchise strategy — product portfolio management, cross-functional leadership. Your builder-consultant story fits: "I built a business from scratch, managed the full strategy, scaled it to exit." Strategy is strategy — industry doesn't matter at this level.
-
-**Interviews:** 3-4 rounds. May include a strategy presentation. Needs prep. But the payoff is $9.5K-$12.5K/month.
-
-**Net monthly:** $9.5K-$12.5K
-
-**Start:** Say `SHOOT EA SPORTS`
-
----
-
-## 5. WHAT YOU DO NEXT — Your Only 3 Jobs
-
-| Step | You Say | What Happens |
-|------|---------|--------------|
-| 1 | `SHOOT [company]` | I write full package (resume, cover letter, case narrative, people map, email sequence, interview prep) |
-| 2 | Review | You read. You approve or adjust. |
-| 3 | `AUTO-APPLY [company]` or `SUBMIT [company]` | I generate the step-by-step submission guide. You submit from phone. System auto-tracks. |
-
-That's it. Three actions. Everything else is my job.
-
----
-
-## 6. SYSTEM FILES — Where Everything Lives
-
-| What | Where |
-|------|-------|
-| 🧠 System brain | `AGENTS.md` — All rules, protocols, framework |
-| 📊 Live pipeline | `data/pipeline/PIPELINE.md` |
-| 📈 Rankings | `data/rankings/TICS_PRIORITY.md` |
-| 🎯 Curated targets | `2026-06-24/WAVE_1/CURATED_30.md` |
-| 🏛️ Archived pipeline | `data/pipeline/PIPELINE_ARCHIVE_2026-06-24.md` |
-| 🧬 Company DNA maps | `data/fit_maps/[COMPANY].md` |
-| 📚 Learned lessons | `data/learned/*.md` |
-| 📝 Thought journal | `data/thought_log/YYYY-MM-DD.md` |
-| 🔧 Skills | `skills/[name]/SKILL.md` |
-| 📋 Skill registry | `SKILL_REGISTRY.md` |
-| 📄 This view | `BIRDS_EYE.md` |
-
----
-
-## 7. COMMANDS YOU NEED
-
-| Command | What It Does |
-|---------|-------------|
-| `SHOOT [company]` | Write full application package |
-| `SUBMIT [company]` | Generate phone submission blueprint |
-| `TRACK` | Show live pipeline |
-| `TRACK --stats` | Pipeline metrics |
-| `REFRESH` | Re-scan all sources for new 24h jobs |
-| `LIFTOFF` | Full autonomous cycle (scan → rank → present) |
-| `STATUS` | System health check |
-| `LEARN [company] [outcome]` | Feed result back into system |
+```
+   YOU: "FETCH"
+         │
+         ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  LAYER 1 — BOARD SCAN (18+ sources)                                │
+   │                                                                     │
+   │  13 original: Indeed · LinkedIn · Glassdoor · Workopolis · Jooble   │
+   │               Google Jobs · Hiring Cafe · Eluta.ca · SimplyHired    │
+   │               Monster CA · ZipRecruiter · Otta · BCjobs.ca          │
+   │                                                                     │
+   │  6 new:      Wellfound · WorkBC · Crabjobs · VanHiring             │
+   │              RemoteOK · WeWorkRemotely                              │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  LAYER 2 — COMPANY CAREER PAGE SCAN (60+ companies)                │
+   │  Organized by pipe → sector tiers → priority circles                │
+   │                                                                     │
+   │  T PIPE (Tech): FAANG → US-in-Canada → Canadian Tech → Scale-ups   │
+   │  C PIPE (Consulting): MBB → Big4 → Boutique → Tech-adjacent        │
+   │  I PIPE (Corporate): Telco → Retail → Healthcare → Energy → Gov    │
+   │  S PIPE (Startups): $50M+ → $10-50M → <$10M                        │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  LAYER 3 — ATS PROVIDER AUTO-SCAN (49 providers)                   │
+   │                                                                     │
+   │  lib/ats-providers/_registry.mjs → maps company name → ATS type    │
+   │                                                                     │
+   │  greenhouse.mjs  → boards-api.greenhouse.io JSON                   │
+   │  ashby.mjs       → jobs.ashbyhq.com API                            │
+   │  lever.mjs       → api.lever.co/v0/postings                        │
+   │  workday.mjs     → *.wd3.myworkdayjobs.com API                     │
+   │  successfactors.mjs → careers.*.com (Playwright fallback)          │
+   │                                                                     │
+   │  Unknown ATS → falls back to generic web scrape via Apify           │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  LAYER 4 — MULTI-LEVEL SCAN STRATEGY                              │
+   │                                                                     │
+   │  Level 1: Local parser — check cache, previously seen jobs         │
+   │  Level 2: Playwright — JS-rendered career portals                  │
+   │  Level 3: HTTP JSON API — direct ATS API calls (fastest, richest)  │
+   │  Level 4: WebSearch fallback — when structured sources fail        │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  LAYER 5 — ADVANCED FILTERS (lib/fetch-filters.mjs)               │
+   │                                                                     │
+   │  Title filter:    ops/strategy/director/vp → pass                   │
+   │                   engineer/sales/support → block                    │
+   │  Content filter:  checks JD body when API returns it               │
+   │  Location filter: Vancouver/Remote Canada → pass                   │
+   │                   Ontario/US/international → block                  │
+   │  Salary filter:   $80K-$350K CAD only                               │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  LAYER 6 — GHOST JOB DETECTION (lib/ghost-detection.mjs)          │
+   │                                                                     │
+   │  Staleness:  >90 days → ⚠️ stale                                   │
+   │  Repost:     same title, new date → ⚠️ suspicious                   │
+   │  Liveness:   URL HEAD check → 404 = dead                            │
+   │  Freeze:     company news → hiring freeze/layoffs flagged           │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  LAYER 7 — DEDUP + ATS FEASIBILITY + ROUTE GUIDANCE               │
+   │                                                                     │
+   │  Dedup: same job on multiple sources → collapsed to one entry      │
+   │  ATS check: per-job feasibility (✅/⚠️) based on ATS platform       │
+   │  Route: company site > ATS portal > LinkedIn > board                │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+                   ┌───────────────────────┐
+                   │  OUTPUT: CURATED LIST  │
+                   │  5-30 targets          │
+                   │  Sorted by TICS pipe   │
+                   │  Fit score descending  │
+                   │  ATS-feasibility-      │
+                   │  ghost-checked         │
+                   └───────────┬───────────┘
+                               │
+                   YOU: "SHOOT [company]"
+```
 
 ---
 
-**Ready when you are.** Say `SHOOT [company]` or `SUBMIT Providence` to start.
+## WATERFALL 2 — SHOOT PACKAGE (QBIT 3-5)
+
+```
+   YOU: "SHOOT [Company Name]"
+         │
+         ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  STEP 1 — COMPANY SCOUT                                            │
+   │  Scrape ALL open roles at company → show in table                  │
+   │  Highlight best 3 for Aman                                         │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  STEP 2 — HIRING PROCESS REVEAL                                    │
+   │  Stage-by-stage: phone screen → case → panel → offer               │
+   │  Duration estimates, tips, what they test                          │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  STEP 3 — LIVE INTELLIGENCE ALCHEMY                                │
+   │  Gather: Glassdoor reviews + Crunchbase + LinkedIn + news          │
+   │  Cross-reference: company DNA × Aman's profile × live intel        │
+   │  Output: semantic secret — the ONE angle for this company           │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  STEP 4 — PIPE SELECTION (Dynamic)                                 │
+   │  Read company DNA → choose pipe (S/T/I/C)                          │
+   │  Blend if straddles pipes                                          │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  STEP 5 — 100% CONTACT DISCOVERY (lib/contact-discovery.mjs)      │
+   │                                                                     │
+   │  Tier HM: Hiring Manager (direct supervisor)                        │
+   │  Tier SR: Senior Recruiter (screening process)                      │
+   │  Tier TP: Team Peer (cultural insight)                              │
+   │  Tier EX: Executive (strategic context)                             │
+   │                                                                     │
+   │  Generates: contact names + titles + LinkedIn URLs + outreach msg   │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  STEP 6 — WRITE 16-SECTION PACKAGE                                 │
+   │  (Section 1-16: header, alignment, scout, process, DNA, ATS,       │
+   │   resume text, cover letter, outreach, cheat sheet, checklist,     │
+   │   cadence, finops, quality gates, case semantic case)              │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  STEP 7 — RECRUITER SIMULATION QA GATE (Silent)                   │
+   │  Mock 200+ resumes → 6-second rule → YES/MAYBE/NO                 │
+   │  If MAYBE/NO: rewrite narrative layer, re-simulate until YES       │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  STEP 8 — EVAL GATE (10 Dimensions)                               │
+   │  lib/eval-v2.mjs + eval/EVAL_V2_CRITERIA.md                        │
+   │                                                                     │
+   │  D1  Role Fit         (×2.0)    — Does Aman's exp match?           │
+   │  D2  CV Match         (×1.0)    — Resume tailored?                  │
+   │  D3  Level Strategy   (×1.0)    — Right level?                     │
+   │  D4  Comp Research    (×1.0)    — Salary benchmarks done?           │
+   │  D5  Personalization  (×1.0)    — Company-specific tailoring?       │
+   │  D6  Interview Prep   (×1.5)    — Process known?                    │
+   │  D7  Co Trajectory    (×0.5)    — Growing/stable/declining?         │
+   │  D8  Team Quality     (×0.5)    — Glassdoor reviews?                │
+   │  D9  Location         (×0.5)    — Vancouver/Remote Canada?          │
+   │  D10 Ghost Check      (×0.5)    — Legitimate posting?               │
+   │                                                                     │
+   │  PASS ≥ 70 → proceed. WARN 50-69 → rewrite sections. FAIL → full   │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+                   ┌───────────────────────────┐
+                   │  OUTPUT: PACKAGE + EVAL   │
+                   │  Quality dashboard shown  │
+                   │  Triple-written to:       │
+                   │  Linux · OneDrive · GitHub│
+                   └───────────┬───────────────┘
+                               │
+                   YOU: "YES" or "NO"
+```
+
+---
+
+## WATERFALL 3 — DEPLOY (QBIT 6-8)
+
+```
+   YOU: "YES"
+         │
+         ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  STEP 1 — GEN DOCX (gen_docx.py)                                  │
+   │  Font + margins per company's ATS platform                        │
+   │  Language registry woven in                                        │
+   │  Content integrity check (≥20 lines threshold)                     │
+   │  Output: Aman_[Company]_[Role]_Resume.docx + Cover_Letter.docx     │
+   │  Writes to OneDrive only (date/company/ folder)                    │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  STEP 2 — SUBMISSION BLUEPRINT                                     │
+   │                                                                     │
+   │  ┌─── LAPTOP MODE (T480/T440p) ──────────────────────────┐         │
+   │  │  scripts/auto_apply.py --company X                     │         │
+   │  │  browser-use opens Playwright → fills → uploads → submit│       │
+   │  └───────────────────────────────────────────────────────┘         │
+   │                                                                     │
+   │  ┌─── PHONE MODE (S25U) ────────────────────────────────┐          │
+   │  │  scripts/auto_apply.py --company X --manual            │         │
+   │  │  Generates field-by-field blueprint for phone browser  │         │
+   │  │  You fill 5 fields → upload → submit → "SUBMITTED"    │         │
+   │  └───────────────────────────────────────────────────────┘         │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  STEP 3 — NETWORKING CADENCE AUTO-START                            │
+   │                                                                     │
+   │  T+0  → LinkedIn connect to Hiring Manager                         │
+   │  T+3  → Follow-up/engage with Recruiter                            │
+   │  T+7  → Value-add note to Team Peer (share relevant article)       │
+   │  T+14 → Check-in nudge to Hiring Manager                           │
+   │  T+28 → Final close to Executive                                   │
+   │                                                                     │
+   │  Each message is SEMANTICALLY PERSONAL — woven from live intel     │
+   │  System never forgets — cadence footer shown after EVERY response  │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  STEP 4 — PIPELINE UPDATE                                          │
+   │  Auto-adds to data/pipeline/PIPELINE.md                            │
+   │  Stage: ✅ SUBMITTED → T+0 timer starts                            │
+   │  Trackable via "TRACK" command at any time                         │
+   └───────────────────────────┬─────────────────────────────────────────┘
+                               │
+                               ▼
+   ┌─────────────────────────────────────────────────────────────────────┐
+   │  STEP 5 — POST-SUBMIT INTELLIGENCE                                 │
+   │                                                                     │
+   │  CALLBACK → interview-prep skill loaded                            │
+   │  OFFER → negotiation-playbook loaded (NEGOTIATE [co] [offer])      │
+   │  REJECTION → feedback-engine runs (LEARN [co] [outcome])           │
+   │  GHOSTED > 30d → auto-closed, system learns                         │
+   └─────────────────────────────────────────────────────────────────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │  LOOP BACK TO FETCH  │
+                    │  System is infinite  │
+                    │  but not circular    │
+                    │  Every cycle smarter │
+                    └──────────────────────┘
+```
+
+---
+
+## SYSTEM ARCHITECTURE — All Files & Their Purpose
+
+```
+ABHIMANYU-2.0/
+│
+├── AGENTS.md                         ← Kernel rules + boot sequence (THE LAW)
+├── MASTER_USER_MANUAL.md             ← Full manual for Aman
+├── COMMANDS.md                       ← Command reference
+├── BIRDS_EYE.md                      ← THIS FILE — 360° system view
+├── SKILL_REGISTRY.md                 ← All 23 skills indexed
+│
+├── data/
+│   ├── pipeline/
+│   │   ├── SYSTEM_SOURCES.md         ← ★ EXPANDED — 18+ boards, 60+ companies, 49 ATS
+│   │   ├── PIPELINE.md               ← Live kanban of all applications
+│   │   └── jobs.json                 ← Machine-readable pipeline
+│   ├── system/
+│   │   ├── ATS_ESOTERICA.md          ← ★ EXPANDED — 20+ ATS platforms with insider tips
+│   │   └── ATS_tech_specs.md         ← Formatting specs per ATS
+│   ├── networking/
+│   │   ├── CADENCE_FOOTER.md         ← Auto-updating cadence display
+│   │   ├── NETWORKING_TRACKER.md     ← Full networking tracker
+│   │   └── cadence.json              ← Machine-readable cadence
+│   ├── fit_maps/[company].md         ← Permanent ontological fingerprints
+│   ├── learned/[company].md          ← Accumulated lessons from outcomes
+│   ├── thought_log/YYYY-MM-DD.md     ← Immutable thought journal
+│   └── rankings/TICS_PRIORITY.md     ← Priority ladder
+│
+├── lib/
+│   ├── ats-providers/                ← ★ NEW — 49 ATS provider modules
+│   │   ├── _registry.mjs             ← Maps 40+ companies → ATS type
+│   │   ├── _http.mjs                 ← HTTP transport helpers
+│   │   ├── _types.js                 ← Type definitions
+│   │   ├── greenhouse.mjs            ← Greenhouse boards-api scanner
+│   │   ├── ashby.mjs                 ← Ashby API scanner
+│   │   ├── lever.mjs                 ← Lever API scanner
+│   │   ├── workday.mjs               ← Workday API scanner
+│   │   └── successfactors.mjs        ← SuccessFactors scanner
+│   ├── fetch-filters.mjs             ← ★ NEW — Title/content/loc/salary filters
+│   ├── ghost-detection.mjs           ← ★ NEW — Staleness/repost/freeze checks
+│   ├── contact-discovery.mjs         ← ★ NEW — 4-tier contact finder
+│   ├── eval-v2.mjs                   ← ★ NEW — 10-dimension EVAL engine
+│   └── career-ops/                   ← Original career-ops (preserved intact)
+│
+├── scripts/
+│   ├── gen_docx.py                   ← DOCX generator (content-integrity guarded)
+│   └── auto_apply.py                 ← ★ NEW — browser-use AUTO-APPLY wrapper
+│
+├── skills/
+│   ├── fetch-engine/SKILL.md         ← FETCH command skill
+│   ├── shoot-deployer/SKILL.md       ← SHOOT command skill
+│   ├── resume-evaluator/SKILL.md     ← EVAL command skill
+│   ├── daemon/SKILL.md               ← DAEMON skill (background loop)
+│   └── ... (19 more skills)
+│
+├── eval/
+│   ├── OPS_EVAL_CRITERIA.md          ← Original resume eval (preserved)
+│   └── EVAL_V2_CRITERIA.md           ← ★ NEW — 10-dimension criteria
+│
+├── docs/
+│   └── UPGRADE_PLAN.md               ← ★ NEW — Full upgrade documentation
+│
+├── .venv/                            ← ★ NEW — Python venv (browser-use + Playwright)
+│
+└── JOBS-OS-2026/                     ← Original vault (preserved intact)
+    └── 01_MASTER_CORPUS.md           ← Truth anchor for all claims
+```
+
+---
+
+## DATA FLOW — What Happens Per Command
+
+```
+"FETCH"
+  → layer 1: 18+ boards → raw jobs
+  → layer 2: 60+ company pages → raw jobs
+  → layer 3: 49 ATS providers → structured jobs
+  → layer 4: multi-level scan (Playwright → API → fallback)
+  → layer 5: advanced filters → collapse
+  → layer 6: ghost detection → flag/remove
+  → layer 7: dedup + ATS feasibility + route guidance
+  → YOU GET: curated table (5-30 targets, sorted by pipe+fit)
+
+"SHOOT [co]"
+  → company scout → all roles at company
+  → hiring process reveal → stage-by-stage
+  → live intel alchemy → semantic secret
+  → pipe selection → dynamic (S/T/I/C)
+  → contact discovery → 4 tiers of people
+  → write 16-section package
+  → recruiter simulation (silent QA)
+  → EVAL v2 (10 dimensions) → PASS/WARN/FAIL
+  → YOU GET: complete package + quality dashboard
+
+"YES"
+  → GEN DOCX → ATS-optimized Word docs
+  → Submission blueprint → laptop auto or phone manual
+  → Networking cadence auto-starts → T+0 timer
+  → Pipeline auto-updates
+  → Triple-write → Linux + OneDrive + GitHub
+
+"AUTO-APPLY [co]"
+  → Detects T480 (browser-use) or phone (fallback)
+  → [Laptop] Playwright opens → fills → uploads → submits
+  → [Phone] Generates 5-min blueprint → you submit
+  → Records in pipeline → cadence continues
+
+"TRACK"
+  → Reads data/pipeline/PIPELINE.md
+  → Shows live kanban sorted by stage (SUBMITTED → OFFER → REJECTED)
+
+"CADENCE"
+  → Reads data/networking/NETWORKING_TRACKER.md
+  → Shows every company, every leg, who replied, what's due
+
+"LEARN [co] [outcome]"
+  → Rejection → update keywords/positioning/archetype
+  → Offer → record winning formula
+  → System evolves → next FETCH is smarter
+```
+
+---
+
+## WHAT CHANGED (Pre vs Post Upgrade)
+
+| Dimension | Before | After |
+|-----------|--------|-------|
+| Job boards | 13 | 18+ |
+| Company career pages | 30 | 60+ (tiered by sector) |
+| ATS platforms known | 6 | 20+ |
+| ATS provider modules | 0 | 49 (auto-scan capable) |
+| Scan strategy | webfetch only | Multi-level (Playwright → API → fallback) |
+| Job filters | Manual (QBIT 2 rules) | Automated (lib/fetch-filters.mjs) |
+| Ghost detection | None | Staleness + repost + freeze + liveness |
+| EVAL dimensions | 4 | 10 (A-F scoring) |
+| Contact discovery | Manual per SHOOT | Automated 4-tier (lib/contact-discovery.mjs) |
+| AUTO-APPLY | Phone-only blueprint | Laptop (browser-use) + Phone (blueprint fallback) |
+| Pipeline tracking | Basic | Dedup + merge + health checks |
+| Everything preserved | ✅ | ✅ Additive-only, zero deletions |
+
+---
+
+## THE ONE-SENTENCE SUMMARY
+
+```
+18 boards + 60 companies + 49 ATS providers + 10-dim EVAL + ghost detection
++ contact discovery + browser-use AUTO-APPLY + 20 ATS platforms = system
+that scans deeper, filters smarter, fills automatically, and never misses.
+
+YOU still decide. YOU still review. YOU still say YES or NO.
+Everything else is machine work.
+```
