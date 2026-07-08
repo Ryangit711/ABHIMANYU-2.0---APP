@@ -964,8 +964,8 @@ The goal at every stage is the same: **they see you and think "this is one of us
 
 - **Identity:** Operations executive, systems architect. B2B SaaS (healthcare vertical)
 - **Experience:** 8 years. 3→70 FTEs. $0→$4M ARR. $17M exit
-- **Education:** BSc IT (LPU India, IQAS: Canadian Bachelor's equivalent) → PGDBM IT/IB (LPU) → MBA (LPU, IQAS: Canadian MBA equivalent) → Post-Bacc Technical Management & Services (KPU Canada)
-- **Education Hard Rule (Immutable):** Never invent specializations. Education is verified by IQAS — Canadian equivalency confirmed for BSc IT, PGDBM, and MBA, all at same level as originals. No fabricated concentrations (e.g., "Finance & Operations" for MBA). Use only what IQAS certified. Semantic reframing of what exists is OK; inventing concentrations is forbidden. Gap (Mar 2024–present): left Skyfly Mar 2024, completed KPU Post-Bacc until Aug 2025, PGWP applied Oct-Nov 2025, received PGWP, fully work-authorized now. NDA expired.
+- **Education:** Post-Bacc Technical Management & Services (KPU) | MBA | PGDBM (IT) | BSc IT
+- **Education Hard Rule (Immutable):** Never invent or embellish specializations. Present credentials as facts — institution names without countries, no IQAS, no "equivalent" language. Canadian credential (KPU) anchors the section. The only reference points are the credential names and institutions. No defensive framing. No origin signals. The work speaks. (Gap: left Skyfly Mar 2024, completed KPU Post-Bacc until Aug 2025, PGWP received, fully authorized, NDA expired.)
 - **Location:** Vancouver, BC, Canada
 - **Framing:** Local Canadian professional with US operational experience
 - **Target:** $80K-$300K+, any title (Manager to VP, IC to exec), Vancouver/Remote Canada, highest net monthly paycheck wins

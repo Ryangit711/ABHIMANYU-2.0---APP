@@ -50,10 +50,12 @@ Built complete RevOps infrastructure from zero: designed and implemented the ope
 - Led cross-functional GTM alignment across sales, operations, finance, and clinical teams — reduced pipeline variance from 40% to under 10%
 
 **Education**
-Master of Business Administration (MBA) — Lovely Professional University, India (IQAS verified: Canadian MBA equivalent)
-Post-Graduate Diploma in Business Management (IT & International Business) — LPU, India (IQAS verified)
-Post-Baccalaureate Diploma in Technical Management & Services — Melville School of Business, KPU, Surrey, BC
-Bachelor of Science in Information Technology — LPU, India (IQAS verified: Canadian Bachelor's equivalent)
+Post-Baccalaureate Diploma in Technical Management & Services
+Melville School of Business, Kwantlen Polytechnic University — Surrey, BC
+
+Master of Business Administration (MBA)
+Post-Graduate Diploma in Business Management (IT)
+Bachelor of Science in Information Technology
 
 **Technical Proficiency**
 RevOps Platforms | CRM Systems | Financial Modeling | KPI Dashboard Design | Data Analytics | AI-Augmented Workflows

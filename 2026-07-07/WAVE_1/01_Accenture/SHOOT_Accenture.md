@@ -291,21 +291,19 @@ Served as the embedded strategy and operations partner to the Managing Director 
 
 EDUCATION
 
-Master of Business Administration (MBA) — International Business & IT
-Lovely Professional University (IQAS-verified Canadian equivalency)
+Post-Baccalaureate Diploma in Technical Management & Services
+Kwantlen Polytechnic University — Surrey, BC
 
-Post-Baccalaureate Diploma — Technical Management & Services
-Kwantlen Polytechnic University, Surrey, BC
-
-Bachelor of Science — Information Technology
-Lovely Professional University (IQAS-verified Canadian equivalency)
+Master of Business Administration (MBA)
+Post-Graduate Diploma in Business Management (IT)
+Bachelor of Science in Information Technology
 
 TECHNICAL PROFICIENCY
 
 EHR Systems: eClinicalWorks (expert) | Athenahealth (expert) | Curegram
 Operations: SOP Design | Process Standardization | Workflow Optimization | Quality Assurance
 Tools: Salesforce | Microsoft 365 | Google Workspace | VOIP Systems
-Languages: English (fluent) | Hindi (native)
+Languages: English (fluent)
 ```
 
 ---
@@ -363,12 +361,11 @@ Operational Transformation | Strategic Execution | Process Design \& Standardiza
 
 \section*{Education}
 
-\textbf{Master of Business Administration (MBA)} — International Business \& IT \\
-Lovely Professional University (IQAS-verified Canadian equivalency) \\
-\textbf{Post-Baccalaureate Diploma} — Technical Management \& Services \\
-Kwantlen Polytechnic University, Surrey, BC \\
-\textbf{Bachelor of Science} — Information Technology \\
-Lovely Professional University (IQAS-verified Canadian equivalency)
+\textbf{Post-Baccalaureate Diploma in Technical Management \& Services} \\
+Kwantlen Polytechnic University — Surrey, BC \\
+\textbf{Master of Business Administration (MBA)} \\
+\textbf{Post-Graduate Diploma in Business Management (IT)} \\
+\textbf{Bachelor of Science in Information Technology}
 
 \section*{Technical Proficiency}
 EHR Systems: eClinicalWorks (expert) | Athenahealth (expert) | Curegram \\
