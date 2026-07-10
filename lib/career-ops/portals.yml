@@ -748,6 +748,24 @@ tracked_companies:
     enabled: true
     notes: "Tier 5 mid-market Canadian"
 
+  # C PIPE (Consulting) — additional boutique/specialized from vault PDF
+  - name: Stratalis
+    careers_url: https://www.stratalis.com/careers
+    enabled: true
+    notes: "Public sector & gov transformation — boutique"
+  - name: Level5 Strategy
+    careers_url: https://www.level5strategy.com/careers
+    enabled: true
+    notes: "Strategy implementation — boutique"
+  - name: CBIZ MHM
+    careers_url: https://www.cbiz.com/careers
+    enabled: true
+    notes: "Public sector & healthcare — boutique"
+  - name: Aon Consulting
+    careers_url: https://www.aon.com/careers
+    enabled: true
+    notes: "Human capital & risk advisory"
+
   # S PIPE (Startups/Vancouver Tech) additions
   - name: Dapper Labs
     careers_url: https://www.dapperlabs.com/careers

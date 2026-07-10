@@ -127,6 +127,10 @@
 - Arthur D. Little — adlittle.com/careers
 - Oliver Wyman — oliverwyman.com/careers
 - FTI Consulting — fticonsulting.com/careers
+- Stratalis — stratalis.com/careers
+- Level5 Strategy — level5strategy.com/careers
+- CBIZ MHM — cbiz.com/careers
+- Aon Consulting — aon.com/careers
 
 #### Tier 4 — Tech-adjacent
 - Accenture — accenture.com/careers
@@ -311,6 +315,10 @@ The key URLs below point to the career portal's **full listings page** (not a se
 | MNP | https://www.mnp.ca/en/careers | Canadian firm |
 | BDO Canada | https://www.bdo.ca/en-ca/careers | Canadian firm |
 | Grant Thornton | https://www.grantthornton.ca/careers | Canadian firm |
+| Stratalis | https://www.stratalis.com/careers | Public sector |
+| Level5 Strategy | https://www.level5strategy.com/careers | Strategy implementation |
+| CBIZ MHM | https://www.cbiz.com/careers | Public sector/Healthcare |
+| Aon Consulting | https://www.aon.com/careers | Human capital/Risk |
 
 ### T PIPE (Tech/BigTech) — Deep Scan URLs
 | Company | Career Portal URL | Notes |
