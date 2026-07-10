@@ -701,3 +701,115 @@ tracked_companies:
   - name: Remarcable
     careers_url: https://www.remarcable.com/careers
     enabled: true
+
+job_boards:
+
+  # ── Vault-Discovered Sources (added 2026-07-09) ─────────────────────
+
+  - name: Monster Canada (RSS)
+    careers_url: https://rss.monster.ca/feeds/job-results
+    provider: monsterca
+    enabled: true
+    notes: "Legacy board via RSS — strong corporate ops/leadership"
+
+  - name: Eluta.ca (OpenSearch)
+    careers_url: https://www.eluta.ca/opensearch
+    provider: elutaca
+    enabled: true
+    notes: "Hidden roles from company career pages"
+
+  - name: Crossover
+    careers_url: https://www.crossover.com/jobs
+    provider: crossover
+    enabled: true
+    notes: "Remote operations/leadership roles"
+
+  - name: Pangian
+    careers_url: https://pangian.com/jobs
+    provider: pangian
+    enabled: true
+    notes: "Remote-first work platform"
+
+  - name: CollabWork
+    careers_url: https://collabwork.com/jobs
+    provider: collabwork
+    enabled: true
+    notes: "Remote ops/management roles"
+
+  - name: Dynamite Jobs
+    careers_url: https://dynamitejobs.com/jobs
+    provider: dynamitejobs
+    enabled: true
+    notes: "Curated ops/strategy roles"
+
+  - name: Hello Generalist
+    careers_url: https://www.hellogeneralist.com/jobs
+    provider: hellogeneralist
+    enabled: true
+    notes: "Curated ops/generalist roles"
+
+  - name: Built In
+    careers_url: https://builtin.com/jobs
+    provider: builtin
+    enabled: true
+    notes: "Tech hub career pages"
+
+  - name: DailyRemote
+    careers_url: https://dailyremote.com/remote-jobs
+    provider: dailyremote
+    enabled: true
+    notes: "Remote Canada roles"
+
+  - name: JustRemote
+    careers_url: https://justremote.co/remote-jobs
+    provider: justremote
+    enabled: true
+    notes: "Remote ops/strategy roles"
+
+  - name: Remote Rocketship
+    careers_url: https://remoterocketship.com/jobs
+    provider: remoterocketship
+    enabled: true
+    notes: "Remote ops roles"
+
+  - name: Virtual Vocations
+    careers_url: https://www.virtualvocations.com/jobs
+    provider: virtualvocations
+    enabled: true
+    notes: "Remote Canada ops roles"
+
+  - name: RemoteDom
+    careers_url: https://remotedom.com/jobs
+    provider: remotedom
+    enabled: true
+    notes: "Remote roles — broad coverage"
+
+  - name: Truly Remote
+    careers_url: https://trulyremote.co/jobs
+    provider: trulyremote
+    enabled: true
+    notes: "Remote operations roles"
+
+  - name: Side Hustle Stack
+    careers_url: https://sidehustlestack.co/jobs
+    provider: sidehustlestack
+    enabled: true
+    notes: "Fractional/part-time ops roles"
+
+  - name: GoFractional
+    careers_url: https://gofractional.com/jobs
+    provider: gofractional
+    enabled: true
+    notes: "Fractional operations roles"
+
+  - name: FractionalJobs
+    careers_url: https://fractionaljobs.io/jobs
+    provider: fractionaljobs
+    enabled: true
+    notes: "Fractional operations roles"
+
+  - name: Cerius Executives
+    careers_url: https://ceriusexecutives.com/jobs
+    provider: ceriusexecutives
+    enabled: true
+    notes: "Fractional exec/leadership roles"

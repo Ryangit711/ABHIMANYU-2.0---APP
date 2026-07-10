@@ -31,7 +31,7 @@
          │
          ▼
    ┌─────────────────────────────────────────────────────────────────────┐
-   │  LAYER 1 — BOARD SCAN (18+ sources)                                │
+    │  LAYER 1 — BOARD SCAN (41+ sources)                                │
    │                                                                     │
    │  13 original: Indeed · LinkedIn · Glassdoor · Workopolis · Jooble   │
    │               Google Jobs · Hiring Cafe · Eluta.ca · SimplyHired    │
@@ -303,7 +303,7 @@ ABHIMANYU-2.0/
 │
 ├── data/
 │   ├── pipeline/
-│   │   ├── SYSTEM_SOURCES.md         ← ★ EXPANDED — 18+ boards, 60+ companies, 49 ATS
+│   │   ├── SYSTEM_SOURCES.md         ← ★ EXPANDED — 41+ boards, 60+ companies, 49 ATS
 │   │   ├── PIPELINE.md               ← Live kanban of all applications
 │   │   └── jobs.json                 ← Machine-readable pipeline
 │   ├── system/
@@ -364,7 +364,7 @@ ABHIMANYU-2.0/
 
 ```
 "FETCH"
-  → layer 1: 18+ boards → raw jobs
+  → layer 1: 41+ boards → raw jobs
   → layer 2: 60+ company pages → raw jobs
   → layer 3: 49 ATS providers → structured jobs
   → layer 4: multi-level scan (Playwright → API → fallback)
@@ -417,7 +417,7 @@ ABHIMANYU-2.0/
 
 | Dimension | Before | After |
 |-----------|--------|-------|
-| Job boards | 13 | 18+ |
+| Job boards | 13 | 41+ |
 | Company career pages | 30 | 60+ (tiered by sector) |
 | ATS platforms known | 6 | 20+ |
 | ATS provider modules | 0 | 49 (auto-scan capable) |
