@@ -702,6 +702,70 @@ tracked_companies:
     careers_url: https://www.remarcable.com/careers
     enabled: true
 
+  # ── New from Obsidian vault gap analysis (2026-07-09) ────────────────
+
+  # T PIPE (Tech) additions
+  - name: Google
+    careers_url: https://careers.google.com
+    enabled: true
+    notes: "FAANG — filter Vancouver"
+  - name: Meta (Facebook)
+    careers_url: https://www.metacareers.com
+    enabled: true
+    notes: "FAANG — filter Vancouver"
+  - name: Microsoft
+    careers_url: https://careers.microsoft.com
+    enabled: true
+    notes: "FAANG — filter Vancouver"
+  - name: Salesforce
+    careers_url: https://www.salesforce.com/company/careers
+    enabled: true
+    notes: "Tech giant — filter Vancouver"
+
+  # C PIPE (Consulting) additions
+  - name: Oliver Wyman
+    careers_url: https://www.oliverwyman.com/careers
+    enabled: true
+    notes: "Tier 2 strategy — filter Canada"
+  - name: FTI Consulting
+    careers_url: https://www.fticonsulting.com/careers
+    enabled: true
+    notes: "Tier 3 specialized consulting"
+  - name: IBM Consulting
+    careers_url: https://www.ibm.com/careers
+    enabled: true
+    notes: "Tier 4 tech-adjacent — filter Canada"
+  - name: Capgemini / Capgemini Invent
+    careers_url: https://www.capgemini.com/careers
+    enabled: true
+    notes: "Tier 4 tech-adjacent — filter Canada"
+  - name: BDO Canada
+    careers_url: https://www.bdo.ca/en-ca/careers
+    enabled: true
+    notes: "Tier 5 mid-market Canadian"
+  - name: Grant Thornton Canada
+    careers_url: https://www.grantthornton.ca/careers
+    enabled: true
+    notes: "Tier 5 mid-market Canadian"
+
+  # S PIPE (Startups/Vancouver Tech) additions
+  - name: Dapper Labs
+    careers_url: https://www.dapperlabs.com/careers
+    enabled: true
+    notes: "Web3 — Vancouver HQ"
+  - name: Visier
+    careers_url: https://www.visier.com/careers
+    enabled: true
+    notes: "People analytics — Vancouver HQ"
+  - name: Article
+    careers_url: https://www.article.com/careers
+    enabled: true
+    notes: "E-commerce furniture — Vancouver"
+  - name: Galvanize
+    careers_url: https://www.galvanize.com/careers
+    enabled: true
+    notes: "Climate tech — Vancouver"
+
 job_boards:
 
   # ── Vault-Discovered Sources (added 2026-07-09) ─────────────────────

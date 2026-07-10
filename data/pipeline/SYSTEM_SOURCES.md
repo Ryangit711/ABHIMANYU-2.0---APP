@@ -61,7 +61,7 @@
 - **NoFluffJobs** — nofluffjobs.com — Eastern European tech market
 - **HigherEdJobs** — higheredjobs.com — higher ed ops/administration roles
 
-## Company Career Pages — Tiered Per Pipe
+## Company Career Pages — Tiered Per Pipe (80+ Companies)
 
 ### T PIPE (Tech/BigTech)
 #### Tier 1 — FAANG & FAANG-equivalent
@@ -69,6 +69,8 @@
 - Microsoft Vancouver — careers.microsoft.com
 - Amazon Vancouver — amazon.jobs (filter: Vancouver BC)
 - Apple Vancouver — apple.com/careers
+- Meta (Facebook) — metacareers.com/locations/vancouver
+- Salesforce — salesforce.com/company/careers
 
 #### Tier 2 — US-in-Canada Tech
 - DoorDash — doordash.com/careers
@@ -123,6 +125,8 @@
 - West Monroe — westmonroe.com/careers
 - Kearney — kearney.com/careers
 - Arthur D. Little — adlittle.com/careers
+- Oliver Wyman — oliverwyman.com/careers
+- FTI Consulting — fticonsulting.com/careers
 
 #### Tier 4 — Tech-adjacent
 - Accenture — accenture.com/careers
@@ -130,6 +134,13 @@
 - TCS Canada — tcs.com/careers
 - CGI — cgi.com/careers
 - Gartner — gartner.com/careers
+- IBM Consulting — ibm.com/careers
+- Capgemini / Capgemini Invent — capgemini.com/careers
+
+#### Tier 5 — Mid-Market Canadian
+- MNP — mnp.ca/en/careers
+- BDO Canada — bdo.ca/en-ca/careers
+- Grant Thornton Canada — grantthornton.ca/careers
 
 ### I PIPE (Internal Strategy/Corporate)
 #### Tier 1 — Telecom
@@ -170,6 +181,8 @@
 - EvenUp — evenup.com/careers
 - Hiive — hiive.com/careers
 - Human Agency — job-boards.greenhouse.io/humanagency
+- Dapper Labs — dapperlabs.com/careers
+- Visier — visier.com/careers
 
 #### Tier 2 — Growth $10-50M
 - Ada — ada.com/careers
@@ -178,6 +191,7 @@
 - Remarcable — remarcable.com/careers
 - Trulioo — trulioo.com/careers
 - Aviso Wealth — apply.workable.com/aviso-wealth
+- Article — article.com/careers
 
 #### Tier 3 — Early <$10M
 - Practice Better — practicebetter.com/careers
@@ -185,6 +199,7 @@
 - SOCi — job-boards.greenhouse.io/soci
 - Zenoti — job-boards.greenhouse.io/zenoti
 - OpenTable — job-boards.greenhouse.io/opentable
+- Galvanize — galvanize.com/careers
 
 ## Greenhouse Boards (Check All Each FETCH)
 - Brex — job-boards.greenhouse.io/brex
@@ -289,6 +304,13 @@ The key URLs below point to the career portal's **full listings page** (not a se
 | OC&C | https://www.occstrategy.com/careers | Boutique |
 | A&M | https://www.alvarezandmarsal.com/careers | Boutique |
 | Gartner | https://jobs.gartner.com | Tech consulting |
+| Oliver Wyman | https://www.oliverwyman.com/careers | Strategy consulting |
+| FTI Consulting | https://www.fticonsulting.com/careers | Specialized |
+| IBM Consulting | https://www.ibm.com/careers | Filter Canada |
+| Capgemini Invent | https://www.capgemini.com/careers | Filter Canada |
+| MNP | https://www.mnp.ca/en/careers | Canadian firm |
+| BDO Canada | https://www.bdo.ca/en-ca/careers | Canadian firm |
+| Grant Thornton | https://www.grantthornton.ca/careers | Canadian firm |
 
 ### T PIPE (Tech/BigTech) — Deep Scan URLs
 | Company | Career Portal URL | Notes |
@@ -296,6 +318,8 @@ The key URLs below point to the career portal's **full listings page** (not a se
 | Google Vancouver | https://careers.google.com | Global — filter Vancouver |
 | Microsoft Vancouver | https://careers.microsoft.com | Global — filter Vancouver |
 | Amazon Vancouver | https://www.amazon.jobs/en-gb/search?loc_query=Vancouver%2C+BC | Filter Vancouver |
+| Meta Vancouver | https://www.metacareers.com/locations/vancouver | Custom — filter Vancouver |
+| Salesforce Vancouver | https://www.salesforce.com/company/careers | Custom — filter Vancouver |
 | Shopify | https://www.shopify.com/careers | Greenhouse |
 | Clio | https://www.clio.com/about/careers/ | Workday |
 | 1Password | https://1password.com/jobs | Ashby |
@@ -333,6 +357,9 @@ The key URLs below point to the career portal's **full listings page** (not a se
 | Thinkific | https://job-boards.greenhouse.io/thinkific | Greenhouse |
 | Copper | https://www.copper.com/careers | Greenhouse |
 | Aviso Wealth | https://apply.workable.com/aviso-wealth | Workable |
+| Dapper Labs | https://www.dapperlabs.com/careers | Custom |
+| Visier | https://www.visier.com/careers | Greenhouse likely |
+| Article | https://www.article.com/careers | Custom |
 
 ### Protocol
 1. During Phase 4b (Deep Company Scan), open the career portal URL for each top target
