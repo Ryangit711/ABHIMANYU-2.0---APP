@@ -8,7 +8,7 @@
 
 | Element | Truth | How It Framed |
 |---------|-------|--------------|
-| **Role** | Built + managed the centralized back-office operations for a US medical practice roll-up | Operations Lead |
+| **Role** | Built + managed the centralized back-office operations for a US medical practice roll-up | Operations Executive (Master) — Operations Lead (Experience title) |
 | **Hired by** | R.S. (Skyfly Global, Ludhiana) — hired Feb 2018 to support his brother Dr. Raghav Mohindra (MD, Internal Medicine/Geriatrics) | Operations Lead, Skyfly Global |
 | **Initial setup** | 1 practice (MoreMD, Arizona), 3 locations, 3-person ops team (Aman + Stanley + Gavin Casper) | Launched operations for multi-site medical practice |
 | **Acquisitions rolled in** | MoreMD (original) → Flagstaff/Mesa small practice → 2nd practice (4-5 clinics) → EZ Ear Heart Rhythm (cardiology, Athena EHR) → Pain specialty clinic (4-5 locations) → Sonoran MD (Texas pilot) → Eye clinic (2 locations) → ServeMD (Arizona, post-NDA, 6 locations) | Operations Lead for 5+ practice acquisitions |
