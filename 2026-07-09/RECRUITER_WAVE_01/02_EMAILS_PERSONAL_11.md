@@ -139,7 +139,7 @@ Aman Kumar
 
 Hi Derrick,
 
-Naomi thought my ops background would be relevant to your mandates. She was right.
+Naomi specifically mentioned your operations and strategy practice — she felt my build-scale-exit trajectory would resonate with the mandates you're running. She's been right before.
 
 Built the centralized operations backbone for a US medical practice roll-up — 3 to 70, 5+ acquisitions, 32 locations across 4 states, $17M exit.
 
@@ -159,7 +159,7 @@ Aman Kumar
 
 Hi Lisa,
 
-Naomi thought my healthcare ops background would be relevant to your practice. She was right.
+Naomi connected us because she knows your healthcare practice and my background better than most. She said to reach out — so I am.
 
 Built the centralized operations backbone for a US medical practice roll-up — 3 to 70, 5+ acquisitions, 32 locations across 4 states, $17M exit. Full operational scope: EHR, billing, RCM, multi-state compliance, credentialing, distributed workforce.
 
@@ -179,7 +179,7 @@ Aman Kumar
 
 Hi Brent,
 
-Your senior leadership mandates need someone who's been in the arena, not just advised from it.
+Your practice at Boyden focuses on senior leaders who combine operational depth with board-level judgment — I've been tracking your work. That's my exact profile.
 
 Built the centralized operations backbone for a US medical practice roll-up — 3 to 70, 5+ acquisitions, 32 locations across 4 states, $17M exit. Board-level communication, investor relations, P&L ownership throughout.
 
