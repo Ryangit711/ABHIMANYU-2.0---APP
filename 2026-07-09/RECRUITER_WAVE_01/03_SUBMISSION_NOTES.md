@@ -10,19 +10,17 @@ Use this for all website submissions unless otherwise specified:
 
 ---
 
-**Subject (if field exists):** Operations Leader — Vancouver — Sr Manager / VP / COO
+**Subject (if field exists):** Operations Executive, Vancouver — Sr Manager / VP / COO
 
 Hi [Firm Name] team,
 
-I am a Vancouver-based operations executive seeking introductions to Sr Manager through VP / COO level opportunities in operations leadership, strategy & operations, and program management across Vancouver and Remote Canada.
+Built the centralized operations backbone for a US medical practice roll-up — 3 to 70, 5+ acquisitions, 32 locations across 4 states, $17M exit.
 
-I built the centralized operations backbone for a US medical practice roll-up — grew the back-office team from 3 to 70, integrated 5+ acquisitions across 32 locations in 4 states, and delivered a $17M exit. I hold an MBA and a Post-Baccalaureate.
+Exploring Sr Manager through VP/COO opportunities in Vancouver and Remote Canada.
 
-I am targeting $120K-$300K+ roles in growth-stage companies, professional services, healthcare operations, and technology organizations.
+My CV is attached.
 
-I have attached my CV for your review. I would welcome the opportunity to connect if my profile aligns with any of your current or upcoming searches.
-
-Best regards,
+Best,
 Aman Kumar
 [Phone number]
 [LinkedIn URL]
