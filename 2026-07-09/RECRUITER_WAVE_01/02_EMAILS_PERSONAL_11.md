@@ -139,7 +139,7 @@ Aman Kumar
 
 Hi Derrick,
 
-Naomi specifically mentioned your operations and strategy practice — she felt my build-scale-exit trajectory would resonate with the mandates you're running. She's been right before.
+I called Brent Cameron's office earlier and spoke with Naomi. She heard my background and directed me to you — said your operations and strategy practice is where I should be having this conversation.
 
 Built the centralized operations backbone for a US medical practice roll-up — 3 to 70, 5+ acquisitions, 32 locations across 4 states, $17M exit.
 
@@ -159,7 +159,7 @@ Aman Kumar
 
 Hi Lisa,
 
-Naomi connected us because she knows your healthcare practice and my background better than most. She said to reach out — so I am.
+I reached Brent Cameron's office earlier and spoke with Naomi. She heard my healthcare operations background and directed me to you — said your healthcare practice is the right fit.
 
 Built the centralized operations backbone for a US medical practice roll-up — 3 to 70, 5+ acquisitions, 32 locations across 4 states, $17M exit. Full operational scope: EHR, billing, RCM, multi-state compliance, credentialing, distributed workforce.
 
@@ -179,7 +179,7 @@ Aman Kumar
 
 Hi Brent,
 
-Your practice at Boyden focuses on senior leaders who combine operational depth with board-level judgment — I've been tracking your work. That's my exact profile.
+I called your office earlier and spoke with Naomi. After hearing my background, she had me send my CV to you and your colleagues Derrick and Lisa. Following orders.
 
 Built the centralized operations backbone for a US medical practice roll-up — 3 to 70, 5+ acquisitions, 32 locations across 4 states, $17M exit. Board-level communication, investor relations, P&L ownership throughout.
 
