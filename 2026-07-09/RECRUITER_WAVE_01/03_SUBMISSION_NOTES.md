@@ -16,7 +16,7 @@ Hi [Firm Name] team,
 
 I am a Vancouver-based operations executive seeking introductions to Sr Manager through VP / COO level opportunities in operations leadership, strategy & operations, and program management across Vancouver and Remote Canada.
 
-I built the centralized operations backbone for a US medical practice roll-up — grew the back-office team from 3 to 70, integrated 5+ acquisitions across 32 locations in 4 states, and delivered a $17M exit. I hold an MBA and a Post-Baccalaureate in Technical Management from KPU.
+I built the centralized operations backbone for a US medical practice roll-up — grew the back-office team from 3 to 70, integrated 5+ acquisitions across 32 locations in 4 states, and delivered a $17M exit. I hold an MBA and a Post-Baccalaureate.
 
 I am targeting $120K-$300K+ roles in growth-stage companies, professional services, healthcare operations, and technology organizations.
 
