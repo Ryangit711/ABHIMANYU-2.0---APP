@@ -1,33 +1,34 @@
-## 📡 CADENCE — 2nd Brain Mode (Jul 10)
+## 📡 CADENCE — 2nd Brain Mode (Jul 11)
 
-You say **"Sent to [name] at [company]"** → I log, compute next, pre-write next message.
+### ✅ SENT TODAY (Jul 11)
 
-### 🎯 DUE TODAY (Jul 10)
+| # | Contact | Firm | Status |
+|:-:|---------|:----:|:------:|
+| 1 | Amie Chu | Korn Ferry | ✅ Sent |
+| 2 | Constantin von Oppen | Egon Zehnder | ✅ Sent |
+| 3 | Drew Railton | Caldwell | ✅ Sent |
+| 4 | Tim Hewat | LHH | ✅ Sent |
+| 5 | Wendy Melvin | BigFish | ✅ Sent |
+| 6 | Paul Gibbons | M+B | ✅ Sent |
+| 7 | Derrick Chow | Boyden | ✅ Sent |
+| 8 | Lisa Kershaw | Boyden | ✅ Sent |
+| 9 | Brent Cameron | Boyden | ✅ Sent |
+| 10 | Sandy Dennis | Elite Search | ✅ Sent |
+| 11 | Tracy Josling | ZRG | ✅ Sent |
 
-| Pri | Action | Contact | Firm | Pre-written Message |
-|:---:|--------|---------|:----:|---------------------|
-| **1** | 🔵 CONNECT | Slalom Bus Advisory Mgr | Slalom | "Hey [Name] — Slalom's approach to business advisory really resonates with me. I'm an operator who built ops infrastructure for a healthcare roll-up (3→70, $17M exit) and I love that Slalom values real-world experience. Would enjoy learning about your path." |
-| **2** | 🔵 CONNECT | Slalom Tech Consulting Mgr | Slalom | "Hey [Name] — I see you're in Slalom's tech consulting practice. I built CRM architecture, forecasting systems, and ops platforms from scratch. Curious how your team approaches tech delivery." |
-| **3** | 🔵 CONNECT | Accenture Strat Mgr | Accenture | "Hey [Name] — I recently applied for the PiP Performance Strategy role. I'm coming from an ops background (built 3→70, $17M exit) and curious how Accenture approaches operations transformation." |
-| **4** | 🔵 CONNECT | Accenture Tech Mgr | Accenture | "Hey [Name] — I'm an operator exploring consulting, applied for the PiP role. Your tech consulting path caught my eye." |
-| **5** | 🔵 CONNECT | Accenture Delivery Lead | Accenture | "Hey [Name] — I see you're on the delivery side. I spent 8 years building ops infrastructure that actually shipped." |
-| **6** | 🔵 CONNECT | Matt Chesser | Deloitte | "Hey Matt — exploring consulting and Deloitte's OWT practice caught my eye. Exited a healthcare ops business ($17M). Would love to follow your journey." |
-| **7** | 🔵 CONNECT | Deloitte STC Mgr | Deloitte | "Hey [Name] — exploring consulting. Background scaling ops 3→70 across 32 locations feels relevant to STC work." |
+### 🎯 NEXT ON WAKE (Jul 12)
 
-### ⏳ COMING UP
+| Pri | Action | Detail |
+|:---:|--------|--------|
+| **1** | 📋 **Session 2** — Submit to 18 recruiter portals | Standard cover note + master resume. ~60 min. |
+| **2** | 📝 Type `SUBMITTED RECRUITER_WAVE_01` | Logs all 11 emails + 18 portals as done, starts T+3 cadence |
+| **3** | 🔄 Pick up direct-apply pipeline | Clio, 1Password, Arc'teryx, Human Agency, EY-Parthenon |
 
-| Date | Contact | Firm | Next Leg |
-|:----:|---------|:----:|:--------:|
-| Jul 11 | EY Deal Mgr | EY-Parthenon | 🔵 CONNECT |
-| Jul 11 | CGI Mgr x2 | CGI | 🔵 CONNECT |
-| Jul 11 | KPMG Sr Mgr (compressed) | KPMG | 🔵 CONNECT |
-| Jul 12 | Ian Wilshaw (compressed) | KPMG | 🔵 CONNECT |
-| Jul 13 | Jeffrey Goodwin | Deloitte | 🔵 CONNECT (reference Tier 1 chats) |
+### ⏳ T+3 FOLLOW-UP (Jul 14 — Mon)
 
-### ✅ SENT THIS WEEK
-
-(none yet — start today)
+- Follow-up email to all 11 who haven't replied
+- Phone call Robert Half Vancouver office
 
 ---
 
-**To report:** `Sent to [name] at [company]` — I log it, move to next leg, pre-write next touch.
+**To report:** `Submitted Portal [N]` or `All 18 done` — I log and advance.
