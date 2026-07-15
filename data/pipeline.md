@@ -1,0 +1,112 @@
+# Pipeline — Pending URLs
+
+Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
+
+## Pending
+
+- [ ] https://job-boards.greenhouse.io/opentable/jobs/8495745002 | OpenTable | Sr. Manager, Revenue Strategy & Operations (Remote) | Vancouver, Canada
+- [ ] https://job-boards.greenhouse.io/humanagency/jobs/7645051003 | Human Agency | AI Resilience Fund Manager | US or Canada
+- [ ] https://job-boards.greenhouse.io/humanagency/jobs/7657829003 | Human Agency | AI Resilience Fund Manager - Vancouver | Vancouver
+- [ ] https://job-boards.greenhouse.io/humanagency/jobs/7581379003 | Human Agency | Chief of Staff | US or Canada
+- [ ] https://job-boards.greenhouse.io/humanagency/jobs/7589006003 | Human Agency | Chief of Staff to the Managing Director of AI | US or Canada
+- [ ] https://job-boards.greenhouse.io/humanagency/jobs/7663502003 | Human Agency | Chief of Staff - Vancouver | Vancouver
+- [ ] https://job-boards.greenhouse.io/humanagency/jobs/7646763003 | Human Agency | Chief Revenue Officer | US or Canada
+- [ ] https://job-boards.greenhouse.io/humanagency/jobs/7619322003 | Human Agency | Head of Business Development | US or Canada
+- [ ] https://job-boards.greenhouse.io/humanagency/jobs/7668078003 | Human Agency | Managing Director of Technology | US or Canada
+- [ ] https://job-boards.greenhouse.io/humanagency/jobs/7668368003 | Human Agency | Managing Director of Technology - Vancouver | Vancouver
+- [ ] https://job-boards.greenhouse.io/humanagency/jobs/7644970003 | Human Agency | Product CEO / Venture Studio Director | US or Canada
+- [ ] https://job-boards.greenhouse.io/humanagency/jobs/7657941003 | Human Agency | Product CEO / Venture Studio Director - Vancouver | Vancouver
+- [ ] https://job-boards.greenhouse.io/humanagency/jobs/7646018003 | Human Agency | Registered Financial Advisor | US or Canada
+- [ ] https://job-boards.greenhouse.io/humanagency/jobs/7646045003 | Human Agency | Venture Executive | US and Canada
+- [ ] https://job-boards.greenhouse.io/humanagency/jobs/7657985003 | Human Agency | Venture Executive - Vancouver | Vancouver
+- [ ] https://job-boards.greenhouse.io/marqeta/jobs/7852425 | Marqeta | Assistant Manager, Bank Partnerships | Toronto, Canada; Vancouver, Canada
+- [ ] https://job-boards.greenhouse.io/marqeta/jobs/7960215 | Marqeta | Lead Product Manager, Enterprise AI & Automation | Toronto, Canada; Vancouver, Canada
+- [ ] https://job-boards.greenhouse.io/marqeta/jobs/6908099 | Marqeta | Senior Manager, IT Product Management | Toronto, Canada; Vancouver, Canada
+- [ ] https://job-boards.greenhouse.io/marqeta/jobs/7848950 | Marqeta | Senior Manager, Network Operations | Toronto, Canada; Vancouver, Canada
+- [ ] https://job-boards.greenhouse.io/marqeta/jobs/7940366 | Marqeta | Technical Success Manager | Toronto, Canada; Vancouver, Canada
+- [ ] https://job-boards.greenhouse.io/soci/jobs/5834944004 | SOCi | Vice President, Brand and Market Strategy | Toronto, Canada (Hybrid); Vancouver, Canada (Hybrid)
+- [ ] https://www.brex.com/careers/8551701002?gh_jid=8551701002 | Brex | BizOps Senior Manager (Technical) | Vancouver, British Columbia, Canada
+- [ ] https://www.brex.com/careers/8516004002?gh_jid=8516004002 | Brex | Brex Rotational Program | Vancouver, British Columbia, Canada
+- [ ] https://www.brex.com/careers/8433546002?gh_jid=8433546002 | Brex | Director of Product, Growth/AI | Vancouver, British Columbia, Canada
+- [ ] https://www.brex.com/careers/8153310002?gh_jid=8153310002 | Brex | Enterprise Implementation Consultant | Vancouver, British Columbia, Canada
+- [ ] https://www.brex.com/careers/8438584002?gh_jid=8438584002 | Brex | Group Product Manager | Vancouver, British Columbia, Canada
+- [ ] https://www.brex.com/careers/8453712002?gh_jid=8453712002 | Brex | Manager, Account Management | Vancouver, British Columbia, Canada
+- [ ] https://www.brex.com/careers/8615158002?gh_jid=8615158002 | Brex | Manager, CX AI Strategy | Vancouver, British Columbia, Canada
+- [ ] https://www.brex.com/careers/8597895002?gh_jid=8597895002 | Brex | Payment Operations Analyst | Vancouver, British Columbia, Canada
+- [ ] https://www.brex.com/careers/8621537002?gh_jid=8621537002 | Brex | Revenue Operations Manager | Vancouver, British Columbia, Canada
+- [ ] https://www.brex.com/careers/8541251002?gh_jid=8541251002 | Brex | Senior GRC Lead | Vancouver, British Columbia, Canada
+- [ ] https://www.brex.com/careers/8433764002?gh_jid=8433764002 | Brex | Staff Product Manager | Vancouver, British Columbia, Canada
+- [ ] https://www.brex.com/careers/8436531002?gh_jid=8436531002 | Brex | Staff Product Manager, Growth | Vancouver, British Columbia, Canada
+- [ ] https://www.brex.com/careers/8579209002?gh_jid=8579209002 | Brex | Technical Consultant I | Vancouver, British Columbia, Canada
+- [ ] https://jobs.ashbyhq.com/trulioo/362f62c9-0a5e-4734-b8f9-d73987efafd2 | Trulioo | Director, Solutions Consulting (NAMER) | Vancouver
+- [ ] https://jobs.ashbyhq.com/trulioo/bb7a1e51-45d4-4302-9df4-9f138badc7e2 | Trulioo | Solutions Consultant | Vancouver
+- [ ] https://jobs.ashbyhq.com/trulioo/b59f8763-c4c1-4c80-9b2e-5d8a00abafed | Trulioo | Continuous Improvement & Automation Manager | Vancouver
+- [ ] https://jobs.ashbyhq.com/trulioo/29ac1954-3d7e-406a-8d1b-54288ba065e7 | Trulioo | Product Manager (KYB) | Vancouver
+- [ ] https://jobs.ashbyhq.com/trulioo/a3749bc8-0fdb-46c6-9dd2-94a078b8b9ae | Trulioo | Senior Product Manager (KYC - Fraud & Risk) | Vancouver
+- [ ] https://jobs.ashbyhq.com/trulioo/221b4646-b2f2-4602-9c3d-a7eaa8022ed2 | Trulioo | Technical Account Manager | Vancouver
+- [ ] https://jobs.ashbyhq.com/1password/a9bd5514-4a61-4172-818a-fbd40caa2c0d | 1Password | Director, Product Management, Identity | Remote (United States / Canada)
+- [ ] https://jobs.ashbyhq.com/1password/c1002e41-2b98-43b4-9e21-a082abee2b32 | 1Password | Senior Manager Implementation and Onboarding | Remote (United States / Canada)
+- [ ] https://jobs.ashbyhq.com/1password/5e263490-5a06-4b4e-bd08-e96725933ff3 | 1Password | Director, Performance & Paid Media (AI-Native) | Remote (United States / Canada)
+- [ ] https://jobs.ashbyhq.com/1password/d36199e8-297a-4f96-ba4d-2ebfea5e8fd4 | 1Password | Senior Campaign Manager, SaaS Manager | Remote (United States / Canada)
+- [ ] https://jobs.ashbyhq.com/1password/638f4a62-bf56-4b2a-91fb-77397e74a20d | 1Password | Senior Campaign Manager, Global Campaigns | Remote (United States / Canada)
+- [ ] https://jobs.ashbyhq.com/1password/c6fc16b0-bb5b-48f1-994d-d69e07846bc8 | 1Password | Senior Product Manager, Machine Identity | Remote (United States / Canada)
+- [ ] https://jobs.ashbyhq.com/1password/6c2a0077-6a12-47c5-b024-cf2de14a6c37 | 1Password | Director, Product Marketing | Remote (United States / Canada)
+- [ ] https://jobs.ashbyhq.com/procurify/7005eec0-6942-4274-983d-6de90de8dd04 | Procurify | Business Development Representative | Canada Remote
+- [ ] https://jobs.ashbyhq.com/procurify/4ed6cefc-4f28-48ea-bb90-7e95ec97a51f | Procurify | Product Strategy & Operations Lead | Canada Remote
+- [ ] https://jobs.ashbyhq.com/procurify/0e3d547c-01b3-4269-a8a6-a8564d6e4b58 | Procurify | Marketing Operations Manager | Canada Remote
+- [ ] https://www.eluta.ca/spl/strategy-planning-manager-06894fe0c2d8b54b5fbb10393c71b0ff?imo=4 | Eluta.ca | Strategy Planning Manager | Canada
+- [ ] https://www.eluta.ca/spl/manager-operations-6f69113687f484c94f8e85d642f54b6f?imo=4 | Eluta.ca | Manager, Operations | Vancouver
+- [ ] https://www.eluta.ca/spl/operations-manager-om-full-time-ft-hillcrest-place-f5acb19d5dfa9c9dd0bc14fe36c251f7?imo=4 | Eluta.ca | Operations Manager (OM) - Full Time (FT) - Hillcrest Place | Canada
+- [ ] https://www.eluta.ca/spl/director-businessstrategy-91aa79b850c269850f6ebbf05d09d122?imo=4 | Eluta.ca | Director, Business Strategy | Canada
+- [ ] https://4dayweek.io/job/account-director-publishing-at-kickstarter-15ddd981 | Kickstarter | Account Director, Publishing | United States, Remote
+- [ ] https://4dayweek.io/job/lead-medical-risk-consultant-at-qbe-insurance-group-a83fbddf | QBE Insurance Group | Lead Medical Risk Consultant | Marblehead, United States, Remote
+- [ ] https://4dayweek.io/job/director-demand-generation-at-augury-cc4baf60 | Augury | Director, Demand Generation | United States, Remote
+- [ ] https://remoteOK.com/remote-jobs/remote-product-manager-ai-yipitdata-1134770 | YipitData | Product Manager AI | US Remote
+- [ ] https://careers.telus.com/job/Vancouver-Senior-Strategy-Manager%2C-Strategic-Channel-Transformation-Lead-BC-V6B-0M3/603523817/ | TELUS | Senior Strategy Manager, Strategic Channel Transformation Lead | Vancouver
+- [ ] https://careers.telus.com/job/Burnaby-Staff-Technical-Lead-Billing-Revenue-Management-BC/602337917/ | TELUS | Staff Technical Lead - Billing Revenue Management | Burnaby
+- [ ] https://careers.telus.com/job/Vancouver-Senior-Market-Intelligence-Manager-BC-V6B-0M3/601756817/ | TELUS | Senior Market Intelligence Manager | Vancouver
+- [ ] https://careers.telus.com/job/Vancouver-Project-Manager-I-Collaborative-Health-Implementation-BC-V6B-0M3/604142117/ | TELUS | Project Manager I - Collaborative Health Implementation | Vancouver
+- [ ] https://careers.telus.com/job/Vancouver-Field-Construction-Manager-Outside-Plant-Focus-BC-V6B-3K9/602261117/ | TELUS | Field Construction Manager - Outside Plant Focus | Vancouver
+- [ ] https://careers.telus.com/job/Vancouver-DIRECTOR%2C-NATIONAL-RETAIL-BC-V6B-0M3/604049017/ | TELUS | DIRECTOR, NATIONAL RETAIL | Vancouver
+- [ ] https://careers.telus.com/job/Vancouver-Sr-Program-Manager-BC-V6B-0M3/603915217/ | TELUS | Sr Program Manager | Vancouver
+- [ ] https://careers.telus.com/job/Burnaby-Product-Operations-Framework-&-Process-Specialist-BC/602909317/ | TELUS | Product Operations Framework & Process Specialist | Burnaby
+- [ ] https://careers.telus.com/job/Vancouver-Senior-Community-Investment-Manager-BC-V6B-0M3/603828217/ | TELUS | Senior Community Investment Manager | Vancouver
+- [ ] https://careers.telus.com/job/Vancouver-Senior-Program-Manager-BC/602821817/ | TELUS | Senior Program Manager | Vancouver
+- [ ] https://careers.telus.com/job/Vancouver-L4-Product-Manager-Stream%2B-&-Entertainment-BC-V6B-0M3/603736717/ | TELUS | L4 Product Manager - Stream+ & Entertainment | Vancouver
+- [ ] https://careers.telus.com/job/Vancouver-Manager-AI-BC/596999517/ | TELUS | Manager AI | Vancouver
+- [ ] https://careers.telus.com/job/Vancouver-Product-Manager-Connected-Home-Hardware-testing-BC-V6B-0M3/602668617/ | TELUS | Product Manager - Connected Home Hardware testing | Vancouver
+- [ ] https://landing.jobs/at/wellhub/marketing-growth-insights-specialist | Wellhub | Marketing Growth Insights Specialist | BR, Remote
+- [ ] https://jobicy.com/jobs/146086-global-quality-and-laboratory-improvement-manager | SGS | Global Quality and Laboratory Improvement Manager | Canada
+- [ ] https://jobicy.com/jobs/146099-director-enterprise-product-marketing | Instacart | Director, Enterprise Product Marketing | Canada
+- [ ] https://www.arbeitnow.com/jobs/companies/picmondoo-gmbh/amazon-advertising-manager-ppc-langweid-am-lech-316642 | Picmondoo GmbH | Amazon Advertising Manager (PPC) (m/w/d) | Langweid am Lech, Remote
+- [ ] https://www.arbeitnow.com/jobs/companies/virtual-identity-ag/senior-account-director-digital-solutions-client-partner-freiburg-im-breisgau-255525 | Virtual Identity AG | Senior Account Director Digital Solutions / Client Partner (m/f/x) | Freiburg im Breisgau, Remote
+- [ ] https://www.arbeitnow.com/jobs/companies/virtual-identity-ag/senior-account-director-freiburg-im-breisgau-428560 | Virtual Identity AG | Senior Account Director (m/f/x) | Freiburg im Breisgau, Remote
+- [ ] https://www.arbeitnow.com/jobs/companies/karriereguru/head-of-growth-b2c-growth-marketing-lead-maisach-150109 | karriereguru | Head of Growth B2C / Growth Marketing Lead | Maisach, Remote
+- [ ] https://www.arbeitnow.com/jobs/companies/hurracom/head-of-google-shopping-amazon-commerce-feeds-marketplaces-100-remote-stuttgart-75216 | hurra.com | Head of Google Shopping & Amazon Commerce - Feeds & Marketplaces (m/w/d) - 100% remote | Stuttgart, Remote
+- [ ] https://www.arbeitnow.com/jobs/companies/virtual-identity-ag/digital-business-consultant-freiburg-im-breisgau-42111 | Virtual Identity AG | Digital Business Consultant (m/f/x) | Freiburg im Breisgau, Remote
+- [ ] https://www.arbeitnow.com/jobs/companies/mpg-care-gmbh/technischer-immobilienmanager-gebaudemanagement-standort-fulda-wurzburg-377621 | MPG Care GmbH | Technischer Immobilienmanager/Gebäudemanagement Standort Fulda/Würzburg | Fulda, Remote
+- [ ] https://nofluffjobs.com/pl/job/data-analytics-consultant-antal-remote | Antal | Data Analytics Consultant | Remote, Warszawa, Kraków, Wrocław, Poznań, Łódź, Rzeszów, Gdańsk, Katowice, kuyavian-pomeranian, lublin, lubusz, opole, podlaskie, holy-cross, warmian-masurian, west-pomeranian
+- [ ] https://nofluffjobs.com/pl/job/technical-project-leader-scalo-remote-2 | Scalo | Technical Project Leader | Remote, Katowice, lower-silesian, kuyavian-pomeranian, lodz, lublin, lubusz, lesser-poland, masovian, opole, subcarpathian, podlaskie, pomeranian, holy-cross, warmian-masurian, greater-poland, west-pomeranian
+- [ ] https://www.getonbrd.com/jobs/technical-lead-sr-42labs-remote | 42Labs | Technical Lead Sr | Remote
+- [ ] https://www.getonbrd.com/jobs/lider-tecnico-technical-lead-laravel-php-plataforma-de-pa-promarketing-remote | Promarketing | Líder Técnico / Technical Lead Laravel/PHP– Plataforma de Pa | Remote
+- [ ] https://www.getonbrd.com/jobs/tech-lead-outsystems-latam-remoto-i2b-technologies-remote | I2B Technologies | Tech Lead Outsystems con Español (LATAM) | Remote
+- [ ] https://www.getonbrd.com/jobs/prestashop-technical-lead-interfell-remote | Interfell | Prestashop Technical Lead | Remote
+- [ ] https://www.getonbrd.com/jobs/tech-lead-grupo-mariposa-remote | Grupo Mariposa | Tech Lead | Remote
+- [ ] https://www.getonbrd.com/jobs/oracle-opera-pms-micros-simphony-consultant-devups-remote | Devups | Oracle Opera Pms / Micros Simphony Consultant | Remote
+- [ ] https://www.getonbrd.com/jobs/partner-tecnico-astro-static-morfeo-media-lab-remote | Morfeo Media Lab | Partner Técnico Astro (Static) | Remote
+- [ ] https://www.getonbrd.com/jobs/lider-de-integraciones-integration-lead-coderslab-io-remote | Coderslab.io | Arquitecto Líder de Integraciones / Integration Lead | Remote
+- [ ] https://www.themuse.com/jobs/avalabs/senior-technical-product-manager-avacloud | Ava Labs | Senior Technical Product Manager - AvaCloud | Flexible / Remote
+- [ ] https://www.themuse.com/jobs/sunrun/sr-director-total-rewards | Sunrun | Sr Director, Total Rewards | Flexible / Remote
+- [ ] https://www.themuse.com/jobs/spacex/starlink-growth-manager-us-south-e71838 | SpaceX | Starlink Growth Manager, US South | Flexible / Remote
+- [ ] https://www.themuse.com/jobs/sunrun/manager-project-management-4a9a5f | Sunrun | Manager, Project Management | Flexible / Remote
+- [ ] https://www.themuse.com/jobs/celonis/lead-consultant-public-sector-9fb3a9 | Celonis | Lead Consultant - Public Sector | Flexible / Remote
+- [ ] https://www.themuse.com/jobs/stanforduniversity/sr-research-grants-manager-remotehybrid-opportunity-81b736 | Stanford University | Sr. Research & Grants Manager (Remote/Hybrid opportunity) | Flexible / Remote
+- [ ] https://www.themuse.com/jobs/spacex/starlink-growth-manager-california | SpaceX | Starlink Growth Manager, California | Flexible / Remote
+- [ ] https://careers.deloitte.ca/job/ManagerSenior-Manager%2C-Turnaround-Restructuring/132608-en_US | Deloitte Canada | Manager/Senior Manager, Turnaround & Restructuring | Vancouver, BC, BC, CAN, V7X 1P4
+- [ ] https://careers.deloitte.ca/job/Senior-Consultant%2C-Turnaround-Restructuring/132609-en_US | Deloitte Canada | Senior Consultant, Turnaround & Restructuring | Vancouver, BC, BC, CAN, V7X 1P4
+- [ ] https://careers.deloitte.ca/job/Senior-Consultant%2C-Financial-Crime/132627-en_US | Deloitte Canada | Senior Consultant, Financial Crime | Vancouver, BC, BC, CAN, V7X 1P4
+- [ ] https://careers.deloitte.ca/job/Manager%2C-M-A-Transaction-Diligence%2C-Execution-Reporting/132726-en_US | Deloitte Canada | Manager, M&A Transaction Diligence, Execution & Reporting | Vancouver, BC, BC, CAN, V7X 1P4
+- [ ] https://careers.deloitte.ca/job/Senior-Manager%2C-M-A-Transaction-Diligence%2C-Execution-Reporting/132724-en_US | Deloitte Canada | Senior Manager, M&A Transaction Diligence, Execution & Reporting | Vancouver, BC, BC, CAN, V7X 1P4
+- [ ] https://careers.deloitte.ca/job/Sr-Analyst-Manager%2C-TMT%2C-SR-ED-%28Vancouver%29/133752-en_US | Deloitte Canada | Sr Analyst / Manager, TMT, SR&ED (Vancouver) | Vancouver, BC, BC, CAN, V7X 1P4
+
+## Processed
