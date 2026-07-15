@@ -88,6 +88,7 @@ Full details: `2026-07-09/RECRUITER_WAVE_01/`
 - **Top Priority SHOOT:** Clio S&O Lead · 1Password Ops PM · OpenTable Rev Ops · Arc'teryx ReBIRD · Human Agency CoS · Diligent Dir
 - **Submitted (old cycle):** 4 (BWZ, KPMG, DoorDash, PointClickCare)
 - **Submitted (2026-07-07):** 1 (Accenture PiP)
+- **Submitted (2026-07-14):** 1 (Seaspan — Oracle Cloud)
 - **Connect sent:** 1 (Providence HC)
 - **Callbacks:** 0
 - **Offers:** 0
@@ -121,4 +122,4 @@ Full details: `2026-07-09/RECRUITER_WAVE_01/`
 4. If listing is still live, submit immediately after fixes
 
 ---
-*Last updated: 2026-07-10 15:30 by ABHIMANYU 2.0 — WIDENET: 41+ boards, 16 new discoveries across T/I/C/S pipes.*
+*Last updated: 2026-07-14 18:30 by ABHIMANYU 2.0 — Seaspan submitted via Oracle Cloud ✅*

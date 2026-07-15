@@ -35,6 +35,18 @@
       "stage": "SUBMITTED",
       "pipe": "T"
     },
+    "Seaspan": {
+      "company": "Seaspan ULC",
+      "role": "Change Management Specialist",
+      "submitted_date": "2026-07-14",
+      "method": "manual_submit_laptop",
+      "stage": "SUBMITTED",
+      "pipe": "I",
+      "salary": "$104K-$121K",
+      "ats": "Oracle Cloud",
+      "referral": "Kash Amiryeganeh (peer, ILS Specialist)",
+      "notes": "Status: Under Consideration. Waiting on Kash for hiring manager name."
+    },
     "PointClickCare": {
       "company": "PointClickCare",
       "role": "Software Impl Consultant - Clinical",
