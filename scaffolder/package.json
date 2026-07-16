@@ -1,0 +1,39 @@
+{
+  "name": "@ryangit711/abhimanyu",
+  "version": "1.0.0",
+  "description": "One-command installer for ABHIMANYU 2.0 — the AI-powered job search operating system.",
+  "bin": {
+    "abhimanyu": "bin/cli.mjs"
+  },
+  "type": "module",
+  "files": [
+    "bin/cli.mjs",
+    "bin/skill-entrypoints.mjs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "abhimanyu",
+    "claude-code",
+    "opencode",
+    "job-search",
+    "scaffold",
+    "cli",
+    "resume",
+    "ats"
+  ],
+  "author": "Aman Kumar",
+  "homepage": "https://github.com/Ryangit711/ABHIMANYU-2.0---APP#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryangit711/ABHIMANYU-2.0---APP.git",
+    "directory": "scaffolder"
+  },
+  "bugs": {
+    "url": "https://github.com/Ryangit711/ABHIMANYU-2.0---APP/issues"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}

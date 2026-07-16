@@ -1,0 +1,50 @@
+{
+  "name": "abhimanyu-2.0",
+  "version": "1.0.0",
+  "description": "AI-powered job search operating system — works with any AI coding CLI (Claude Code, OpenCode, Codex, Gemini CLI)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "doctor": "node doctor.mjs",
+    "gen-docx": "python3 scripts/gen_docx.py",
+    "gen-master-resume": "python3 scripts/gen_master_resume.py",
+    "gen-indeed": "python3 scripts/gen_indeed_docx.py",
+    "gen-merged-pdf": "python3 scripts/gen_merged_pdf.py",
+    "gen-app-pdf": "python3 scripts/gen_app_pdf.py",
+    "gen-batch": "python3 _gen_docx_batch.py",
+    "ats-score": "python3 scripts/ats_scorer.py",
+    "auto-apply": "python3 scripts/auto_apply.py",
+    "ingest": "python3 scripts/ingest_engine.py",
+    "resume-builder": "python3 scripts/resume_docx_builder.py",
+    "enrich": "python3 scripts/semantic_enricher.py",
+    "daemon": "bash scripts/DAEMON.sh",
+    "cadence": "bash scripts/cadence_ctl.sh",
+    "cadence:update": "bash scripts/update_cadence.sh",
+    "omni-sync": "bash OMNI_SYNC.sh",
+    "update": "node update.mjs",
+    "update:check": "node update.mjs check"
+  },
+  "keywords": [
+    "ai",
+    "job-search",
+    "claude-code",
+    "opencode",
+    "career",
+    "abhimanyu",
+    "automation",
+    "resume",
+    "ats"
+  ],
+  "author": "Aman Kumar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ryangit711/ABHIMANYU-2.0---APP"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

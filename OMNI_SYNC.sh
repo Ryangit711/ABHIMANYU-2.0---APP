@@ -9,6 +9,9 @@ echo "[OMNI_SYNC] Syncing ABHIMANYU 2.0 AGENTS.md to all tool configs..."
 declare -a TARGETS=(
     "$ABHIMANYU_DIR/.opencode/AGENTS.md"
     "$ABHIMANYU_DIR/CLAUDE.md"
+    "$ABHIMANYU_DIR/OPENCODE.md"
+    "$ABHIMANYU_DIR/CODEX.md"
+    "$ABHIMANYU_DIR/GEMINI.md"
     "$ABHIMANYU_DIR/.cursorrules"
     "$ABHIMANYU_DIR/.windsurfrules"
     "$ABHIMANYU_DIR/.github/copilot-instructions.md"
@@ -30,6 +33,18 @@ for target in "${TARGETS[@]}"; do
         echo "[MATCH] $target"
     else
         echo "[MISMATCH] $target — run copy again"
+    fi
+done
+
+# Bootstrap CLI skill entrypoints
+echo "[OMNI_SYNC] Bootstrapping CLI skill entrypoints..."
+for CLI_DIR in ".claude" ".opencode" ".qwen" ".antigravitycli" ".grok"; do
+    SKILL_DIR="$ABHIMANYU_DIR/$CLI_DIR/skills/abhimanyu"
+    mkdir -p "$SKILL_DIR"
+    POINTER="../../../.agents/skills/abhimanyu/SKILL.md"
+    if [ ! -f "$SKILL_DIR/SKILL.md" ] || [ "$(cat "$SKILL_DIR/SKILL.md")" = "$POINTER" ]; then
+        echo "$POINTER" > "$SKILL_DIR/SKILL.md"
+        echo "[OK] → $SKILL_DIR/SKILL.md"
     fi
 done
 

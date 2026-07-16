@@ -2,66 +2,113 @@
 
 ## What This Is
 
-This is the **skill-architecture upgrade** of the original JOBS-OS system.
+**ABHIMANYU 2.0** is an AI-powered job search operating system. It works with any AI coding CLI — Claude Code, OpenCode, Codex, Gemini CLI, Qwen, Copilot, Grok.
 
-The original JOBS-OS is a monolithic operating system for job search — one AGENTS.md kernel, 40+ numbered modules, 15+ Python scripts. It works. It's powerful. But its power is locked inside a single massive prompt that an AI must load entirely for any single command.
+It is the **skill-architecture upgrade** of the original JOBS-OS system. The original JOBS-OS is a monolithic operating system for job search — one AGENTS.md kernel, 40+ numbered modules, 15+ Python scripts. ABHIMANYU 2.0 preserves every bit of that alchemy but refactors into a **modular skill-as-plugin architecture** with 27 independent skills.
 
-**ABHIMANYU 2.0 preserves every bit of that alchemy** — the DNA extraction, the 13-section format, the infiltration layer, the networking cadence, the interview scripts. Nothing is simplified. Nothing is flattened. The depth is untouched.
+## Quick Install
 
-What changes is the **container**: from monolith to modular skill architecture.
+### Option 1: npx (Recommended)
+
+```bash
+npx @ryangit711/abhimanyu init
+cd ABHIMANYU-2.0
+```
+
+### Option 2: Manual
+
+```bash
+git clone https://github.com/Ryangit711/ABHIMANYU-2.0---APP.git
+cd ABHIMANYU-2.0---APP
+npm install
+```
+
+### Option 3: From this directory (local)
+
+```bash
+cd ABHIMANYU-2.0---APP
+npm install
+bash OMNI_SYNC.sh
+```
+
+## Setup
+
+```bash
+npm run doctor     # Check all prerequisites
+```
+
+Then open your AI coding tool:
+
+```bash
+opencode           # or claude, codex, gemini, qwen, etc.
+```
+
+The agent will walk you through setup on first launch — your profile, target roles, and resume — just by chatting.
+
+## Commands
+
+| Command | What It Does |
+|---------|--------------|
+| `FETCH` | Scan 41+ job boards for fresh listings |
+| `SHOOT [company]` | Generate full 16-section application package |
+| `EVAL` | Evaluate resume quality (10 dimensions) |
+| `AUTO-APPLY [company]` | Browser-auto-submit application |
+| `CONTACT [company]` | Find contacts + draft outreach |
+| `NEGOTIATE [company] $offer` | Negotiation playbook |
+| `TRACK` | Application pipeline status |
+| `DIAGNOSE` | System health check |
+| `CADENCE` | Networking cadence status |
+| `LIFTOFF` | Start autonomous DAEMON mode |
 
 ## Architecture
 
 ```
 ABHIMANYU-2.0/
-├── AGENTS.md              ← Bootstrap kernel (~300 lines, not 2000+)
-│                              Loads only the skill needed for current command
+├── AGENTS.md              ← Bootstrap kernel
+├── CLAUDE.md / OPENCODE.md / CODEX.md  ← CLI entry points (@AGENTS.md)
+├── .agents/skills/abhimanyu/SKILL.md   ← Skill router
 │
-├── skills/                ← Self-contained, load-on-demand specialists
-│   ├── fetch-engine/         ← 8-phase pipeline (triggers on "FETCH")
-│   ├── shoot-deployer/       ← 13-section package (triggers on "SHOOT")
-│   ├── dna-extraction/       ← Company DNA analysis
-│   ├── resume-writer/        ← ATS-optimized Tailscale-style resumes
-│   ├── cover-letter-writer/  ← DNA-alchemized cover letters
-│   ├── interview-prep/       ← Callback-ready cheat sheets
-│   ├── networking-cadence/   ← Multi-touch outreach tracker
-│   ├── salary-negotiation/   ← Offer analysis + negotiation
-│   ├── rejection-handler/    ← Rejection → opportunity protocol
-│   ├── contact-engine/       ← Contact + multi-channel cadence
-│   ├── social-distill/       ← Instagram/Reddit/LinkedIn intel
-│   ├── document-engine/      ← DOCX/PDF generation pipeline
-│   ├── system-health/        ← DIAGNOSE, REFRESH, STATUS
-│   └── skill-creator/        ← Meta-skill: create/improve skills
+├── skills/                ← 27 self-contained skills
+│   ├── fetch-engine/      ← 8-phase job discovery
+│   ├── shoot-deployer/    ← 16-section application package
+│   ├── dna-extraction/    ← Company DNA analysis
+│   ├── resume-writer/     ← ATS-optimized resumes
+│   ├── cover-letter-writer/ ← DNA-alchemized cover letters
+│   ├── interview-prep/    ← Interview cheat sheets
+│   ├── networking-cadence/ ← Multi-touch outreach
+│   └── ... (27 total)
 │
+├── scripts/               ← Python + Bash utilities
+├── lib/                   ← JavaScript modules (ATS providers, filters)
+├── data/                  ← Pipeline state, contacts, intel
 ├── eval/                  ← Quantitative test infrastructure
-│   ├── suite/                ← Test prompts + assertions per skill
-│   ├── agents/               ← Grader, comparator, analyzer
-│   └── viewer/               ← HTML review page
-│
-├── template/SKILL.md      ← Scaffold for creating new skills
-├── spec/                  ← Agent Skills specification
-├── scripts/               ← Shared file utilities
-├── REFERENCES.md          ← Every skill → original JOBS-OS source
-└── OMNI_SYNC.sh           ← Propagate to all AI tool configs
+├── scaffolder/            ← npm installer (@ryangit711/abhimanyu)
+├── doctor.mjs             ← Setup validation
+├── update.mjs             ← Self-updater
+└── DATA_CONTRACT.md       ← System vs user layer definition
 ```
 
-## The Core Upgrade: Skill-as-Plugin
+## Multi-CLI Support
 
-Each `skill/` folder contains a `SKILL.md` with YAML frontmatter:
+ABHIMANYU 2.0 is AI-agnostic. The following CLIs are supported out of the box:
 
-```yaml
----
-name: resume-writer
-description: "Triggered when user says SHOOT, ALCHEMIZE, or 'write a resume'..."
----
-```
+- **Claude Code** — `claude`
+- **OpenCode** — `opencode`
+- **Codex** — `codex`
+- **Gemini CLI** — `gemini`
+- **Qwen Code** — `qwen`
+- **GitHub Copilot CLI** — `copilot`
+- **Grok Build CLI** — `grok`
 
-The AI loads **only** the skill(s) relevant to the current command. Not the entire system. This means:
-- **More context free** for the actual alchemy work
-- **Faster responses** (less irrelevant text in context)
-- **Testable** — each skill has an eval suite with quantitative assertions
-- **Swappable** — improve one skill without touching others
-- **Portable** — skills can be registered in any AI tool that supports them
+Each CLI reads its own entry file (`CLAUDE.md`, `OPENCODE.md`, etc.) which all redirect to the canonical `AGENTS.md`.
+
+## The Deal
+
+- The machines do the typing. You do the thinking.
+- **Three decisions only:** Decide which company to target, review the output, say YES or NO.
+- Every skill references its JOBS-OS source files explicitly (see `REFERENCES.md`).
+- Skills can be developed, tested, and improved independently.
+- The endgame: payroll → paycheck → PR → freedom.
 
 ## What Comes From Where
 
@@ -69,23 +116,10 @@ The AI loads **only** the skill(s) relevant to the current command. Not the enti
 |-----------|--------|
 | All content/alchemy/format rules | `github.com/Ryangit711/JOBS-OS-2026` |
 | Skill architecture pattern | `github.com/anthropics/skills` |
-| Eval + benchmarking infra | `github.com/anthropics/skills` (skill-creator) |
-| Document engine (DOCX/PDF/XLSX) | `github.com/anthropics/skills` (docx/pdf/xlsx skills) |
-| MCP tool patterns | `github.com/anthropics/skills` (mcp-builder) |
-| Theme/design consistency | `github.com/anthropics/skills` (theme-factory) |
+| Installable packaging pattern | `github.com/santifer/career-ops` |
+| Eval + benchmarking infra | `github.com/anthropics/skills` |
+| Document engine | `github.com/anthropics/skills` |
 
-## The Deal
+## License
 
-- The original JOBS-OS repo is **untouched**. It's the permanent truth anchor.
-- **ABHIMANYU 2.0** is the **evolution layer** — a modular skill system wrapped around that truth.
-- Every skill references its JOBS-OS source files explicitly (see `REFERENCES.md`).
-- Skills can be developed, tested, and improved independently.
-- The endgame is identical: payroll → paycheck → PR → freedom.
-
-## Quick Start
-
-```bash
-git clone git@github.com:Ryangit711/ABHIMANYU-2.0.git
-# Read AGENTS.md to begin
-# Skills load dynamically as you issue commands
-```
+MIT
