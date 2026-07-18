@@ -24,7 +24,7 @@
 |:-:|---------|------|:----:|:------:|:---:|:---:|--------|
 | 1 | **Clio** | Strategy & Operations Lead | T | $130K-$165K | 9/10 | ✅ WD | 🟢 FRESH — WIDENET |
 | 2 | **1Password** | Operations & Program Manager, Implementation | T | $120K-$150K | 9/10 | ✅ GH | 🟢 FRESH — WIDENET |
-| 3 | **OpenTable** | Sr. Manager, Revenue Strategy & Ops (Remote) | T | $130K-$145K | 9/10 | ✅ GH | 🟢 FRESH — WIDENET |
+| 3 | **OpenTable** | Sr. Manager, Revenue Strategy & Ops (Remote) | T | $130K-$145K | 9/10 | ✅ GH | 🟢 FRESH — REPOSTED YESTERDAY 🔥 |
 | 4 | **Arc'teryx** | Senior Manager, ReBIRD Operations - NAM | I | $126K-$165K | 9/10 | ✅ Custom | 🟢 FRESH — WIDENET |
 | 5 | **Human Agency** | Chief of Staff to MD of AI | S | $120K-$160K | 8/10 | ✅ GH | 🟢 FRESH — SHOOT |
 | 6 | **Indeed** | Sr Mgr, Integration & Business Acceleration | T | $133K-$199K | 9/10 | ✅ ICIMS | 📄 DOCX READY — Fix ATS + resubmit |
@@ -46,7 +46,7 @@
 | 22 | **CGI** | Director Consulting Services - Delivery | C | $110K-$210K | 7/10 | ✅ Custom | 🟢 FRESH — SHOOT |
 | 23 | **Black & White Zebra** | Strategy & Ops Manager | I | $120K-$160K | 7/10 | ✅ Custom | 🟢 FRESH — SHOOT |
 | 24 | **AECOM** | Director of Operations | I | TBD | 7/10 | ✅ SR | 🟢 FRESH — SHOOT |
-| 25 | **Minga** | Director of Revenue Operations | T | $140K-$160K | 7/10 | ✅ Custom | 🟡 2w old — verify |
+| 25 | **Minga** | Director of Revenue Operations | T | $140K-$160K | 7/10 | ✅ GH | 🟡 2w old — verify |
 | 26 | **Coinbase** | Operations Manager, Canada | T | TBD | 7/10 | ✅ GH | 🟢 FRESH — Verify no credit check |
 | 27 | **Pantheon Systems** | Remote Director of Operations | I | TBD | 8/10 | ✅ Custom | 🟢 FRESH — Posted today |
 | 28 | **TROIS Collective** | Operations Director | C | TBD | 8/10 | ✅ Custom | 🟢 FRESH — Posted 2 days ago |
@@ -55,6 +55,9 @@
 | 31 | **Zen Educate** | Chief of Staff, North America | S | $120K-$180K | 8/10 | ✅ Custom | 🟢 FRESH — Posted 5 days ago |
 | 32 | **Optiv** | Sr. Consultant - OCM and Program Management | C | $116K-$160K | 7/10 | ✅ Custom | 🟢 FRESH — Hirro |
 | 33 | **Overstory** | Delivery Operations Manager | T | TBD | 7/10 | ✅ Custom | 🟢 FRESH — Jobera |
+| 34 | **lululemon** | Supply Chain Strategy Manager | I | $112K-$147K | 8/10 | ✅ WD | 🟢 FRESH — WAVE_2 NEW (8h old) |
+| 35 | **Arc'teryx** | Sr Mgr, Process Operations (Regional) | I | $125K-$164K | 8/10 | ✅ WD | 🟢 FRESH — WAVE_2 NEW (15h old) |
+| 36 | **Dialog** | Studio Operations Manager | I | $130K-$155K | 7/10 | ✅ Custom | 🟢 FRESH — WAVE_2 NEW |
 
 ### Carry-over (need fresh verification)
 
@@ -91,10 +94,11 @@ Full details: `2026-07-09/RECRUITER_WAVE_01/`
 
 ## Pipeline Summary
 
-- **Total Active (CURATED):** 33 targets (30 fresh + 3 carry-over)
-- **New from FETCH 2026-07-17:** 7 targets (Pantheon Systems, TROIS Collective, Mercor, HTS Media, Zen Educate, Optiv, Overstory)
+- **Total Active (CURATED):** 36 targets (33 fresh + 3 carry-over)
+- **New from FETCH 2026-07-17 WAVE_1:** 7 targets (Pantheon Systems, TROIS Collective, Mercor, HTS Media, Zen Educate, Optiv, Overstory)
+- **New from FETCH 2026-07-17 WAVE_2:** 3 targets (lululemon Supply Chain Strategy Mgr, Arc'teryx Process Ops Sr Mgr, Dialog Studio Ops Mgr)
 - **New from WIDENET:** 14 targets (removed MNP C&R, Deloitte M&A — quant heavy)
-- **Top Priority SHOOT:** Clio S&O Lead · 1Password Ops PM · OpenTable Rev Ops · Arc'teryx ReBIRD · Human Agency CoS · Diligent Dir
+- **Top Priority SHOOT:** OpenTable Rev Ops (REPOSTED YESTERDAY 🔥) · Clio S&O Lead · 1Password Ops PM · Arc'teryx ReBIRD · lululemon Supply Chain Strategy · Arc'teryx Process Ops
 - **Submitted (old cycle):** 4 (BWZ, KPMG, DoorDash, PointClickCare)
 - **Submitted (2026-07-07):** 1 (Accenture PiP)
 - **Submitted (2026-07-14):** 1 (Seaspan — Oracle Cloud)
@@ -108,22 +112,25 @@ Full details: `2026-07-09/RECRUITER_WAVE_01/`
 ## Priority Summary
 
 **Tier 1 (Trust — auto-SHOOT candidates):**
-1. Clio — Strategy & Operations Lead ($130K-$165K, 9/10) — T pipe
-2. 1Password — Operations & Program Manager, Implementation ($120K-$150K, 9/10) — T pipe
-3. OpenTable — Sr. Manager, Revenue Strategy & Ops ($130K-$145K, 9/10) — T pipe
-4. Arc'teryx — Sr. Manager, ReBIRD Operations ($126K-$165K, 9/10) — I pipe
+1. **OpenTable — Sr. Manager, Revenue Strategy & Ops** ($130K-$145K, 9/10) — T pipe — 🔥 REPOSTED YESTERDAY
+2. **Clio — Strategy & Operations Lead** ($130K-$165K, 9/10) — T pipe
+3. **1Password — Operations & Program Manager, Implementation** ($120K-$150K, 9/10) — T pipe
+4. **Arc'teryx — Senior Manager, ReBIRD Operations** ($126K-$165K, 9/10) — I pipe
+5. **lululemon — Supply Chain Strategy Manager** ($112K-$147K, 8/10) — I pipe — WAVE_2 NEW
+6. **Arc'teryx — Sr Mgr, Process Operations** ($125K-$164K, 8/10) — I pipe — WAVE_2 NEW
 
 **Tier 2 (Normal — standard review):**
-5. Human Agency — Chief of Staff to MD of AI ($120K-$160K, 8/10) — S pipe
-6. Indeed — Sr Mgr, Integration & Business Acceleration ($133K-$199K, 9/10) — T pipe (reapply)
-7. Diligent — Director, Post-sales Strategy & Ops ($131K-$164K, 8/10) — T pipe
-8. Goldbeck/client — Director of Operations ($150K-$185K, 8/10) — I pipe
-9. MacDonald Search/client — COO (TBD, 8/10) — S pipe
+7. Human Agency — Chief of Staff to MD of AI ($120K-$160K, 8/10) — S pipe
+8. Indeed — Sr Mgr, Integration & Business Acceleration ($133K-$199K, 9/10) — T pipe (reapply)
+9. Diligent — Director, Post-sales Strategy & Ops ($131K-$164K, 8/10) — T pipe
+10. Goldbeck/client — Director of Operations ($150K-$185K, 8/10) — I pipe
+11. MacDonald Search/client — COO (TBD, 8/10) — S pipe
+12. Dialog — Studio Operations Manager ($130K-$155K, 7/10) — I pipe — WAVE_2 NEW
 
 **Tier 3 (Strategic — discuss before SHOOT):**
-10. Coinbase — Ops Mgr Canada (credit check risk)
-11. Sysco — Director of Ops (logistics-heavy)
-12. HCLTech — Service Delivery Director (IT services)
+13. Coinbase — Ops Mgr Canada (credit check risk)
+14. Sysco — Director of Ops (logistics-heavy)
+15. HCLTech — Service Delivery Director (IT services)
 
 ## Indeed Reapplication Plan
 1. Fix resume: increase JD phrase density to 4%+, add "Master of Business Administration (MBA)" explicitly
@@ -132,4 +139,4 @@ Full details: `2026-07-09/RECRUITER_WAVE_01/`
 4. If listing is still live, submit immediately after fixes
 
 ---
-*Last updated: 2026-07-17 FETCH — 7 new targets added from 41+ sources. Total CURATED: 33 targets.*
+*Last updated: 2026-07-17 FETCH WAVE_2 — 10 new targets added (7 WAVE_1 + 3 WAVE_2). Total CURATED: 36 targets. Pipeline cap: 40 (4 slots remaining).*
