@@ -11,7 +11,7 @@ from docx.oxml.ns import qn
 from docx.oxml import parse_xml
 from lxml import etree
 
-ONEDRIVE = "/mnt/c/Users/owner/OneDrive/ABHIMANYU-2.0"
+ONEDRIVE = "/home/aryan/ABHIMANYU-2.0-output"
 LINUX = "/home/aryan/opencode_test/ABHIMANYU-2.0"
 
 NAME = "Aman Kumar"
@@ -29,7 +29,7 @@ _COMPANIES_WITH_CONTENT = {
     "BWZ", "KPMG", "Microsoft",     "Indeed",
     "Accenture",
     "Brex",
-    "Seaspan",
+    "Seaspan", "Clio",
 }
 
 
@@ -398,6 +398,20 @@ def generate(company):
             "Operations executive. Scaled 3→70, 32 locations, $4M ARR, $17M exit. "
             "Designed marketplace incentive architecture across 32 markets — balancing worker earnings "
             "with cost efficiency. Led technology transformation. Full P&L ownership.", config)
+    elif company == "Clio":
+        # Executive‑grade professional summary for a Fortune‑500‑level ops leader
+        add_body(doc,
+            "Seasoned technology‑operations executive with a track record of scaling high‑growth organizations from 3 to 70+ employees, “zero‑to‑one” product launches, and $17 M exits. "
+            "Deep expertise in SaaS, cloud‑native infrastructures, data‑pipeline architecture, and cross‑functional team leadership across 32 sites. "
+            "Proven ability to drive P&L ownership, operational excellence, and strategic transformation in Fortune‑500 environments.", config)
+        # Core competencies (compact bullet list)
+        add_section_header(doc, "Core Competencies", config)
+        add_bullet(doc, "Strategic Operations & Scaling", config, bold_prefix="• ")
+        add_bullet(doc, "SaaS & Cloud Architecture", config, bold_prefix="• ")
+        add_bullet(doc, "Data Engineering & Pipeline Design", config, bold_prefix="• ")
+        add_bullet(doc, "P&L Management & Financial Modeling", config, bold_prefix="• ")
+        add_bullet(doc, "Cross‑Functional Team Leadership", config, bold_prefix="• ")
+        add_bullet(doc, "M&A Integration & Program Governance", config, bold_prefix="• ")
     elif company == "Practice_Better":
         add_body(doc,
             "Revenue operations architect. Scaled 3→70, 32 locations, $4M ARR, $17M exit. "
@@ -891,6 +905,13 @@ def generate(company):
         run.bold = True
         add_bullet(doc, "Digital Strategy Manager (2016–2018) — led digital strategy, campaign analytics, and ROI measurement; built reporting dashboards, optimized $500K+ annual ad spend", config)
         add_bullet(doc, "Client Services Representative (2014–2016) — managed client escalations for enterprise accounts; developed response protocols that reduced resolution time by 30%", config)
+    # Additional Key Achievements for Clio (executive impact)
+    add_section_header(doc, "Key Achievements", config)
+    add_bullet(doc, "Scaled multi‑site operations from 3 to 70 employees across 32 locations, delivering a $17 M exit", config)
+    add_bullet(doc, "Built end‑to‑end SaaS and cloud‑native infrastructure, data pipelines, and AI‑augmented workflows", config)
+    add_bullet(doc, "Led $17 M acquisition with 8 diligence workstreams, 100 % talent retention, and a 90‑day integration plan", config)
+    add_bullet(doc, "Implemented strategic financial modeling, P&L ownership, and capital allocation for a $4 M ARR business", config)
+    add_bullet(doc, "Directed cross‑functional teams delivering 23× growth without adding complexity", config)
 
     # Education
     add_section_header(doc, "Education", config)

@@ -8,12 +8,12 @@ from docx.shared import Pt
 from weasyprint import HTML
 from pypdf import PdfWriter
 
-ONEDRIVE = "/mnt/c/Users/owner/OneDrive/ABHIMANYU-2.0"
+ONEDRIVE = "/home/aryan/ABHIMANYU-2.0-output"
 LINUX = "/home/aryan/opencode_test/ABHIMANYU-2.0"
 
 CONFIG = {
     "Methanex": {"font": "Calibri", "size": Pt(11)},
-    "Hiive": {"font": "Calibri", "size": Pt(11)},
+    "Clio": "SrMgr_Integration",
     "Providence_Healthcare": {"font": "Calibri", "size": Pt(11)},
     "Indeed": {"font": "Liberation Sans", "size": Pt(10)},
     "Deloitte": {"font": "Calibri", "size": Pt(10)},
@@ -26,7 +26,7 @@ DATES = {
 
 ROLE_STR = {
     "Methanex": "Director_Strategy", "Hiive": "Associate_Operations_Strategy",
-    "Providence_Healthcare": "Director_Clinical_Operations", "Indeed": "SrMgr_Integration"
+    "Providence_Healthcare": "Director_Clinical_Operations", "Indeed": "SrMgr_Integration", "Clio": "SrMgr_Integration"
 }
 
 FONT_MAP = {"Calibri": "Calibri, sans-serif", "Liberation Sans": "Liberation Sans, sans-serif"}

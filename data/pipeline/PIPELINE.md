@@ -18,7 +18,7 @@
 
 ## CURATED Targets (Identified — Ready to SHOOT)
 
-### Fresh (2026-07-10 WIDENET)
+### Fresh (2026-07-10 WIDENET + 2026-07-17 FETCH)
 
 | # | Company | Role | Pipe | Salary | Fit | ATS | Status |
 |:-:|---------|------|:----:|:------:|:---:|:---:|--------|
@@ -48,6 +48,13 @@
 | 24 | **AECOM** | Director of Operations | I | TBD | 7/10 | ✅ SR | 🟢 FRESH — SHOOT |
 | 25 | **Minga** | Director of Revenue Operations | T | $140K-$160K | 7/10 | ✅ Custom | 🟡 2w old — verify |
 | 26 | **Coinbase** | Operations Manager, Canada | T | TBD | 7/10 | ✅ GH | 🟢 FRESH — Verify no credit check |
+| 27 | **Pantheon Systems** | Remote Director of Operations | I | TBD | 8/10 | ✅ Custom | 🟢 FRESH — Posted today |
+| 28 | **TROIS Collective** | Operations Director | C | TBD | 8/10 | ✅ Custom | 🟢 FRESH — Posted 2 days ago |
+| 29 | **Mercor** | Operations Manager | T | $180K-$220K | 8/10 | ✅ GH | 🟢 FRESH — Himalayas |
+| 30 | **HTS Media** | Senior Strategy & Operations Manager | T | TBD | 8/10 | ✅ Custom | 🟢 FRESH — WFH |
+| 31 | **Zen Educate** | Chief of Staff, North America | S | $120K-$180K | 8/10 | ✅ Custom | 🟢 FRESH — Posted 5 days ago |
+| 32 | **Optiv** | Sr. Consultant - OCM and Program Management | C | $116K-$160K | 7/10 | ✅ Custom | 🟢 FRESH — Hirro |
+| 33 | **Overstory** | Delivery Operations Manager | T | TBD | 7/10 | ✅ Custom | 🟢 FRESH — Jobera |
 
 ### Carry-over (need fresh verification)
 
@@ -84,7 +91,8 @@ Full details: `2026-07-09/RECRUITER_WAVE_01/`
 
 ## Pipeline Summary
 
-- **Total Active (CURATED):** 29 targets (26 fresh + 3 carry-over)
+- **Total Active (CURATED):** 33 targets (30 fresh + 3 carry-over)
+- **New from FETCH 2026-07-17:** 7 targets (Pantheon Systems, TROIS Collective, Mercor, HTS Media, Zen Educate, Optiv, Overstory)
 - **New from WIDENET:** 14 targets (removed MNP C&R, Deloitte M&A — quant heavy)
 - **Top Priority SHOOT:** Clio S&O Lead · 1Password Ops PM · OpenTable Rev Ops · Arc'teryx ReBIRD · Human Agency CoS · Diligent Dir
 - **Submitted (old cycle):** 4 (BWZ, KPMG, DoorDash, PointClickCare)
@@ -124,4 +132,4 @@ Full details: `2026-07-09/RECRUITER_WAVE_01/`
 4. If listing is still live, submit immediately after fixes
 
 ---
-*Last updated: 2026-07-14 18:30 by ABHIMANYU 2.0 — Seaspan submitted via Oracle Cloud ✅*
+*Last updated: 2026-07-17 FETCH — 7 new targets added from 41+ sources. Total CURATED: 33 targets.*
